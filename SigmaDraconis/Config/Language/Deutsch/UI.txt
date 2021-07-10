@@ -1,0 +1,825 @@
+﻿# Steam Achievements
+Achievement							Name1								Eingewöhnung
+Achievement							Text1								Baue ein Raum mit|einer Umgebungskonrolle.
+Achievement							Name2								Unter Spannung
+Achievement							Text2								Baue zum ersten Mal|ein Kraftwerk.
+Achievement							Name3								Saubere Energie
+Achievement							Text3								Baue ein Windrad|oder ein Solarpanel.
+Achievement							Name4								Prost!
+Achievement							Text4								Lasse einen Kolonisten|zum ersten Mal Kek trinken.
+Achievement							Name5								Startfreigabe!
+Achievement							Text5								Starte eine Rakete.
+Achievement							Name6								Eis und Feuer
+Achievement							Text6								Starte eine Rakete|im Schnee-Level.
+Achievement							Name7								Ohne dreckige Kohle
+Achievement							Text7								Beende ein Spiel ohne Kohle|zu verbrennen oder einen|Schmelzofen zu benutzen.
+Achievement							Name8								Kein ekelhafter Brei
+Achievement							Text8								Beende ein Spiel|ohne Brei herzustellen.
+Achievement							Name9								Alleswisser
+Achievement							Text9								Beende alle Laborprojekte|in einem einzelnen Spiel.
+Achievement							Name10								Schneller Lerner
+Achievement							Text10								Beende alle Laborprojekte|bevor Tag 2 endet.
+Achievement							Name11								Effizientes Vorgehen
+Achievement							Text11								Starte eine Rakete|bevor Tag 3 endet.
+Achievement							Name12								Arktischer Sonnenaufgang
+Achievement							Text12								Erreiche Tag 2 im Schneegebiet.
+Achievement							Name13								Abwechslungsreicher Farmer
+Achievement							Text13								Baue 5 verschiedene Pflanzensamen|in einem Spiel an.
+Achievement							Name14								Profi-Sammler
+Achievement							Text14								Ernte 5 verschiedene wilde|Früchte spielübergreifend.
+Achievement							Name15								Voll geladen
+Achievement							Text15								Habe mindestens 200kWh Energie.
+Achievement							Name16								Qual der Wahl
+Achievement							Text16								Habe mindestens 6 verschiedene|Nahrungsmittel (Brei zählt nicht)|im Lager zur gleichen Zeit.
+
+# Steam Achievements panel
+AchievementsPanel					Title								ERRUNGENSCHAFTEN
+AchievementsPanel					AchievementsDisabled				In der Demoversion nicht verfügbar.
+AchievementsPanel					Progress							Fortschritt
+AchievementsPanel					Locked								Gesperrt
+AchievementsPanel					Unlocked							Freigeschaltet
+AchievementsPanel					Hide								VERSTECKE
+AchievementsPanel					FormatDateTime						{0} {1} am {2:HH:mm}
+AchievementsPanel					FormatDateTimeWithYear				{0} {1} {2} am {3:HH:mm}
+
+# These are used on the UI for various buildings.  They are displayed as "STATUS: xxx" (from ThingPanels->Status) with space for a total of about 28 characters.
+# If we need more space I might drop the "STATUS: " bit, it's not so important.
+BuildingDisplayStatus				Offline								OFFLINE
+BuildingDisplayStatus				Initialising						INITIALISIERE
+BuildingDisplayStatus				Online								ONLINE
+BuildingDisplayStatus				InProgress							IN ARBEIT
+BuildingDisplayStatus				InProgressPercent					IN ARBEIT: {0}
+BuildingDisplayStatus				NoPower								KEINE ENERGIE
+BuildingDisplayStatus				Pausing								PAUSE
+BuildingDisplayStatus				Paused								PAUSE
+BuildingDisplayStatus				Preparing							VORBEREITEN
+BuildingDisplayStatus				Ready								FERTIG
+BuildingDisplayStatus				Resuming							WEITER
+BuildingDisplayStatus				Waiting								WARTEN
+BuildingDisplayStatus				Stopping							STOPPEN
+BuildingDisplayStatus				Starting							STARTEN
+BuildingDisplayStatus				Standby								EINSATZBEREIT
+BuildingDisplayStatus				SilosFull							SILOS VOLL
+BuildingDisplayStatus				StorageFull							LAGER VOLL
+BuildingDisplayStatus				NoResource							KEINE RESOURCE
+BuildingDisplayStatus				NoFood								KEIN ESSEN
+BuildingDisplayStatus				NoWater								KEIN WASSER
+BuildingDisplayStatus				NotEnoughWater						NICHT GENUG WASSER
+BuildingDisplayStatus				Broken								MUSS REPARIERT WERDEN
+BuildingDisplayStatus				Filling								AUFFÜLLEN
+BuildingDisplayStatus				InUse								IN BENUTZUNG
+BuildingDisplayStatus				Emptying							LEEREN
+BuildingDisplayStatus				MiningUnknown						ABBAU ??
+BuildingDisplayStatus				MiningCoal							ABBAU KOHLE
+BuildingDisplayStatus				MiningOre							ABBAU ERZ
+BuildingDisplayStatus				MiningStone							ABBAU STEINE
+BuildingDisplayStatus				ScanComplete						SCAN FERTIG
+BuildingDisplayStatus				TooCold								ZU KALT
+BuildingDisplayStatus				TooHot								ZU HEISS
+BuildingDisplayStatus				TooDark								ZU DUNKEL
+BuildingDisplayStatus				TooDry								BODEN ZU TROCKEN
+
+# Used for various buttons.  May need to adjust some button widths, I'll check all these after translation.
+Buttons								ApplyToAll							FÜR ALLE ANWENDEN
+Buttons								OK									OK
+Buttons								Cancel								ABBRECHEN
+Buttons								Change								ÄNDERN
+Buttons								Close								SCHLIEßEN
+Buttons								Continue							WEITER
+Buttons								ContinuePlaying						WEITER SPIELEN
+Buttons								ConvertToDoor						MIT TÜR ERSETZEN
+Buttons								ConvertToWall						MIT WAND ERSETZEN
+Buttons								Delete								LÖSCHEN
+Buttons								Exit								BEENDEN
+Buttons								ExitToDesktop						ZURÜCK ZUM DESKTOP
+Buttons								ExitToMainMenu						ZURÜCK ZUM HAUPTMENÜ
+Buttons								MainMenu							HAUPTMENÜ
+Buttons								RestoreDefaults						DEFAULTS WIEDERHERSTELLEN
+Buttons								Save								SPEICHERN
+Buttons								SaveAndExit							SPEICHERN UND BEENDEN
+Buttons								Start								START
+
+# Title and buttons on the checklist panel
+ChecklistPanel						Title								CHECKLISTE
+ChecklistPanel						HideCompletedItems					Fertige Punkte verbergen
+
+# These are used on the colonist panel.  I'll test these!
+ColonistActivityType				None								Untätig
+ColonistActivityType				Roam								Geht spazieren
+ColonistActivityType				Sleep								Schläft
+ColonistActivityType				Deconstruct							Reißt "{0}" ab
+ColonistActivityType				HaulPickup							Holt {0} von {1}
+ColonistActivityType				HaulDropoff							Bringt {0} zu {1}
+ColonistActivityType				Eat									Isst
+ColonistActivityType				Drink								Trinkt
+ColonistActivityType				GetKek								Holt Kek
+ColonistActivityType				DrinkKek							Trinkt Kek ({0}%)
+ColonistActivityType				Farm								Pflanzt an
+ColonistActivityType				Cook								Kocht
+ColonistActivityType				Lab									Arbeitet im Technologielabor
+ColonistActivityType				ReturnHome							Kehert zur Basis zurück
+ColonistActivityType				GetWarm								Sucht sichere Temperatur auf
+ColonistActivityType				LeavingLandingPod					Verlässt die Landefähre
+ColonistActivityType				Relax								Entspannt
+ColonistActivityType				Rest								Stellt Gesundheit her
+ColonistActivityType				Mine								Baut ab
+ColonistActivityType				Move								Bewegt sich
+ColonistActivityType				Construct							Stellt {0} her
+ColonistActivityType				Repair								Repariert
+ColonistActivityType				Harvest								Erntet Früchte
+ColonistActivityType				Geology								Sucht Resourcen
+ColonistActivityType				Social								Pflegt Kontakte 
+
+# Strings for colonist panel.  Some are also used in tooltips for the colonist icons at the top of the screen.  I can test these.
+ColonistPanel						AwakeForLessThanOneHour				{0} ist <1 Stunde wach.
+ColonistPanel						AwakeForOneHour						{0} ist seit einer Stunde wach.
+ColonistPanel						AwakeForNHours						{0} ist seit {1} Stunden wach.
+ColonistPanel						Build								Baue Gebäude
+ColonistPanel						ColonistDiedOf						{0} ist an {1} gestorben.
+ColonistPanel						ColonistIsDead						{0} ist tot.
+ColonistPanel						Maintain							Gebäude instand halten
+ColonistPanel						Gather								Sammel und trage Resourcen
+ColonistPanel						Geology								Mache Geologie
+ColonistPanel						FarmHarvest							Ernte Pflanzen
+ColonistPanel						FarmPlant							Pflanze Pflanzen
+ColonistPanel						FruitHarvest						Ernte wilde Früchte
+ColonistPanel						ResearchBotanist					Arbeitet im Biologielabor
+ColonistPanel						ResearchGeologist					Arbeitet im Geologielabor
+ColonistPanel						ResearchEngineer					Arbeitet im Technologielabor
+ColonistPanel						LikedFoods							ESSE ICH GERNE
+ColonistPanel						NeutralFoods						IST OK
+ColonistPanel						DislikedFoods						MAG ICH NICHT
+ColonistPanel						ResourceStack						Resourcenstapel
+ColonistPanel						Sleeping							{0} schläft.
+ColonistPanel						DecreasingAt						Verringern um {0}%/Stunde
+ColonistPanel						IncreasingAt						Erhöhen um {0}%/Stunde
+ColonistPanel						Hunger								Hunger
+ColonistPanel						HungerDetail						Kolonisten werden schneller hungrig,|wenn es kalt ist.
+ColonistPanel						Thirst								Durst
+ColonistPanel						ThirstDetail						Kolonisten werden schnell durstig,|wenn sie draußen in der Hitze sind.
+ColonistPanel						Tiredness							Müde
+ColonistPanel						TirednessDetail						Kolonisten sind normalerweise 19 Stunden|wach und schlafen etwa fünf Stunden.
+ColonistPanel						Stress								Stress
+ColonistPanel						StressDetail						Stress erhöht sich um 1%/Stunde (0.9% für Workaholics) während der Arbeit,|und verringert sich um 3%/Stunden während der Freizeit.||Hitze und Kälte erhöhen den Stress.||Kek trinken reduziert den Stress um 15% in einer Stunde.
+ColonistPanel						KekPolicyDetail						Nie:           Kolonisten werden nie Kek trinken.|Eingeschränkt: Kolonisten können Kek trinken, wenn der Stresslevel mindestens 80% ist.|Normal:        Kolonisten können Kek trinken Colonist can drink kek, wenn der Stresslevel mindestens 60% ist.|Immer:         Kolonisten können Kek trinken, wenn sie nicht arbeiten.||Kek wird in der Kek-Fabrik von geernteten Kekke-Pflanzen hergestellt.|Damit sind Kolonisten weniger gestresst, so dass sie produktiver sind.|Die Kek Produktion ist im Biologielabor freigeschaltet.
+ColonistPanel						WorkPolicyDetail					Keine:     Kolonisten werden nicht arbeiten.|Relaxed:   Kolonisten werden eine Pause machen, wenn der Stresslevel 60% erreicht.|Normal:    Kolonisten werden eine Pause machen, wenn der Stresslevel 80% erreicht.|Gezwungen: Kolonisten werden nur zum Essen, Trinken oder Schalfen eine Pause machen.||Kolonisten werden immer hohe Prioritäten ausführen, solange sie nicht sehr unglücklich sind.|Kolonisten werden keine Arbeit ausführen, wenn sie unglücklich sind.
+ColonistPanel						Dead								TOT
+ColonistPanel						DietTooltip							Kolonisten schätzen ihre Ernährung an hand ihrer|letzten vier Mahlzeiten ein.||Basis dafür ist Abwechslung und was|ein Kolonist mag oder nicht.||Glücklichkeit {0} (mag/mag nicht {1}, Abwechslung {2})
+ColonistPanel						Diet								Ernährung
+ColonistPanel						Liked								Ich mag
+ColonistPanel						Disliked							Ich mag nicht
+ColonistPanel						VeryGood							Sehr gut
+ColonistPanel						Good								Gut
+ColonistPanel						Bad									Schlecht
+ColonistPanel						VeryBad								Sehr schlecht
+ColonistPanel						Neutral								Neutral
+ColonistPanel						TimeFormat							Tag {0} Stunde {1}
+
+# Used on the mothership dialog
+ColonistPlaceholderStatus			None								Keine
+ColonistPlaceholderStatus			InStasis							In Stase
+ColonistPlaceholderStatus			Active								Aktiv
+ColonistPlaceholderStatus			Waking								Kommt in {0:D2}:{1:D2}
+ColonistPlaceholderStatus			Dead								Tot
+
+# Template strings on the mothership dialog
+ColonistStory						Botanist1							Botanik
+ColonistStory						Botanist2							{dem Nahrungsmittelanbau in Raumstationen|dem Pflanzenanbau in Außenkolonien|der Entwicklung von ertragsstarken Nahrungsmittelpflanzen|der Produktion in lebensfeindlicher Umgebung|dem Herausfinden nützlicher Eigenschaften des Alienplaneten}
+ColonistStory						Engineer1							mikrobotische Technik
+ColonistStory						Engineer2							der Konstruktion von {Infrastruktur an fernen Orten|Raumstationen|Raumschiffen|Außenkolonien|komplexen Maschinen|ausgeklügelter industrieller Ausrüstung}
+ColonistStory						Geologist1							Geologie
+ColonistStory						Geologist2							{der Gewinnung von seltenen Metallen in entlegenen Gegenden|der Gewinnung von seltenen Metallen von Asteroiden|dem Finden von seltenen Metallen in entlegenen Gegenden|beim Asteroidenbergbau|beim Bergbau außerhalb des Planeten}
+ColonistStory						Programmer1							das Programmieren
+ColonistStory						Skill1								[name] ist {in einer ländlichen Gegend|in einem Dorf|in einem winzigen Ort|in einer kleinen Ortschaft|in einer Stadt|in einer kleinen Stadt|in einer großen Stadt|in einer City|in einer kleinen City|in einer großen City|in einer Metropole} auf dem {nördlichen|östlichen|südlichen|westlichen} Kontinent der Heimatwelt {geboren|gezeugt} worden und studierte als Jugendlicher [discipline1].
+ColonistStory						Skill2								Nach {dem Abschluß|dem volljährig werden|Beendigung seines Studiums}, hat er {dank seinem Fachwissen|dank seiner Erfahrung|dank seiner Interessen}, eine {erfolgreiche|herausragende} Karriere {gestartet|begonnen|gemacht} und {ist spezialisiert in|arbeitet an} [discipline2].
+ColonistStory						Skill2a								Nach {dem Abschluß|dem volljährig werden|Beendigung seines Studiums}, hat er {dank seinem Fachwissen|dank seiner Erfahrung|dank seiner Interessen}, eine {erfolgreiche|herausragende} Karriere {gestartet|begonnen|gemacht} und arbeitet für eine Anzahl von technischen Institutionen.
+ColonistStory						Skill3								Nach {vielen Jahren|Dekaden|etlichen Dekaden} des {Lernens|Studierens} ist [name] jetzt {angesehen als ein Meister|ein Meister|respektiert als ein Meister} {seines|seines gewählten} Fachs.
+ColonistStory						PerkColdTolerant					{[name] hat viele Jahre in kaltem Klima verbracht und hat gelernt|[name] hat immer die Fähigkeit gehabt|[name] hat die Fähigkeit erreicht|In seiner Zeit in der Außenwelt, [name] hat gelernt}, {tiefe Temperaturen|die Kälte|kalte Bedingungen} besser zu {tolerieren|bewältigen|ertragen} als die meisten anderen.
+ColonistStory						PerkFastWalk						[name] hat immer den Anschein in {Hast|Eile} zu sein und {bewegt sich sehr schnell|hat ein Tempo, dem andere kaum hinterher kommen|findet es frustrierend zu sehen, wie langsam alle anderen sind}.
+ColonistStory						PerkHeatTolerant					{[name] hat viel Zeit in heißen Gegenden verbracht und hat gelernt|[name] hat immer die Fähigkeit gehabt|[name] hat die Fähigkeit erreicht|n seiner Zeit in der Außenwelt, [name] hat gelernt}, {hohe Temperaturen|die Hitze|heiße Bedingungen} besser zu {tolerieren|bewältigen|ertragen} als die meisten anderen.
+ColonistStory						PerkWorkaholic						[name] ist ein {bekennender|wirklicher|wahrer} Workaholic und {hat selten das Gefühl, etwas anderes machen zu müssen, als|unterbricht selten} {seinen Job|seine Arbeit} die er {mit Leidenschaft macht|sehr gerne tut}.
+ColonistStory						Food								[name] mag es {0} zu essen, aber er mag überhaupt nicht {1}.
+ColonistStory						List1								{0}
+ColonistStory						List2								{0} und {1}
+ColonistStory						List3								{0}, {1}, und {2}
+
+# To see this click on the comment space at the bottom of the screen, scroll to the top of the comments, click View Archive.  Only works on a game that has accumulated quite a few comments.
+CommentArchiveDialog				AllColonists						Alle Kolonisten
+
+# To see this click on the comment space at the bottom of the screen, scroll to the top of the comments.  Either a button or a label will be shown depending on total number of comments.
+CommentaryHistoryPopup				NoPreviousComments					Keine älteren Kommentare
+CommentaryHistoryPopup				ViewArchive							ARCHIV ANZEIGEN
+
+# Confirm settings dialog
+ConfirmSettingsDialog				Title								ANZEIGE-EINSTELLUNGEN WURDEN GEÄNDERT
+ConfirmSettingsDialog				IsOK								Funktioniert alles richtig?
+ConfirmSettingsDialog				RevertingIn							Zurückwechseln zu den alten Einstellungen in: {0}
+
+# Construction panel
+ConstructPanel						Title								KONSTRUKTION
+ConstructPanel						Page1								Seite 1: GRUNDLEGENDES UND WASSER
+ConstructPanel						Page2								Seite 2: MATERIALIEN
+ConstructPanel						Page3								Seite 3: NAHRUNGSPRODUKTION
+ConstructPanel						Page4								Seite 4: ENERGIE
+ConstructPanel						Page5								Seite 5: LAGER
+ConstructPanel						Page6								Seite 6: UNTERKUNFT
+ConstructPanel						Page7								Seite 7: LABORE
+ConstructPanel						Page8								Seite 8: RAKETENTECHNIK
+ConstructPanel						RequiresProject						Projekt benötigt: {0} ({1})
+ConstructPanel						NotInDemo							In der Demoversion nicht verfügbar.
+
+# Tooltips for the various crops on the farming panel
+CropTooltip							Crop1								Dies ist eine robuste Pflanze, die gut|unter vielen verschiedenen Bedingungen wächst.||Wächst sehr leicht draußen, am besten vor|Stunde 40 pflanzen|damit sie reif ist bevor es dunkel wird.
+CropTooltip							Crop2								Diese leckere Pflanze wächst schnell,|aber nur in einem sehr schmalen Temperaturbereich.||Wächst am besten in Gebäuden.
+CropTooltip							Crop3								Diese nahrhafte Pflanze wachst sehr langsam,|aber gibt bei der Ernte doppelt so viel Nahrung.||Wächst nicht in Hydrokulturen.||Am besten sehr früh am Tag oder in Gebäuden pflanzen.
+CropTooltip							Crop4								Diese im Wasser wachsende Pflanze kann nur|in Hydrokulturen wachsen.||Sie verträgt keine heißen Temperaturen.
+CropTooltip							Crop5								Diese Pflanze benötigt relativ trockenen Boden und|wächst nicht in Hydrokulturen.||Wächst sehr langsam, aber jede Ernte ergibt zwei Nahrungseinheiten.||Mag hohe Temperaturen und wächst am besten einen heißen Räumen.
+CropTooltip							Crop6								Kekke wird gebraucht um Kek herzustellen.||Es kann nicht zum Essen genutzt werden und kann|nur in einer Kek-Fabrik weiterverarbeitet werden.|Wächst nur in Steinpflanzgefäßen.
+CropTooltip							GrowTime							Wachstumszeit: {0} Stunden
+CropTooltip							Temperature							Tolerierter Temperaturbereich: {0} - {1}{2}
+CropTooltip							OptimalTemperature					Optimale Temperatur: {0} - {1}{2}
+
+# Shown on the tooltip for a dead colonist
+DeathReason							None								Keiner
+DeathReason							Heat								Hitzetod
+DeathReason							Cold								Kältetod
+DeathReason							Hunger								Verhungert
+DeathReason							Thirst								Verdurstet
+
+# Confirm delete
+DeleteGameDialog					Confirm								Bestätige das Löschen des Spielstandes
+
+# Text for some dialogs
+DialogText							ConfirmExit							Bist du sicher, dass du das Spiel verlassen willst?|Jeder nicht gespeicherte Spielstand wird weg sein.
+DialogText							Credits								Programmierung, Gestaltung und Soundeffekte by Matthew Purchese||Übersetzung:|German by Götz Minuth||Musik:|Xeno Tranquility von Dominik Scholz|Be Here And Now von DPmusic (melodyloops.com)|Deep Space von Jon Wright (melodyloops.com)|Fabulous Journey von Nazar Rybak (melodyloops.com)|Faraway Galaxies von AleXZavesa (melodyloops.com)|Flying Technology von Nazar Rybak (melodyloops.com)|Journey To Freedom von AG Music (melodyloops.com)|Mimimalist Dreams von Ihsandincer (melodyloops.com)|Seven Wonders von Jon Wright (melodyloops.com)|The Sky At Night von Jon Wright (melodyloops.com)||Benutzte Tools für die Entwicklung:|Microsoft Visual Studio, C_hash_ and the .NET Framework|MonoGame, Blender, Audacity, Paint.NET, Protobuf-net, TortoiseSVN,|Steamworks SDK and Steamworks.NET|Linux edition also uses Mono and MonoKickstart
+DialogText							GameOver							Nach {0} Stunden in der neuen Welt ist dein letzter Kolonist gestorben.||Seine Mission war von Anfang an riskant. Es war|nur möglich ein paar Kolonisten und wenig|Ausrüstung auf die lange Reise zu bringen| und die neue Welt ist feindselig.||Vielleicht wird der Leiter der nächsten Mission aus deinen Fehlern lernen.
+DialogText							NewGame								Xaralox ist ein großer Mond im Orbit eines Gasplaneten.|Ein Tag hat 192 Stunden, was starke Temperaturunterschiede verursacht.
+DialogText							NewGameClimate1						Eine Insel am Äquator ist der ideale Startpunkt unserer ertsen Kolonie.|Eine üppige Flora ist eine nützliche Nahrungs- und Treibstoffquelle.||Die Temperaturen sind relativ mild, und die Nachttemperaturen sind nicht tödlich.
+DialogText							NewGameClimate2						Die Polarregionen dieser Welt sind eine herausfordende Umgebung.|Die Flora ist sehr begrenzt, aber in der Nähe liegende|Kohlevorkommen sind eine gute Treibstoffquelle.
+DialogText							NewGameClimate2a					In der Demoversion nicht verfügbar.
+DialogText							NewGameClimate2b					Wir müssen uns auf extreme Nachttemperaturen vorbereitent.
+DialogText							RocketLaunched1						Der erneute Zugang zum Weltraum wird das langfristige|Überleben der Kolonie sicherstellen.||Verbrauchte Zeit: {0} Stunden.
+DialogText							RocketLaunched2a					Schneeregion freigeschaltet.
+DialogText							RocketLaunched2b					Wenn dir das Spiel gefallen hat, dann hinterlasse bitte eine Rezension auf Steam!
+
+# Titles for most of the dialogs
+DialogTitles						CommentArchive						KOMMENTAR-ARCHIV
+DialogTitles						ConfirmExit							DAS BEENDEN VOM SPIEL BESTÄTIGEN
+DialogTitles						Credits								DANKSAGUNGEN
+DialogTitles						DeleteGame							SPIELSTAND LÖSCHEN
+DialogTitles						GameOver							GAME OVER
+DialogTitles						LoadGame							SPIELSTAND LADEN
+DialogTitles						Mothership							MUTTERSCHIFF - KOLONISTENAUSWAHL
+DialogTitles						NewGame								NEUES SPIEL
+DialogTitles						RocketLaunched						RAKETE GESTARTET
+DialogTitles						SavedGame							SPIELSTAND GESPEICHERT
+DialogTitles						SaveGame							SPIELSTAND SPEICHERN
+DialogTitles						Settings							EINSTELLUNGEN
+
+# Tooltip for the energy bar at the top of the screen (most items in this tooltip here will come from Things.txt)
+EnergyTooltip						Title								ENERGIE
+EnergyTooltip						LanderSolarPanel					Landefähre-Solarpanel
+
+# Shown if game fails to load
+ErrorDialog							DefaultTitle						FEHLER
+ErrorDialog							DefaultMessage						Irgendwas ist schief gegangen.|Ich empfehle das Spiel zu beenden und neu zu starten.|Bitte teile mir auch mit was passiert ist, damit ich es reproduzieren und beheben kann!
+ErrorDialog							FailedToLoadGame					SPIEL KONNTE NICHT GESTARTET WERDEN
+ErrorDialog							FailedToInitSteam					STEAM API KONNTE NICHT INITIALISIERT WERDEN
+ErrorDialog							NoAchievements						Steam-Errungenschaften sind deaktiviert.
+
+# Farming panel
+FarmPanel							Title								LANDWIRTSCHAFT
+FarmPanel							RemoveExisting						BESTEHENDE ENTFERNEN
+FarmPanel							RemoveExistingTooltip				Wähle diese Option damit die Kolonisten alle|Pflanzen entferen, auch wenn sie noch nicht reif sind.
+FarmPanel							SetDefault							DEFAULT SETZEN
+FarmPanel							SetDefaultTooltip					Benutze die selektierte Pflanze als Default für alle neuen Pflanzer.
+FarmPanel							Instruction1						Klicke auf eines der Symbole oben um|wähle eine Pflanze.
+FarmPanel							Instruction2						Klicke auf den Pflanzer um|wähle eine Pflanze.
+FarmPanel							Instruction3						Klicke auf den Pflanzer um|nimm {0} als nächste Pflanze.
+FarmPanel							Instruction4						Klicke auf den Pflanzer um ersetze|alle existierenden Pflanzen mit {0}.
+FarmPanel							Instruction5						Klicke auf den Pflanzer um nach|dem Ernten nicht wieder neu anpflanzen.
+FarmPanel							Instruction6						Klicke auf den Pflanzer um|alle bestehenden Pflanzen entfernen.
+FarmPanel							NoCrop								KEINE PFLANZE
+
+# File details tooltips.  Some of the text also comes from NumbersAndDates.txt
+FileDetailsTooltip					OnDay								an {0}
+FileDetailsTooltip					Today								heute
+FileDetailsTooltip					Yesterday							gestern
+FileDetailsTooltip					DateFormat							am {0} {1}
+FileDetailsTooltip					DateFormatWithYear					am {0} {1} {2}
+FileDetailsTooltip					DetailFormatDate					Gespeichert {0} am {1}
+FileDetailsTooltip					DetailFormatWorldTime				Tag {0} Stunde {1}
+FileDetailsTooltip					DetailFormatVersion					Spielversion {0}
+FileDetailsTooltip					NotCompatible						Nicht kompatibel mit dieser Version.
+
+FlagTooltips						English								Englisch (English)
+FlagTooltips						German								Deutsch
+
+# Some text that is shown at the bottom of the screen in some contexts
+GameScreen							FPS									Update FPS: {0}  Draw FPS: {1}  Update: {2:N1} ms  Draw: {3:N1} ms  Shadow Tris: {4}  Draws/frame: {5}
+GameScreen							MineResourceFormat					{0} {1}, {2} Dichte
+GameScreen							MineNoResource						Keine Resource
+GameScreen							SavingScreenshot					Speichere den Screenshot nach {0}
+GameScreen							SavingScreenshotNoUI				Speichere den Screenshot (ohne Oberfläche) nach {0}
+
+# Inventory display tooltips
+InventoryDisplay					ResourceStorage						Resourcenlager
+InventoryDisplay					ItemsStorage						Warenlager
+InventoryDisplay					FoodStorage							Nahrungsmittellager
+InventoryDisplay					HydrogenStorage						Wasserstoffspeicher
+InventoryDisplay					InventorySlotTooltip				Klicke auf den Boden um es dem Inventar hinzuzufügen
+
+# Item type names used in various places
+ItemType							None								Keine
+ItemType							Metal								Metall
+ItemType							Biomass								Biomasse
+ItemType							IronOre								Erz
+ItemType							LiquidFuel							Flüssiger Wasserstoff
+ItemType							Food								Essen
+ItemType							Coal								Kohle
+ItemType							Stone								Stein
+ItemType							Mush								Nährstoffarmer Brei
+ItemType							Kek									Kek
+ItemType							BatteryCells						Batteriezellen
+ItemType							Compost								Kompost
+ItemType							SolarCells							Solarzellen
+ItemType							Glass								Glaspanele
+ItemType							Composites							Verbundwerkstoffe
+ItemType							Crop								Pflanzen
+ItemType							Fruit								Früchte
+ItemType							Water								Wasser
+
+# Lower case versions for use in sentences (or not lower case if German)
+ItemTypeLower						None								Keine
+ItemTypeLower						Metal								Metall
+ItemTypeLower						Biomass								Biomasse
+ItemTypeLower						IronOre								Erz
+ItemTypeLower						LiquidFuel							flüssiger Wasserstoff
+ItemTypeLower						Food								Essen
+ItemTypeLower						Coal								Kohle
+ItemTypeLower						Stone								Stein
+ItemTypeLower						Mush								nährstoffarmer Brei
+ItemTypeLower						Kek									Kek
+ItemTypeLower						BatteryCells						Batteriezellen
+ItemTypeLower						Compost								Kompost
+ItemTypeLower						SolarCells							Solarzellen
+ItemTypeLower						Glass								Glaspanele
+ItemTypeLower						Composites							Verbundwerkstoffe
+ItemTypeLower						Crop								Pflanzen
+ItemTypeLower						Fruit								Früchte
+ItemTypeLower						Water								Wasser
+
+# Kek policy options on colonist panel
+KekPolicy							Never								Kek-Regel: Nie
+KekPolicy							Limited								Kek-Regel: Limitiert
+KekPolicy							Normal								Kek-Regel: Normal
+KekPolicy							AnyTime								Kek-Regel: Zu jeder Zeit
+
+# Keyboard controls dialogFortschritt 0/1
+KeyboardControlsDialog				Title								TASTATUREINSTELLUNGEN
+KeyboardControlsDialog				GeneralControls						ALLGEMEINE EINSTELLUNGEN
+KeyboardControlsDialog				UIShortcuts							OBERFLÄCHEN-TASTATURKÜRZEL
+KeyboardControlsDialog				ConstructionShortcuts				KONSTRUKTIONS-TASTATURKÜRZEL
+KeyboardControlsDialog				PressKey							Drücke eine Taste
+KeyboardControlsDialog				ScrollLeft							Scroll Links
+KeyboardControlsDialog				ScrollRight							Scroll Rechts
+KeyboardControlsDialog				ScrollUp							Scroll Hoch
+KeyboardControlsDialog				ScrollDown							Scroll Runter
+KeyboardControlsDialog				ZoomIn								Reinzoomen
+KeyboardControlsDialog				ZoomOut								Rauszoomen
+KeyboardControlsDialog				IncreaseGameSpeed					Spielgeschwindigkeit erhöhen
+KeyboardControlsDialog				DecreaseGameSpeed					Spielgeschwindigkeit verringern
+KeyboardControlsDialog				TogglePause							Pause / Fortsetzen
+KeyboardControlsDialog				ToggleFullScreen					Vollbild umschalten
+KeyboardControlsDialog				RotateBlueprintLeft					Gebäude nach links rotieren
+KeyboardControlsDialog				RotateBlueprintRight				Gebäude nach rechts rotieren
+KeyboardControlsDialog				LocateColonist						Kolonist finden
+KeyboardControlsDialog				LocateLander						Landefähre finden
+KeyboardControlsDialog				CameraTrack							Folgen ausgewählt
+KeyboardControlsDialog				Screenshot							Mache Screenshot
+KeyboardControlsDialog				ScreenshotNoUI						Mache Screenshot ohne Oberfläche
+KeyboardControlsDialog				ToggleFrameRate						Zeige / Verstecke Frame Rate
+KeyboardControlsDialog				ToggleUI							Zeige / Verstecke Oberfläche
+KeyboardControlsDialog				Deconstruct							Abreißen / Resourcen abbauen
+KeyboardControlsDialog				Geology								Geologische Untersuchung
+KeyboardControlsDialog				Harvest								Frucht ernten
+KeyboardControlsDialog				Construct							Zeige Konstruktionsbereich
+KeyboardControlsDialog				Farm								Zeige Landwirtschaftsbereich
+KeyboardControlsDialog				Options								Zeige / Verstecke Optionen
+KeyboardControlsDialog				Help								Zeige / Verstecke Checklist
+KeyboardControlsDialog				Mothership							Zeige Mutterschifffenster
+KeyboardControlsDialog				CommentArchive						Zeige Kommentararchivfenster
+KeyboardControlsDialog				Debug								Zeige Debug-Fenster
+KeyboardControlsDialog				ResourceMap							Zeige / Verstecke Resource-Overlay
+KeyboardControlsDialog				ToggleRoof							Zeige / Verstecke Dächer
+KeyboardControlsDialog				Temperature							Zeige / Verstecke Temperatur-Overlay
+KeyboardControlsDialog				BuildThing							Baue {0}
+
+# Load game dialog
+LoadGameDialog						LoadGame							SPIEL LADEN
+LoadGameDialog						AutoSaves							AUTOMATISCHE SPEICHERSTÄNDE
+LoadGameDialog						ManualSaves							MANUELLE SPEICHERSTÄNDE
+LoadGameDialog						AutosaveInfo1						Das System speichert die letzten {0} automatischen Spielstände.
+LoadGameDialog						AutosaveInfo2						Ältere werden gelöscht.
+
+MineResourceDensity					None								keine
+MineResourceDensity					VeryLow								geringe
+MineResourceDensity					Low									kleine
+MineResourceDensity					Medium								mittlere
+MineResourceDensity					High								große
+MineResourceDensity					VeryHigh							sehr große
+
+MineResourceDiamondCellTooltip		UnknownResource						Unbekannte Resource
+MineResourceDiamondCellTooltip		NoResource							Keine Resourcen
+MineResourceDiamondCellTooltip		Normal								{0} {1}, {2} Dichte
+MineResourceDiamondCellTooltip		ClaimedByOther						Von einer anderen Mine beansprucht
+MineResourceDiamondCellTooltip		MineRate							Förderrate {0:0.0}/h
+
+MothershipStatus					ColonistIncoming					NEUER KOLONIST KOMMT
+MothershipStatus					ColonistArriving					NEUER KOLONIST IST DA
+MothershipStatus					PareparingToWake					AUFWECKEN VORBEREITEN
+MothershipStatus					ReadyToWakeNow						KANN JETZT AUFWACHEN
+MothershipStatus					NoMoreColonists						KEINE KOLONISTEN MEHR
+
+MothershipStatusTooltip				ColonistIncoming					{0} kommt in {1:D2}:{2:D2}.
+MothershipStatusTooltip				ColonistArriving					{0} kommt jetzt an.
+MothershipStatusTooltip				PareparingToWake					Der nächste Kolonist kann in {0:D2}:{1:D2} aufgeweckt werden.
+MothershipStatusTooltip				ReadyToWakeNow						Der nächste Kolonist kann jetzt aufgeweckt werden.
+MothershipStatusTooltip				NoMoreColonists						Alle Kolonisten sind aufgeweckt worden.
+
+# Press N in game to see this dialog.  Help1 (shown at start of game only) fills whole width in English, so may need to be inventive with the translation here.
+MothershipDialog					Help1								Wähle den ersten Kolonisten. Er muss eine technische Fertigkeit haben. Die Auswahl wird erst mit "Start" übernommen.
+MothershipDialog					Help2								Wähle den nächsten Kolonisten zum Aufwecken.  Die Auswahl wird erst beim Drücken von "Weiter" übernommen.
+MothershipDialog					Help3								Kolonisten-Aufwachsystem wird resetet. Das nächste Aufwecken kann in {0} gestartet werden.
+MothershipDialog					Help4								{0} kommt in {1}
+MothershipDialog					Skill								Fertigkeit :
+MothershipDialog					Perk								Besondere Eigenschaft:
+MothershipDialog					WakeButton							WECKE {0} AUF
+MothershipDialog					CancelWakeButton					AUFWECKEN ABBBRECHEN
+MothershipDialog					Colonist							KOLONIST
+MothershipDialog					CannotWakeNonEngineer				Der erste Kolonist muss ein Techniker sein.
+MothershipDialog					CannotWakeYet						Kann aufwachen in {0}
+MothershipDialog					ProgrammerInfo1						Programmierer können in jedem Labor mit einer Bonusgeschwingkeit von 20% arbeiten,
+MothershipDialog					ProgrammerInfo2						aber sie können keine andere Form von Arbeit verrichten.
+
+# Various contextual information shown by the mouse cursor
+MouseCursor							AccessBlocked						Zugriff blockiert
+MouseCursor							AlreadyDeconstructingThingType		{0} wird schon abgerissen
+MouseCursor							AreaTooLarge						Bereich zu groß
+MouseCursor							BlocksAccessTo						Blockiert den Zugang zu {0}
+MouseCursor							BlocksMaintenanceAccessTo			Blockiert den Wartungszugang zu {0}
+MouseCursor							BuildNextToWater					In der Nähe zu Wasser bauen
+MouseCursor							BuildOnLaunchPad					Auf der Startplattform bauen
+MouseCursor							CancelNextCrop						Klicke um die nächste Ernte abzubrechen
+MouseCursor							CancelThisCrop						Klicke um die Pflanze zu entfernen
+MouseCursor							CantBuildByCoast					{0} kann nicht in der Nähe der Küste gebaut werden
+MouseCursor							CantBuildOnFoundation				Kann nicht auf einem Fundament gebaut werden
+MouseCursor							CantBuildOnPartialFoundation		Kann nicht auf einem unvollständigen Fundament gebaut werden
+MouseCursor							CantDeconstructThingType			{0} kann nicht abgerissen werden
+MouseCursor							CantDeconstructThingTypeReason		{0} kann nicht abgerissen werden - {1}
+MouseCursor							CantGrowHydroponics					{0} benötigt ein Pflanzgefäß mit Erde
+MouseCursor							CantGrowSoil						{0} benötigt eine Hydrokultur
+MouseCursor							ClickToCancelDeconstruction			Klicke um das Abreißen abzubrechen
+MouseCursor							ClickToRemoveEmptyStack				Klicke um den leeren Stapel {0} zu entfernen
+MouseCursor							ClickToRemoveStackingArea			Klicke um den Lagerbereich zu entfernen
+MouseCursor							DeconstructRocket					Rakete abreißen
+MouseCursor							DeconstructRock						Fels entfernen: {0} {1}
+MouseCursor							DeconstructRoof						Dach entfernen x{0}: {1} {2}
+MouseCursor							DeconstructGeneral1					Entferne {0}: {1} {2}
+MouseCursor							DeconstructGeneral2					Entferne {0}: {1} {2} + {3} {4}
+MouseCursor							ExtractionRatePercent				Förderrate: {0}%
+MouseCursor							FruitWillBeDestroyed				Frucht wird entsorgt
+MouseCursor							HarvestRequiresBotanistAndCooker	Zum Ernten wird ein Botaniker oder Koch benötigt
+MouseCursor							HarvestYieldFruit					Ernteertrag: {0} Früchte
+MouseCursor							InUse								in Benutzung
+MouseCursor							LocationNotAccessible				Dieser Ort ist unzugänglich
+MouseCursor							LowStorageMayLoseResources			Wenig Lagerplatz - Reourcen können verloren gehen
+MouseCursor							NoResources							Keine Resourcen
+MouseCursor							NotEmpty							nicht leer
+MouseCursor							NextCrop							Nächste Pflanze: {0}
+MouseCursor							NoKnownResources					Unbekannte Resource
+MouseCursor							None								Keine
+MouseCursor							PlantProducesEdibleFruit			Pflanze hat essbare Früchte
+MouseCursor							PodNotEmpty							Schale ist nicht leer
+MouseCursor							PressKeyToHideRoof					(Drücke {0} zum Ausblenden von Dächern, um Einrichtungen abreißen zu können)
+MouseCursor							PressToRotate						(Drücke {0} und {1} zum Rotieren)
+MouseCursor							RecycleDeadColonistOrganics			Recyclen vom toten Kolonisten: {0} Biomasse
+MouseCursor							RequiresCoast						Benötigt eine Küstenlinie
+MouseCursor							RequiresFoundation					Benötigt ein Fundament
+MouseCursor							RequiresFoundationX					Benötigt {0} Fundamente
+MouseCursor							SetNextCrop							Klicke um die nächste Pflanze bei {0} zu setzen
+MouseCursor							SetThisCrop							Klicke um die Pflanze mit {0} zu ersetzen
+MouseCursor							SupportingRoof						ein Dach wird unterstützt
+MouseCursor							SwitchOffToEnableDeconstruction		Abschalten um das Abreißen zu ermögichen
+MouseCursor							ThisCrop							Diese Pflanze: {0}
+MouseCursor							ThisCropPercent						Diese Pflanze: {0} ({1}%)
+MouseCursor							TileAlreadySurveyed					Bereich bereits gescannt
+MouseCursor							TileNotEmpty						Bereich ist nicht leer
+MouseCursor							TooCloseToAnother					Zu dicht an {0}
+MouseCursor							WallDoorConversionCost				Umwandlungskosten {0} kWh Energie
+MouseCursor							MetalCost							Metallkosten: {0}
+MouseCursor							StoneCost							Steinkosten: {0}
+MouseCursor							EnergyCost							Energiekosten: {0}
+MouseCursor							BatteryCellsCost					Batteriezellen: {0}
+MouseCursor							CompositesCost						Verbundwerkstoffe: {0}
+MouseCursor							SolarCellsCost						Solarzellen: {0}
+MouseCursor							GlassCost							Glaskosten: {0}
+MouseCursor							CompostCost							Kompost: {0}
+MouseCursor							CoalCount							Kohle: {0}
+MouseCursor							OreCount							Erz: {0}
+MouseCursor							StoneCount							Stein: {0}
+MouseCursor							UnscannedTiles						Noch nicht gescannter Bereich: {0}
+
+# Options panel
+OptionsPanel						Title								OPTIONEN
+OptionsPanel						Achievements						Errungenschaften
+OptionsPanel						NewGame								Neues Spiel
+OptionsPanel						SaveGame							Spiel speichern
+OptionsPanel						LoadGame							Spiel laden
+OptionsPanel						Settings							Einstellungen
+OptionsPanel						KeyboardControls					Tastatureinstellungen
+OptionsPanel						ExitMainMenu						Zurück zum Hauptmenü
+OptionsPanel						ExitDesktop							Zurück zum Desktop
+
+# Planter status
+PlanterStatus						SelectCrop							PFLANZE AUSWÄHLEN
+PlanterStatus						WaitingForSeeds						WARTE AUF SAMEN
+PlanterStatus						InProgress							IN ARBEIT
+PlanterStatus						WaitingToHarvest					FERTIG ZUM ERNTEN
+PlanterStatus						Dead								TOT
+
+# Lab project tooltips (project specific text is in Projects.txt)
+ProjectTooltip						Complete							PROJEKT FERTIG
+ProjectTooltip						Progress							FORTSCHRITT: {0}%
+ProjectTooltip						Requires							BENÖTIGT {0}
+
+# Used by the UI for environment control and lamp
+RoomLightSetting					Off									AUS
+RoomLightSetting					Automatic							AUTOMATISCH
+RoomLightSetting					AlwaysOn							IMMER AN
+
+# Used by the UI for environment control and directional heater (currently identical to RoomLightSetting)
+RoomTemperatureSetting				Off									AUS
+RoomTemperatureSetting				Automatic							AUTOMATISCH
+RoomTemperatureSetting				AlwaysOn							IMMER AN
+
+# Save game dialog
+SaveGameDialog						FileName							Dateiname:
+SaveGameDialog						ExistingSaveGames					Existierende Spielstände:
+SaveGameDialog						ExistingWillBeOverwritten			Existierender Spielstand wird überschrieben.
+
+# Game saved OK
+SavedGameDialog						Success								Das Spiel wurde erfolgreich gespeichert.
+SavedGameDialog						Fail								Das Speichern ist fehlgeschlagen.
+
+# Settings dialog.  Strings ending in a colon have max length 19 characters, inlcuding the colon.  Others (except the title) are limited to 15 characters.
+# If we need more space we can make the dialog wider.
+SettingsDialog						DisplayMode							Anzeigemodus:
+SettingsDialog						Resolution							Auflösung:
+SettingsDialog						TerrainGrid							Geländeraster:
+SettingsDialog						MusicVolume							Musiklautstärke:
+SettingsDialog						SoundVolume							Geräuschlautstärke:
+SettingsDialog						TextureRes							Texturauflösung:
+SettingsDialog						ShadowDetail						Schattendetails:
+SettingsDialog						UIScaling							Oberflächenskalierung:
+SettingsDialog						Window								FENSTER
+SettingsDialog						FullScreen							VOLLBILD
+SettingsDialog						None								KEINE
+SettingsDialog						Medium								MITTEL
+SettingsDialog						Maximum								MAXIMUM
+SettingsDialog						High								HOCH
+SettingsDialog						Low									NIEDRIG
+SettingsDialog						Off									AUS
+SettingsDialog						On									AN
+SettingsDialog						Language							Sprache:
+SettingsDialog						TemperatureUnit						Temperatureinheiten:
+SettingsDialog						WindSpeedUnit						Windeinheiten:
+
+# Skill types - used in various places
+SkillType							Engineer							Techniker
+SkillType							Botanist							Botaniker
+SkillType							Geologist							Geologe
+SkillType							Programmer							Programmierer
+
+# Skill type details shown on the monthership dialog
+SkillTypeDetail						Engineer							Techniker (konstruiert Gebäude und hält sie in stand)
+SkillTypeDetail						Botanist							Botaniker (baut Pflanzen an und erntet sie)
+SkillTypeDetail						Geologist							Geologe (sucht nach unterirdischen Resourcen)
+SkillTypeDetail						Programmer							Programmierer (arbeitet in Laboren, aber macht nichts anderes)
+
+# These are used in come colonist comments
+SkillTypeSubject					Engineering							Technik
+SkillTypeSubject					Botany								Botanik
+SkillTypeSubject					Geology								Geologie
+
+# Options on the panel for stacking areas
+StackingAreaMode					TargetSiloLevel						Silolevel des Ziels
+StackingAreaMode					TargetStackSize						Stackgröße des Ziels
+StackingAreaMode					OverflowOnly						überfüllt
+StackingAreaMode					RemoveStack							Stapel entfernen
+
+# Various text and tooltips for the bar at the bottom of the screen
+StatusBar							Paused								PAUSIERT
+StatusBar							GameSpeedFormat						{0}x
+StatusBar							TimeFormat							TAG {0} STUNDE {1}
+StatusBar							TooltipSunriseSunset				Ein Tag hat {0} Stunden.|Sonnenuntergang: Stunden {1}   Sonnenaufgang: Stunden {2}
+StatusBar							TooltipTemperatureRange				Zu erwartender Temperaturbereich:|Min {0}{2}   Max {1}{2}
+StatusBar							TooltipWindSpeedRange				Zu erwartende Windgeschwindigkeiten:|Min {0}{2}   Max {1}{2}
+StatusBar							TooltipConstruct					Konstruieren
+StatusBar							TooltipDeconstruct					Entfernen
+StatusBar							TooltipGeology						Orte markieren zur geologischen Untersuchung
+StatusBar							TooltipHarvest						Wilde Früchte ernten
+StatusBar							TooltipHarvestRequirement			Benötigt einen Botaniker oder Koch
+StatusBar							TooltipFarm							Landwirtschaft
+StatusBar							TooltipFarmRequirement				Benötigt einen Botaniker oder Anpflanzer
+StatusBar							TooltipGeologyRequirement			Geologen werden zuerst markierte Bereiche untersuchen.
+StatusBar							TooltipIncreaseGameSpeed			Spielgeschwindigkeit erhöhen
+StatusBar							TooltipMothership					Mutterschiff
+StatusBar							TooltipPause						Pause / Fortsetzen
+StatusBar							TooltipPlay							Spielgeschwindigkeit auf 1x setzen
+StatusBar							TooltipResourceOverlay				Resourcen-Overlay
+StatusBar							TooltipTemperatureOverlay			Temperatur-Overlay
+StatusBar							TooltipToggleRoofs					Zeige / verstecke Dächer
+StatusBar							TooltipZoomIn						Reinzoomen
+StatusBar							TooltipZoomOut						Rauszoomen
+
+# File format for autosaves
+System								AutosaveFileFormat					Automischer_Spielstand{0}_D{1:D2}_H{2:D3}
+
+# Catch-all for strings used on the information panels for all sorts of different things
+ThingPanels							Allowed								Erlaubt
+ThingPanels							ApplyStackingTargetToAll			Die Einstellungen allen {0}-Lagerbereichen zuweisen 
+ThingPanels							AutoFill							AUTOMATISCH FÜLLEN
+ThingPanels							AutoHarvest							AUTOMATISCH ERNTEN
+ThingPanels							AutoRestartOn						Neustarten wenn fertig
+ThingPanels							AutoRestartOff						Anhalten wenn fertig
+ThingPanels							Automatic							AUTOMATISCH
+ThingPanels							AutomaticTooltip					Gehe in den Standby-Modus, wenn kein Kolonist in der Nähe ist.
+ThingPanels							BuildInRocketGantry					Muss mit einem Raketengerüst gebaut werden.
+ThingPanels							BuildOnLaunchPad					Muss auf einer Startplattform gebaut werden.
+ThingPanels							BurnCoal							Verbrennt Kohle
+ThingPanels							BurnOrganics						Verbrennt Biomasse
+ThingPanels							BurnMush							Verbrennt Brei
+ThingPanels							CanReassignIn						Kann neu zugewiesen werden in
+ThingPanels							ClickToTogglePower					Klick zum Anschalten der Energie
+ThingPanels							ConstructionPriority0				Konstruktionspriorität: Ausgeschaltet
+ThingPanels							ConstructionPriority1				Konstruktionspriorität: Niedrig
+ThingPanels							ConstructionPriority2				Konstruktionspriorität: Mittel
+ThingPanels							ConstructionPriority3				Konstruktionspriorität: Hoch
+ThingPanels							ConstructionPriority4				Konstruktionspriorität: Dringend
+ThingPanels							ConstructionProgress				KONSTRUKTIONSFORTSCHRITT
+ThingPanels							ConstructGantry						KONSTRUIERE GERÜST
+ThingPanels							ConstructRocket						KONSTRUIERE RAKETE
+ThingPanels							ConsumptionRate						{0:N2}/h
+ThingPanels							CookerRequiredToHarvest				Ein Koch wird zum Ernten benötgt
+ThingPanels							CurrentCrop							Aktuelle Pflanze: {0}
+ThingPanels							CurrentCropDead						Aktuelle Pflanze: {0} (Tot)
+ThingPanels							CurrentCropNone						Aktuelle Pflanze: Keine
+ThingPanels							CurrentStack						Aktueller Stapel: {0} {1}
+ThingPanels							CurrentStackNone					Aktueller Stapel: Keiner
+ThingPanels							Deconstruct							ENTFERNEN
+ThingPanels							DeconstructConduitNode				NETZWERKKNOTEN ENTFERNEN
+ThingPanels							DeconstructFoundation				FUNDAMENT ENTFERNEN
+ThingPanels							DeconstructionProgress				ENTFERNUNGFORTSCHRITT
+ThingPanels							DirectionNE							RICHTUNG: NO
+ThingPanels							DirectionNW							RICHTUNG: NW
+ThingPanels							DirectionSE							RICHTUNG: SO
+ThingPanels							DirectionSW							RICHTUNG: SW
+ThingPanels							DispensingFoodType					Verteile {0}
+ThingPanels							DontPlant							Nicht pflanzen
+ThingPanels							Drain								ENTLEEREN
+ThingPanels							EnergyUse							ENERGIENUTZUNG
+ThingPanels							EnergyUsekW							Energienutzung: {0:N1} kW
+ThingPanels							ExtractionRatePerHour				Produktionsgeschwindigkeit: {0:N2}/h
+ThingPanels							Fill								FÜLLEN
+ThingPanels							FoodStored							Nahrungslager: {0} / {1}
+ThingPanels							GantryConstructionProgress			GERÜSTBAUFORTSCHRITT
+ThingPanels							GantryConstructionRequires			Gerüstbau benötigt
+ThingPanels							GantryUnderDeconstruction			Gerüst wird abgerissen
+ThingPanels							GroundwaterPercent					Grundwasser: {0}%
+ThingPanels							GrowthRate							WACHSTUMSRATE
+ThingPanels							Harvest								ERNTEN
+ThingPanels							HarvestFruitRequirement				Botaniker + Koch wird zum Ernten von Früchten benötigt
+ThingPanels							Health								GESUNDHEIT
+ThingPanels							Hibernating							WINTERSCHLAF
+ThingPanels							HydrogenRequiredToLaunch			{0} Wasserstoff ist für den Start notwendig.
+ThingPanels							HydrogenStored						Wasserstoffspeicher: {0} / {1}
+ThingPanels							IndoorMode							GEBÄUDEMODUS
+ThingPanels							InventoryTargetTooltip				Stoppen, wenn wir {0} {1} haben
+ThingPanels							InventoryTargetTooltipMine			Stoppen, wenn wir {0} haben (trifft für jeden Resource-Typ zu)
+ThingPanels							InventoryTargetPauseOnComplete		Wenn Ziel erreicht: Standby bis wieder Platz im Inventar ist
+ThingPanels							InventoryTargetStopOnComplete		Wenn Ziel erreicht: Fabrik herunterfahren
+ThingPanels							ItemsStored							Gegenstandslager: {0} / {1}
+ThingPanels							Lamp								LAMPE
+ThingPanels							LampLightLevelTooltip				Künstliches Licht ist 60% heller als natürliches Licht.|Die Lampe wird schaltet sich erst bei < 60% Sonnenlicht ein.
+ThingPanels							Lander								LANDEFÄHRE
+ThingPanels							LaunchPadRocketRequirements1		{0} Metall, {1} Solarzellen, {2} Batteriezellen,
+ThingPanels							LaunchPadRocketRequirements2		{0} Verbundwerkstoffe, und {1:N0} kWh Energie.
+ThingPanels							LaunchRocket						RAKETE STARTEN
+ThingPanels							Light								Licht
+ThingPanels							Lighting							Beleuchtung:
+ThingPanels							Limit								Limit
+ThingPanels							LimitTooltip						Produktionslimit setzen
+ThingPanels							LockClosed							Schloss gesperrt
+ThingPanels							LockOpen							Schloss offen
+ThingPanels							Maintenance							WARTUNG
+ThingPanels							MaintenancePriority0				Wartungpriorität: Abgeschaltet
+ThingPanels							MaintenancePriority1				Wartungpriorität: Niedrig
+ThingPanels							MaintenancePriority2				Wartungpriorität: Mittel
+ThingPanels							MaintenancePriority3				Wartungpriorität: Hoch
+ThingPanels							MaintenancePriority4				Wartungpriorität: Dringend
+ThingPanels							Max									MAX
+ThingPanels							MetalAndEnergy						{0} Metall und {1:F1} kWh Energie.
+ThingPanels							MinOperatingTemperature				Minimale Arbeitstemperatur
+ThingPanels							Next								Nächste
+ThingPanels							NoActionsAvailable					Keine Aktionen verfügbar
+ThingPanels							NoCurrentModifiers					Keine aktuellen Erweiterungen verfügbar
+ThingPanels							None								KEINE
+ThingPanels							NotAllowed							Nicht erlaubt
+ThingPanels							NotPlanted							NICHT GEPLANZT
+ThingPanels							OccupiedBy							Besetzt von
+ThingPanels							OnlyWorksInRoom						Kann nur in geschlossenen Räumen arbeiten.
+ThingPanels							OreScannerCurrent					Scanning: {0} Bereiche im Radius {1}.
+ThingPanels							OutputKwWithMax						Ausgabe: {0:N1} kW (max {1:N1} kW)
+ThingPanels							Owner								Besitzer
+ThingPanels							OwnerPublic							Besitzer: Keiner (öffentlich)
+ThingPanels							PrefabsAvailable					Fertigteile verfügbar
+ThingPanels							Priority0							Priorität: Aus
+ThingPanels							Priority1							Priorität: Niedrig
+ThingPanels							Priority2							Priorität: Mittel
+ThingPanels							Priority3							Priorität: Hoch
+ThingPanels							Priority4							Priorität: Dringend
+ThingPanels							ProductionTimeDepends				Produktionszeit hängt von Temperatur und Licht ab.
+ThingPanels							RemoveStackingArea					Lagerbereich entfernen
+ThingPanels							ResourcesStored						Resourcenlager: {0} / {1}
+ThingPanels							RocketRequiresHydrogen				Die Rakete benötigt {0} Wasserstoff zum Starten.
+ThingPanels							RocketConstructionProgress			RAKETENKONSTRUKTIONSFORTSCHRITT
+ThingPanels							RocketConstructionRequires			Die Raketenkonstruktion benötigt
+ThingPanels							RocketLaunchInProgress				Raketenstart wird vorbereitet
+ThingPanels							RocketUnderDeconstruction			Rakete wird auseinander genommen
+ThingPanels							RoomLightLevelTooltip				Künstliches Licht ist 60% heller als natürliches Licht.|Die Lampe wird schaltet sich erst bei < 60% Sonnenlicht ein.
+ThingPanels							SelectedProject						PROJEKT: {0}
+ThingPanels							Shortcut							Tastaturkürzel
+ThingPanels							SiloLevelTargetTooltip1				Gegenstände stapeln, wenn mehr als x {0} davon im Silo sind.|Zurückgeben, wenn es weniger als x sind.
+ThingPanels							SiloLevelTargetTooltip2				Hinzufügen oder entfernen von Gegenständen um {0} Stacks der Größe x zu machen.
+ThingPanels							Sleeping							SCHLÄFT
+ThingPanels							SleepPodOnOffTooltip				Klick um in den Automatik-Heizmodus zu wechseln.
+ThingPanels							SleepPodOwnerLockInfo				Wenn zugewiesen, ist der Nutzer 24 Stunden fix.
+ThingPanels							SleepPodVacant						Schlafkapsel steht leer.
+ThingPanels							SolarPanelOutput					Solarpanelleistung: {0:N1} kW (max {1:N1} kW)
+ThingPanels							StackingAreaModeTooltip				Silolevel des Ziels:  Hinzufügen oder entfernen von Gegenständen um zu versuchen x Gegenstände im Silo zu haben.|Stackgröße des Ziels: Hinzufügen oder entfernen von Gegenständen um einen Stack der Größe x zu machen.|Überfüllt:            Nur hier lagern, wenn die Silos voll sind und wenn möglich zurückkommen.|Stack entfernen:      Entferne die Reosurcen wenn möglich und füge keine mehr hinzu.
+ThingPanels							Status								STATUS:
+ThingPanels							Storage								LAGERPLATZ
+ThingPanels							StorageEnabled						LAGERPLATZ AKTIVIERT
+ThingPanels							TableRequiredForKek					Kolonisten trinken Kek nur an Tischen.
+ThingPanels							TargetAppliedToAllStackingAreas		Ziel ist allen {0}lagern zugewiesen.
+ThingPanels							TargetOutputKW						Zielleistung: {0} kW
+ThingPanels							TargetTemperature					ZIEL TEMPERATUR: {0}
+ThingPanels							TargetTempMin						MIN ZIEL TEMP:
+ThingPanels							Temperature							Temperatur
+ThingPanels							TimeRemaining						Übrig gebliebene Zeit {0:D2}:{1:D2}
+ThingPanels							TryToHeatRoom						Versuche den ganzen Raum zu heizen
+ThingPanels							UnderConstruction					Im Bau: {0}%
+ThingPanels							UnderDeconstruction					Im Abbau: {0}%
+ThingPanels							UnitsPerHours						{0} Einheiten/{1:N1} h
+ThingPanels							UnitsPerHoursShort					{0} Einheiten/{1:N0} h
+ThingPanels							Unlock								Entsperren
+ThingPanels							WallDoorConversionCost				Konvertierungskosten {0} kWh Energie
+ThingPanels							WaterStored							Wasser gelagert: {0:N1}/{1:N1}
+ThingPanels							WorkRate							ARBEITSRATE
+
+# Units
+Units								C									°C
+Units								F									°F
+Units								kW									kW
+Units								kWh									kWh
+Units								mps									m/s
+Units								mph									mph
+Units								kph									km/h
+
+# Information shown at bottom-right of screen
+Warnings							LowFood								Wenig Nahrung
+Warnings							LowPower							Wenig Energie
+Warnings							BuildingNeeded						{0} wird gebraucht
+Warnings							NeedsRepair							{0} muss repariert werden
+Warnings							TooCold								{0} ist zu kalt
+Warnings							NoFood								Keine Nahrung
+
+# Tooltip for the water bar at the top of the screen (most items in this tooltip here will come from Things.txt)
+WaterDisplay						TooltipTitle						WASSER
+WaterDisplay						WaterGenFormat						+{0:N1}/h
+WaterDisplay						WaterUseFormat						-{0:N1}/h
+WaterDisplay						WaterLevelFormat					{0:N1}/{1:N1}
+
+# Kek policy options on colonist panel
+WorkPolicy							None								Arbeitsregel: Keine
+WorkPolicy							Relaxed								Arbeitsregel: Entspannt
+WorkPolicy							Normal								Arbeitsregel: Normal
+WorkPolicy							Forced								Arbeitsregel: Gezwungen
+
+# Used on the UI for a plants, a few buildings, and resource stacks
+WorkPriority						Disabled							Arbeitsregel: Aus
+WorkPriority						Low									Arbeitsregel: Niedrig
+WorkPriority						Normal								Arbeitsregel: Mittel
+WorkPriority						High								Arbeitsregel: Hoch
+WorkPriority						Urgent								Arbeitsregel: Dringend

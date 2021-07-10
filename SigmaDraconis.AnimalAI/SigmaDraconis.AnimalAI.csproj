@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{703AFF93-1450-4A07-BB10-0FBCB8F3A94D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.AnimalAI</RootNamespace>
+    <AssemblyName>SigmaDraconis.AnimalAI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net, Version=2.3.14.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.3.14\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionBase.cs" />
+    <Compile Include="ActionEat.cs" />
+    <Compile Include="ActionSleep.cs" />
+    <Compile Include="ActionWait.cs" />
+    <Compile Include="ActionWalk.cs" />
+    <Compile Include="ActivityBase.cs" />
+    <Compile Include="ActivityLeaveClosedTile.cs" />
+    <Compile Include="ActivityEat.cs" />
+    <Compile Include="ActivitySleep.cs" />
+    <Compile Include="ActivityWait.cs" />
+    <Compile Include="ActivityWalk.cs" />
+    <Compile Include="AnimalController.cs" />
+    <Compile Include="IAnimalAI.cs" />
+    <Compile Include="BlueBugAI.cs" />
+    <Compile Include="SnowTortoiseAI.cs" />
+    <Compile Include="RedBugAI.cs" />
+    <Compile Include="TortoiseAI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Draconis.Shared\Draconis.Shared.csproj">
+      <Project>{34a1a3e2-ce4c-42f9-9f22-a862ea6fce47}</Project>
+      <Name>Draconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Config\SigmaDraconis.Config.csproj">
+      <Project>{3b6ef309-2642-4035-98e1-04fc50bff7ac}</Project>
+      <Name>SigmaDraconis.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Shared\SigmaDraconis.Shared.csproj">
+      <Project>{e7777407-4d94-406e-b80e-75de5ddf2187}</Project>
+      <Name>SigmaDraconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.WorldInterfaces\SigmaDraconis.WorldInterfaces.csproj">
+      <Project>{9a26d0a1-7070-425c-8d14-25f9b68e85ca}</Project>
+      <Name>SigmaDraconis.WorldInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.World\SigmaDraconis.World.csproj">
+      <Project>{b29e2725-2817-445f-9db3-3692db968a1f}</Project>
+      <Name>SigmaDraconis.World</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,2 @@
+﻿TYPE SnowTortoise
+RENDERER SnowAnimal

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50AED0EB-C4D6-4671-B086-CB5CB84830F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.Cards</RootNamespace>
+    <AssemblyName>SigmaDraconis.Cards</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net, Version=2.3.14.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.3.14\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardFactory.cs" />
+    <Compile Include="CardCollection.cs" />
+    <Compile Include="CardWithSeverity.cs" />
+    <Compile Include="BadMoodCard.cs" />
+    <Compile Include="ProgrammerCard.cs" />
+    <Compile Include="KekCard.cs" />
+    <Compile Include="WorkOutsideCard.cs" />
+    <Compile Include="DarkCard.cs" />
+    <Compile Include="DietCard.cs" />
+    <Compile Include="BadDietCard.cs" />
+    <Compile Include="GoodDietCard.cs" />
+    <Compile Include="NeutralDietCard.cs" />
+    <Compile Include="SocialCard.cs" />
+    <Compile Include="RoamCard.cs" />
+    <Compile Include="Tired2Card.cs" />
+    <Compile Include="Tired1Card.cs" />
+    <Compile Include="SleepBadCard.cs" />
+    <Compile Include="SleepGoodCard.cs" />
+    <Compile Include="GoodMoodCard.cs" />
+    <Compile Include="LonelyCard.cs" />
+    <Compile Include="Hot3Card.cs" />
+    <Compile Include="Hot2Card.cs" />
+    <Compile Include="Hot1Card.cs" />
+    <Compile Include="Cold1Card.cs" />
+    <Compile Include="Hunger3Card.cs" />
+    <Compile Include="Hunger1Card.cs" />
+    <Compile Include="Cold2Card.cs" />
+    <Compile Include="Hunger2Card.cs" />
+    <Compile Include="WorkloadCard.cs" />
+    <Compile Include="WorkloadExtremeCard.cs" />
+    <Compile Include="WorkloadHighCard.cs" />
+    <Compile Include="WorkloadModerateCard.cs" />
+    <Compile Include="WorkloadLowCard.cs" />
+    <Compile Include="Thirst2Card.cs" />
+    <Compile Include="Cold3Card.cs" />
+    <Compile Include="Thirst3Card.cs" />
+    <Compile Include="Thirst1Card.cs" />
+    <Compile Include="NewColonyCard.cs" />
+    <Compile Include="NewArrivalCard.cs" />
+    <Compile Include="HappinessCard.cs" />
+    <Compile Include="VeryUnhappyCard.cs" />
+    <Compile Include="UnhappyCard.cs" />
+    <Compile Include="NeutralHappinessCard.cs" />
+    <Compile Include="HappyCard.cs" />
+    <Compile Include="VeryHappyCard.cs" />
+    <Compile Include="HeatTolerantCard.cs" />
+    <Compile Include="ColdTolerantCard.cs" />
+    <Compile Include="TraitCard.cs" />
+    <Compile Include="FastWalkCard.cs" />
+    <Compile Include="WorkaholicCard.cs" />
+    <Compile Include="Card.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SigmaDraconis.Cards.Interface\SigmaDraconis.Cards.Interface.csproj">
+      <Project>{f37e96d4-034c-48a4-8bc8-3f8e927be693}</Project>
+      <Name>SigmaDraconis.Cards.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Language\SigmaDraconis.Language.csproj">
+      <Project>{9e1bd91d-d540-4f64-9d4b-a388ebdfcd49}</Project>
+      <Name>SigmaDraconis.Language</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Shared\SigmaDraconis.Shared.csproj">
+      <Project>{e7777407-4d94-406e-b80e-75de5ddf2187}</Project>
+      <Name>SigmaDraconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.WorldInterfaces\SigmaDraconis.WorldInterfaces.csproj">
+      <Project>{9a26d0a1-7070-425c-8d14-25f9b68e85ca}</Project>
+      <Name>SigmaDraconis.WorldInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

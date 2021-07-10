@@ -1,0 +1,3464 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:HiDef
+/compress:True
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Textures/Achievements/Achievement1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement1.png
+
+#begin Textures/Achievements/Achievement2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement2.png
+
+#begin Textures/Achievements/Achievement3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement3.png
+
+#begin Textures/Achievements/Achievement4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement4.png
+
+#begin Textures/Achievements/Achievement5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement5.png
+
+#begin Textures/Achievements/Achievement6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement6.png
+
+#begin Textures/Achievements/Achievement7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement7.png
+
+#begin Textures/Achievements/Achievement8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement8.png
+
+#begin Textures/Achievements/Achievement9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement9.png
+
+#begin Textures/Achievements/Achievement10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement10.png
+
+#begin Textures/Achievements/Achievement11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement11.png
+
+#begin Textures/Achievements/Achievement12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement12.png
+
+#begin Textures/Achievements/Achievement13.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement13.png
+
+#begin Textures/Achievements/Achievement14.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement14.png
+
+#begin Textures/Achievements/Achievement15.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement15.png
+
+#begin Textures/Achievements/Achievement16.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Achievements/Achievement16.png
+
+#begin Textures/Fonts/SpaceMono8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Fonts/SpaceMono8.png
+
+#begin Textures/Fonts/SpaceMono13.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Fonts/SpaceMono13.png
+
+#begin Textures/Fonts/SpaceMono17.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Fonts/SpaceMono17.png
+
+#begin Textures/Menu/MainMenu.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/MainMenu.png
+
+#begin Textures/Menu/MainMenuTitle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/MainMenuTitle.png
+
+#begin Textures/Menu/Climate1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Menu/Climate1.png
+
+#begin Textures/Menu/Climate2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Menu/Climate2.png
+
+#begin Textures/Menu/English/NewGame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/NewGame.png
+
+#begin Textures/Menu/English/NewGameHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/NewGameHighlighted.png
+
+#begin Textures/Menu/English/LoadGame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/LoadGame.png
+
+#begin Textures/Menu/English/LoadGameHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/LoadGameHighlighted.png
+
+#begin Textures/Menu/English/Settings.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/Settings.png
+
+#begin Textures/Menu/English/SettingsHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/SettingsHighlighted.png
+
+#begin Textures/Menu/English/Credits.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/Credits.png
+
+#begin Textures/Menu/English/CreditsHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/CreditsHighlighted.png
+
+#begin Textures/Menu/English/Exit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/Exit.png
+
+#begin Textures/Menu/English/ExitHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/ExitHighlighted.png
+
+#begin Textures/Menu/Deutsch/NewGame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/NewGame.png
+
+#begin Textures/Menu/Deutsch/NewGameHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/NewGameHighlighted.png
+
+#begin Textures/Menu/Deutsch/LoadGame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/LoadGame.png
+
+#begin Textures/Menu/Deutsch/LoadGameHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/LoadGameHighlighted.png
+
+#begin Textures/Menu/Deutsch/Settings.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/Settings.png
+
+#begin Textures/Menu/Deutsch/SettingsHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/SettingsHighlighted.png
+
+#begin Textures/Menu/Deutsch/Credits.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/Credits.png
+
+#begin Textures/Menu/Deutsch/CreditsHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/CreditsHighlighted.png
+
+#begin Textures/Menu/Deutsch/Exit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/Exit.png
+
+#begin Textures/Menu/Deutsch/ExitHighlighted.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/ExitHighlighted.png
+
+#begin Textures/Menu/English/Loading.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/Loading.png
+
+#begin Textures/Menu/Deutsch/Loading.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/Loading.png
+
+#begin Textures/Menu/English/Flag.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/Flag.png
+
+#begin Textures/Menu/Deutsch/Flag.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/Flag.png
+
+#begin Textures/Menu/Version.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Version.png
+
+#begin Textures/Menu/English/FullscreenHint.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/English/FullscreenHint.png
+
+#begin Textures/Menu/Deutsch/FullscreenHint.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Menu/Deutsch/FullscreenHint.png
+
+#begin Effects/SimpleEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/SimpleEffect.fx
+
+#begin Effects/ShadowEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/ShadowEffect.fx
+
+#begin Textures/Cursors/Cursors.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cursors/Cursors.png
+
+#begin Textures/Icons/Activities.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Activities.png
+
+#begin Textures/Icons/Engineer.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Engineer.png
+
+#begin Textures/Icons/Botanist.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Botanist.png
+
+#begin Textures/Icons/Geologist.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Geologist.png
+
+#begin Textures/Icons/Programmer.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Programmer.png
+
+#begin Textures/Icons/CommentSmileys.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/CommentSmileys.png
+
+#begin Textures/Misc/ColonistPanelActionLabelBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelActionLabelBackground.png
+
+#begin Textures/Cards/CardStripBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/CardStripBackground.png
+
+#begin Textures/Cards/ColdTolerant.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/ColdTolerant.png
+
+#begin Textures/Cards/HeatTolerant.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/HeatTolerant.png
+
+#begin Textures/Cards/FastWalk.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/FastWalk.png
+
+#begin Textures/Cards/Workaholic.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Workaholic.png
+
+#begin Textures/Cards/VeryHappy.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/VeryHappy.png
+
+#begin Textures/Cards/Happy.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Happy.png
+
+#begin Textures/Cards/NeutralHappiness.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/NeutralHappiness.png
+
+#begin Textures/Cards/Unhappy.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Unhappy.png
+
+#begin Textures/Cards/VeryUnhappy.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/VeryUnhappy.png
+
+#begin Textures/Cards/NewArrival.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/NewArrival.png
+
+#begin Textures/Cards/NewColony.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/NewColony.png
+
+#begin Textures/Cards/Hunger1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Hunger1.png
+
+#begin Textures/Cards/Hunger2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Hunger2.png
+
+#begin Textures/Cards/Hunger3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Hunger3.png
+
+#begin Textures/Cards/Thirst1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Thirst1.png
+
+#begin Textures/Cards/Thirst2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Thirst2.png
+
+#begin Textures/Cards/Thirst3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Thirst3.png
+
+#begin Textures/Cards/Cold1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Cold1.png
+
+#begin Textures/Cards/Cold2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Cold2.png
+
+#begin Textures/Cards/Cold3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Cold3.png
+
+#begin Textures/Cards/Hot1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Hot1.png
+
+#begin Textures/Cards/Hot2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Hot2.png
+
+#begin Textures/Cards/Hot3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Hot3.png
+
+#begin Textures/Cards/Tired1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Tired1.png
+
+#begin Textures/Cards/Tired2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Tired2.png
+
+#begin Textures/Cards/WorkloadLow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/WorkloadLow.png
+
+#begin Textures/Cards/WorkloadModerate.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/WorkloadModerate.png
+
+#begin Textures/Cards/WorkloadHigh.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/WorkloadHigh.png
+
+#begin Textures/Cards/WorkloadExtreme.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/WorkloadExtreme.png
+
+#begin Textures/Cards/Roam.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Roam.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/GoodDiet.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/BadDiet.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/NeutralDiet.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/Kek.png
+
+#begin Textures/Cards/Lonely.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/Lonely.png
+
+#begin Textures/Cards/GoodMood.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/GoodMood.png
+
+#begin Textures/Cards/BadMood.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/BadMood.png
+
+#begin Textures/Cards/SleepGood.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/SleepGood.png
+
+#begin Textures/Cards/SleepBad.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Cards/SleepBad.png
+
+#begin Textures/Cards/Dark.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/Dark.png
+
+#begin Textures/Cards/WorkOutside.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/WorkOutside.png
+
+#begin Textures/Cards/Social.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/Social.png
+
+#begin Textures/Cards/Programmer.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Cards/Programmer.png
+
+#begin Textures/Icons/DoorUnlocked.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/DoorUnlocked.png
+
+#begin Textures/Icons/DoorLockedOpen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/DoorLockedOpen.png
+
+#begin Textures/Icons/DoorLockedClosed.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/DoorLockedClosed.png
+
+#begin Textures/Icons/JobIcons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/JobIcons.png
+
+#begin Textures/Icons/Crop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop.png
+
+#begin Textures/Icons/CropOverlayIcons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/CropOverlayIcons.png
+
+#begin Textures/Icons/ColonistPanelFoodIcons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ColonistPanelFoodIcons.png
+
+#begin Textures/Misc/ColonistPanelFoodBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelFoodBackground.png
+
+#begin Textures/Misc/ColonistPanelStatBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelStatBackground.png
+
+#begin Textures/Misc/ColonistPanelTirednessBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelTirednessBackground.png
+
+#begin Textures/Misc/ColonistPanelStatBarGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelStatBarGreen.png
+
+#begin Textures/Misc/ColonistPanelStatBarYellow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelStatBarYellow.png
+
+#begin Textures/Misc/ColonistPanelStatBarOrange.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelStatBarOrange.png
+
+#begin Textures/Misc/ColonistPanelStatBarRed.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPanelStatBarRed.png
+
+#begin Textures/Icons/Delete.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Delete.png
+
+#begin Textures/Icons/Fruit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Fruit.png
+
+#begin Textures/Icons/OreDensity.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/OreDensity.png
+
+#begin Textures/Icons/Geology.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Geology.png
+
+#begin Textures/Icons/LightSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/LightSmall.png
+
+#begin Textures/Icons/Temperature.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Temperature.png
+
+#begin Textures/Icons/TemperatureSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/TemperatureSmall.png
+
+#begin Textures/Misc/ProgressBar.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ProgressBar.png
+
+#begin Textures/Tiles/Grid.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Tiles/Grid.png
+
+#begin Textures/Tiles/GridHighlight.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Tiles/GridHighlight.png
+
+#begin Textures/Tiles/ZoneOverlay.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=True
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Tiles/ZoneOverlay.png
+
+#begin Textures/Icons/Twitter.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Twitter.png
+
+#begin Textures/Icons/Energy.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Energy.png
+
+#begin Textures/Icons/FlowDiagramItems.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/FlowDiagramItems.png
+
+#begin Textures/Icons/FlowDiagramTime.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/FlowDiagramTime.png
+
+#begin Textures/Icons/FlowDiagramEnergy.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/FlowDiagramEnergy.png
+
+#begin Textures/Icons/FlowDiagramWater.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/FlowDiagramWater.png
+
+#begin Textures/Icons/Items.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Items.png
+
+#begin Textures/Icons/Time.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Time.png
+
+#begin Textures/Icons/InventorySlots.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/InventorySlots.png
+
+#begin Textures/Icons/Facebook.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Facebook.png
+
+#begin Textures/Icons/FastForward.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/FastForward.png
+
+#begin Textures/Icons/Play.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Play.png
+
+#begin Textures/Icons/Pause.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Pause.png
+
+#begin Textures/Icons/PauseWhenComplete.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/PauseWhenComplete.png
+
+#begin Textures/Icons/StopWhenComplete.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/StopWhenComplete.png
+
+#begin Textures/Icons/ZoomIn.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ZoomIn.png
+
+#begin Textures/Icons/ZoomOut.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ZoomOut.png
+
+#begin Textures/Icons/RoofOn.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/RoofOn.png
+
+#begin Textures/Icons/RoofOff.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/RoofOff.png
+
+#begin Textures/Icons/CameraTracking.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/CameraTracking.png
+
+#begin Textures/Icons/Recycle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Recycle.png
+
+#begin Textures/Icons/RecycleConduit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/RecycleConduit.png
+
+#begin Textures/Icons/RecycleFoundation.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/RecycleFoundation.png
+
+#begin Textures/Icons/Construct.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Construct.png
+
+#begin Textures/Icons/ResourceMap.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ResourceMap.png
+
+#begin Textures/Icons/BiomassPower.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/BiomassPower.png
+
+#begin Textures/Icons/CoalPower.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/CoalPower.png
+
+#begin Textures/Icons/ConduitNode.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ConduitNode.png
+
+#begin Textures/Icons/ResourceProcessor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ResourceProcessor.png
+
+#begin Textures/Icons/Lamp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Lamp.png
+
+#begin Textures/Icons/DirectionalHeater.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/DirectionalHeater.png
+
+#begin Textures/Icons/Mine.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Mine.png
+
+#begin Textures/Icons/ShorePump.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/ShorePump.png
+
+#begin Textures/Icons/SolarPanel.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/SolarPanel.png
+
+#begin Textures/Icons/WindTurbine.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/WindTurbine.png
+
+#begin Textures/Buildings/Blueprints.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Buildings/Blueprints.png
+
+#begin Textures/Icons/LockedBlueprint.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/LockedBlueprint.png
+
+#begin Textures/Icons/LockedBlueprintLarge.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/LockedBlueprintLarge.png
+
+#begin Textures/Icons/AlgaePool.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/AlgaePool.png
+
+#begin Textures/Icons/Biolab.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Biolab.png
+
+#begin Textures/Icons/GeologyLab.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/GeologyLab.png
+
+#begin Textures/Icons/MaterialsLab.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/MaterialsLab.png
+
+#begin Textures/Icons/CharcoalMaker.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/CharcoalMaker.png
+
+#begin Textures/Icons/StoneFurnace.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/StoneFurnace.png
+
+#begin Textures/Icons/Battery.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Battery.png
+
+#begin Textures/Icons/LaunchPad.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/LaunchPad.png
+
+#begin Textures/Icons/RocketGantry.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/RocketGantry.png
+
+#begin Textures/Icons/Rocket.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Rocket.png
+
+#begin Textures/Icons/Silo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Silo.png
+
+#begin Textures/Icons/ElectricFurnace.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ElectricFurnace.png
+
+#begin Textures/Icons/GlassFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/GlassFactory.png
+
+#begin Textures/Icons/CompositesFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/CompositesFactory.png
+
+#begin Textures/Icons/BatteryCellFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/BatteryCellFactory.png
+
+#begin Textures/Icons/SolarCellFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/SolarCellFactory.png
+
+#begin Textures/Icons/CompostFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/CompostFactory.png
+
+#begin Textures/Icons/KekFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/KekFactory.png
+
+#begin Textures/Icons/Generator.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Generator.png
+
+#begin Textures/Icons/FoodDispenser.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/FoodDispenser.png
+
+#begin Textures/Icons/FoodStorage.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/FoodStorage.png
+
+#begin Textures/Icons/ItemsStorage.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/ItemsStorage.png
+
+#begin Textures/Icons/WaterStorage.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/WaterStorage.png
+
+#begin Textures/Icons/HydrogenBurner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/HydrogenBurner.png
+
+#begin Textures/Icons/MushFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/MushFactory.png
+
+#begin Textures/Icons/Wall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Wall.png
+
+#begin Textures/Icons/Door.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Door.png
+
+#begin Textures/Icons/Roof.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Roof.png
+
+#begin Textures/Icons/EnvironmentControl.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/EnvironmentControl.png
+
+#begin Textures/Icons/TableMetal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/TableMetal.png
+
+#begin Textures/Icons/TableStone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/TableStone.png
+
+#begin Textures/Icons/SleepPod.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/SleepPod.png
+
+#begin Textures/Icons/KekDispenser.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/KekDispenser.png
+
+#begin Textures/Icons/KekImproved.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/KekImproved.png
+
+#begin Textures/Icons/WaterDispenser.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/WaterDispenser.png
+
+#begin Textures/Icons/WaterPump.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/WaterPump.png
+
+#begin Textures/Icons/FuelFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/FuelFactory.png
+
+#begin Textures/Icons/FoundationMetal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/FoundationMetal.png
+
+#begin Textures/Icons/FoundationStone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/FoundationStone.png
+
+#begin Textures/Icons/HydrogenStorage.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/HydrogenStorage.png
+
+#begin Textures/Icons/OreScanner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/OreScanner.png
+
+#begin Textures/Icons/PlanterStone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/PlanterStone.png
+
+#begin Textures/Icons/PlanterHydroponics.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/PlanterHydroponics.png
+
+#begin Textures/Icons/Cooker.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Cooker.png
+
+#begin Textures/Icons/StackableAreaCoal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/StackableAreaCoal.png
+
+#begin Textures/Icons/StackableAreaCompost.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/StackableAreaCompost.png
+
+#begin Textures/Icons/StackableAreaMetal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/StackableAreaMetal.png
+
+#begin Textures/Icons/StackableAreaOrganics.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/StackableAreaOrganics.png
+
+#begin Textures/Icons/StackableAreaOre.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/StackableAreaOre.png
+
+#begin Textures/Icons/StackableAreaStone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/StackableAreaStone.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/CropDefault.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop0.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop1.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop2.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop3.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop4.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop5.png
+
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Crop6.png
+
+#begin Textures/Icons/Help.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Help.png
+
+#begin Textures/Icons/HelpOverlay.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/HelpOverlay.png
+
+#begin Textures/Icons/Options.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Options.png
+
+#begin Textures/Icons/ButtonPlus.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ButtonPlus.png
+
+#begin Textures/Icons/ButtonMinus.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ButtonMinus.png
+
+#begin Textures/Misc/ColonistPortrait.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/ColonistPortrait.png
+
+#begin Textures/Misc/ColonistPortraitBack.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Misc/ColonistPortraitBack.png
+
+#begin Textures/Icons/ColonistPortraitInsets.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ColonistPortraitInsets.png
+
+#begin Textures/Icons/SunSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/SunSmall.png
+
+#begin Textures/Icons/WindSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/WindSmall.png
+
+#begin Textures/Icons/Weather.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Weather.png
+
+#begin Textures/Icons/Wind.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/Wind.png
+
+#begin Textures/Particles/MicrobotParticle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Particles/MicrobotParticle.png
+
+#begin Textures/Particles/Smoke.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Particles/Smoke.png
+
+#begin Textures/Particles/GeologyParticle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Particles/GeologyParticle.png
+
+#begin Textures/Icons/OnOff.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/OnOff.png
+
+#begin Textures/Icons/RepairPriority.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/RepairPriority.png
+
+#begin Textures/Icons/WorkPriority.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/WorkPriority.png
+
+#begin Textures/Icons/WorkPrioritySmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/WorkPrioritySmall.png
+
+#begin Textures/Icons/ConstructionPriority.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructionPriority.png
+
+#begin Textures/Icons/AutoRestart.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/AutoRestart.png
+
+#begin Textures/Icons/Tick.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Tick.png
+
+#begin Textures/Icons/Cross.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Cross.png
+
+#begin Textures/Icons/ScrollDown.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ScrollDown.png
+
+#begin Textures/Icons/ScrollUp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ScrollUp.png
+
+#begin Textures/Icons/ButtonUp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ButtonUp.png
+
+#begin Textures/Icons/ButtonDown.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/ButtonDown.png
+
+#begin Textures/Icons/Left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Left.png
+
+#begin Textures/Icons/Right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/Right.png
+
+#begin Textures/Icons/LeftNarrow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/LeftNarrow.png
+
+#begin Textures/Icons/RightNarrow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/RightNarrow.png
+
+#begin Textures/Misc/EnergyBar.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/EnergyBar.png
+
+#begin Textures/Misc/EnergyBarBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/EnergyBarBackground.png
+
+#begin Textures/Misc/FoodBarColour.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Misc/FoodBarColour.png
+
+#begin Textures/Misc/HydrogenBarColour.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Misc/HydrogenBarColour.png
+
+#begin Textures/Misc/ItemsBarColour.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Misc/ItemsBarColour.png
+
+#begin Textures/Misc/StorageBarColour.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Misc/StorageBarColour.png
+
+#begin Textures/Misc/WaterBar.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/WaterBar.png
+
+#begin Textures/Misc/WaterBarColour.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Misc/WaterBarColour.png
+
+#begin Textures/Icons/SpeedDial.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/SpeedDial.png
+
+#begin Textures/Icons/TickBox.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/TickBox.png
+
+#begin Textures/Icons/TickBox2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/TickBox2.png
+
+#begin Textures/Icons/RadioBox.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/RadioBox.png
+
+#begin Textures/Icons/MineResourceDiamondCell.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/MineResourceDiamondCell.png
+
+#begin Textures/Icons/MineResourceDiamondCellSelect.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/MineResourceDiamondCellSelect.png
+
+#begin Textures/Icons/MineResourceDensity.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Icons/MineResourceDensity.png
+
+#begin Textures/Icons/ConstructPage1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage1.png
+
+#begin Textures/Icons/ConstructPage2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage2.png
+
+#begin Textures/Icons/ConstructPage3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage3.png
+
+#begin Textures/Icons/ConstructPage4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage4.png
+
+#begin Textures/Icons/ConstructPage5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage5.png
+
+#begin Textures/Icons/ConstructPage6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage6.png
+
+#begin Textures/Icons/ConstructPage7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage7.png
+
+#begin Textures/Icons/ConstructPage8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ConstructPage8.png
+
+#begin Textures/Icons/AlgaeFastGrowing.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/AlgaeFastGrowing.png
+
+#begin Textures/Icons/AlgaeHighDensity.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/AlgaeHighDensity.png
+
+#begin Textures/Icons/AlgaeGrowInTheDark.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/AlgaeGrowInTheDark.png
+
+#begin Textures/Icons/AlgaeColdWater.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/AlgaeColdWater.png
+
+#begin Textures/Icons/HydroponicsGrowth1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/HydroponicsGrowth1.png
+
+#begin Textures/Icons/CompostFactoryFaster.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/CompostFactoryFaster.png
+
+#begin Textures/Icons/PlanterStoneFaster.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/PlanterStoneFaster.png
+
+#begin Textures/Icons/MineFaster1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/MineFaster1.png
+
+#begin Textures/Icons/MineFaster2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/MineFaster2.png
+
+#begin Textures/Icons/OreScannerRange.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/OreScannerRange.png
+
+#begin Textures/Icons/OreScannerSpeed.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/OreScannerSpeed.png
+
+#begin Textures/Icons/ProjectComplete.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Icons/ProjectComplete.png
+
+#begin Textures/Icons/Checklist/None.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/None.png
+
+#begin Textures/Icons/Checklist/Done.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Done.png
+
+#begin Textures/Icons/Checklist/Coal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Coal.png
+
+#begin Textures/Icons/Checklist/Organics.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Organics.png
+
+#begin Textures/Icons/Checklist/ReadyToWake.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/ReadyToWake.png
+
+#begin Textures/Icons/Checklist/ResourceProcessor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/ResourceProcessor.png
+
+#begin Textures/Icons/Checklist/Metal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Metal.png
+
+#begin Textures/Icons/Checklist/Stone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Stone.png
+
+#begin Textures/Icons/Checklist/Foundation.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Foundation.png
+
+#begin Textures/Icons/Checklist/Water.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Water.png
+
+#begin Textures/Icons/Checklist/Ore.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Ore.png
+
+#begin Textures/Icons/Checklist/Furnace.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Furnace.png
+
+#begin Textures/Icons/Checklist/FoodDispenser.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/FoodDispenser.png
+
+#begin Textures/Icons/Checklist/SleepPod.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/SleepPod.png
+
+#begin Textures/Icons/Checklist/Cooker.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Cooker.png
+
+#begin Textures/Icons/Checklist/MushChurn.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/MushChurn.png
+
+#begin Textures/Icons/Checklist/BlueFruit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/BlueFruit.png
+
+#begin Textures/Icons/Checklist/CharcoalMakers.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/CharcoalMakers.png
+
+#begin Textures/Icons/Checklist/ConduitNode.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/ConduitNode.png
+
+#begin Textures/Icons/Checklist/Generator.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Generator.png
+
+#begin Textures/Icons/Checklist/GlassFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/GlassFactory.png
+
+#begin Textures/Icons/Checklist/Room.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Room.png
+
+#begin Textures/Icons/Checklist/EngineeringLab.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/EngineeringLab.png
+
+#begin Textures/Icons/Checklist/BiologyLab.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/BiologyLab.png
+
+#begin Textures/Icons/Checklist/GeologyLab.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/GeologyLab.png
+
+#begin Textures/Icons/Checklist/Silo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Silo.png
+
+#begin Textures/Icons/Checklist/FoodStorage.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/FoodStorage.png
+
+#begin Textures/Icons/Checklist/ItemsStorage.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/ItemsStorage.png
+
+#begin Textures/Icons/Checklist/Mine.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Mine.png
+
+#begin Textures/Icons/Checklist/BiomassPower.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/BiomassPower.png
+
+#begin Textures/Icons/Checklist/Lamp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Lamp.png
+
+#begin Textures/Icons/Checklist/Table.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Table.png
+
+#begin Textures/Icons/Checklist/PumpIndoors.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/PumpIndoors.png
+
+#begin Textures/Icons/Checklist/OreScanner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/OreScanner.png
+
+#begin Textures/Icons/Checklist/Crops.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Crops.png
+
+#begin Textures/Icons/Checklist/Kekke.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Kekke.png
+
+#begin Textures/Icons/Checklist/Battery.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Battery.png
+
+#begin Textures/Icons/Checklist/SolarCellFactory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/SolarCellFactory.png
+
+#begin Textures/Icons/Checklist/SolarPanelArray.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/SolarPanelArray.png
+
+#begin Textures/Icons/Checklist/AlgaePool.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/AlgaePool.png
+
+#begin Textures/Icons/Checklist/Electrolyser.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Electrolyser.png
+
+#begin Textures/Icons/Checklist/LaunchPad.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/LaunchPad.png
+
+#begin Textures/Icons/Checklist/Rocket.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Textures/Icons/Checklist/Rocket.png
+
+#begin Textures/Shadows/ColonistShadow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Shadows/ColonistShadow.png
+
+#begin Textures/Shadows/PoleShadow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shadows/PoleShadow.png
+
+#begin Textures/Shadows/TreeTopShadow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shadows/TreeTopShadow.png
+
+#begin Textures/Shadows/TreeTrunkShadow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shadows/TreeTrunkShadow.png
+
+#begin Textures/Shadows/GeneralShadows.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Shadows/GeneralShadows.png
+
+#begin Textures/Lights/Lamp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Lights/Lamp.png
+
+#begin Textures/Lights/Room.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Lights/Room.png
+
+#begin Textures/Tiles/TerrainDirtUnderwater_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Tiles/TerrainDirtUnderwater_1.png
+
+#begin Textures/Tiles/TerrainDirtUnderwater_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Tiles/TerrainDirtUnderwater_2.png
+
+#begin Textures/Tiles/LoRes/TerrainDirtUnderwater_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Tiles/LoRes/TerrainDirtUnderwater_1.png
+
+#begin Textures/Tiles/LoRes/TerrainDirtUnderwater_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Tiles/LoRes/TerrainDirtUnderwater_2.png
+
+#begin Textures/Tiles/TerrainDirtAbovewater_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Tiles/TerrainDirtAbovewater_1.png
+
+#begin Textures/Tiles/TerrainDirtAbovewater_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Tiles/TerrainDirtAbovewater_2.png
+
+#begin Textures/Tiles/LoRes/TerrainDirtAbovewater_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Tiles/LoRes/TerrainDirtAbovewater_1.png
+
+#begin Textures/Tiles/LoRes/TerrainDirtAbovewater_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Tiles/LoRes/TerrainDirtAbovewater_2.png
+
+#begin Textures/Tiles/TerrainDirtDeepwater_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Tiles/TerrainDirtDeepwater_1.png
+
+#begin Textures/Tiles/TerrainDirtDeepwater_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Tiles/TerrainDirtDeepwater_2.png
+
+#begin Textures/Tiles/TerrainCoastMask.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Tiles/TerrainCoastMask.png
+
+#begin Textures/Tiles/TerrainWet_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Tiles/TerrainWet_1.png
+
+#begin Textures/Tiles/TerrainWet_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Tiles/TerrainWet_2.png
+
+#begin Textures/Buildings/Conduit_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/Conduit_1.png
+
+#begin Textures/Buildings/Conduit_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/Conduit_2.png
+
+#begin Textures/Buildings/LoRes/Conduit_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/Conduit_1.png
+
+#begin Textures/Buildings/LoRes/Conduit_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/Conduit_2.png
+
+#begin Textures/Buildings/FloorsA_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/FloorsA_1.png
+
+#begin Textures/Buildings/FloorsA_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/FloorsA_2.png
+
+#begin Textures/Buildings/LoRes/FloorsA_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/FloorsA_1.png
+
+#begin Textures/Buildings/LoRes/FloorsA_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/FloorsA_2.png
+
+#begin Textures/Buildings/FloorsB_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/FloorsB_1.png
+
+#begin Textures/Buildings/FloorsB_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/FloorsB_2.png
+
+#begin Textures/Buildings/LoRes/FloorsB_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/FloorsB_1.png
+
+#begin Textures/Buildings/LoRes/FloorsB_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/FloorsB_2.png
+
+#begin Textures/PlantsAndRocks/GroundCover_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/PlantsAndRocks/GroundCover_1.png
+
+#begin Textures/PlantsAndRocks/GroundCover_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/PlantsAndRocks/GroundCover_2.png
+
+#begin Textures/PlantsAndRocks/LoRes/GroundCover_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/PlantsAndRocks/LoRes/GroundCover_1.png
+
+#begin Textures/PlantsAndRocks/LoRes/GroundCover_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/PlantsAndRocks/LoRes/GroundCover_2.png
+
+#begin Textures/Buildings/GeneralA_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/GeneralA_1.png
+
+#begin Textures/Buildings/GeneralA_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/GeneralA_2.png
+
+#begin Textures/Buildings/LoRes/GeneralA_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/GeneralA_1.png
+
+#begin Textures/Buildings/LoRes/GeneralA_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/GeneralA_2.png
+
+#begin Textures/Buildings/GeneralB_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/GeneralB_1.png
+
+#begin Textures/Buildings/GeneralB_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/GeneralB_2.png
+
+#begin Textures/Buildings/LoRes/GeneralB_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/GeneralB_1.png
+
+#begin Textures/Buildings/LoRes/GeneralB_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/GeneralB_2.png
+
+#begin Textures/Buildings/GeneralC_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/GeneralC_1.png
+
+#begin Textures/Buildings/GeneralC_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/GeneralC_2.png
+
+#begin Textures/Buildings/LoRes/GeneralC_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/GeneralC_1.png
+
+#begin Textures/Buildings/LoRes/GeneralC_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/GeneralC_2.png
+
+#begin Textures/Buildings/GeneralD_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/GeneralD_1.png
+
+#begin Textures/Buildings/GeneralD_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/GeneralD_2.png
+
+#begin Textures/Buildings/LoRes/GeneralD_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/GeneralD_1.png
+
+#begin Textures/Buildings/LoRes/GeneralD_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/GeneralD_2.png
+
+#begin Textures/PlantsAndRocks/PlantsAndRocks_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/PlantsAndRocks/PlantsAndRocks_1.png
+
+#begin Textures/PlantsAndRocks/PlantsAndRocks_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/PlantsAndRocks/PlantsAndRocks_2.png
+
+#begin Textures/PlantsAndRocks/LoRes/PlantsAndRocks_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/PlantsAndRocks/LoRes/PlantsAndRocks_1.png
+
+#begin Textures/PlantsAndRocks/LoRes/PlantsAndRocks_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/PlantsAndRocks/LoRes/PlantsAndRocks_2.png
+
+#begin Textures/Buildings/StackingArea.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/StackingArea.png
+
+#begin Textures/Buildings/LoRes/StackingArea.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/StackingArea.png
+
+#begin Textures/Buildings/Rocket_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/Rocket_1.png
+
+#begin Textures/Buildings/Rocket_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/Rocket_2.png
+
+#begin Textures/Buildings/LoRes/Rocket_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/Rocket_1.png
+
+#begin Textures/Buildings/LoRes/Rocket_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/Rocket_2.png
+
+#begin Textures/Buildings/LaunchPad_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LaunchPad_1.png
+
+#begin Textures/Buildings/LaunchPad_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LaunchPad_2.png
+
+#begin Textures/Buildings/LoRes/LaunchPad_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/LaunchPad_1.png
+
+#begin Textures/Buildings/LoRes/LaunchPad_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/LaunchPad_2.png
+
+#begin Textures/Buildings/Walls_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/Walls_1.png
+
+#begin Textures/Buildings/Walls_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/Walls_2.png
+
+#begin Textures/Buildings/LoRes/Walls_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/Walls_1.png
+
+#begin Textures/Buildings/LoRes/Walls_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/Walls_2.png
+
+#begin Textures/Buildings/EnvironmentControlFan_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/EnvironmentControlFan_1.png
+
+#begin Textures/Buildings/EnvironmentControlFan_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/EnvironmentControlFan_2.png
+
+#begin Textures/Buildings/LoRes/EnvironmentControlFan_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/EnvironmentControlFan_1.png
+
+#begin Textures/Buildings/LoRes/EnvironmentControlFan_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/EnvironmentControlFan_2.png
+
+#begin Textures/Buildings/Roofs_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/Roofs_1.png
+
+#begin Textures/Buildings/Roofs_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/Roofs_2.png
+
+#begin Textures/Buildings/LoRes/Roofs_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Buildings/LoRes/Roofs_1.png
+
+#begin Textures/Buildings/LoRes/Roofs_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Buildings/LoRes/Roofs_2.png
+
+#begin Textures/PlantsAndRocks/PalmTop_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/PlantsAndRocks/PalmTop_1.png
+
+#begin Textures/PlantsAndRocks/PalmTop_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/PlantsAndRocks/PalmTop_2.png
+
+#begin Textures/PlantsAndRocks/LoRes/PalmTop_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/PlantsAndRocks/LoRes/PalmTop_1.png
+
+#begin Textures/PlantsAndRocks/LoRes/PalmTop_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/PlantsAndRocks/LoRes/PalmTop_2.png
+
+#begin Textures/Animals/Animals_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/Animals_1.png
+
+#begin Textures/Animals/Animals_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/Animals_2.png
+
+#begin Textures/Animals/LoRes/Animals_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/LoRes/Animals_1.png
+
+#begin Textures/Animals/LoRes/Animals_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/LoRes/Animals_2.png
+
+#begin Textures/Animals/Birds_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/Birds_1.png
+
+#begin Textures/Animals/Birds_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/Birds_2.png
+
+#begin Textures/Animals/LoRes/Birds_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/LoRes/Birds_1.png
+
+#begin Textures/Animals/LoRes/Birds_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/LoRes/Birds_2.png
+
+#begin Textures/Animals/Fish_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/Fish_1.png
+
+#begin Textures/Animals/Fish_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/Fish_2.png
+
+#begin Textures/Animals/LoRes/Fish_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/LoRes/Fish_1.png
+
+#begin Textures/Animals/LoRes/Fish_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/LoRes/Fish_2.png
+
+#begin Textures/Animals/FlyingInsects_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/FlyingInsects_1.png
+
+#begin Textures/Animals/FlyingInsects_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/FlyingInsects_2.png
+
+#begin Textures/Animals/Bugs_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/Bugs_1.png
+
+#begin Textures/Animals/Bugs_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/Bugs_2.png
+
+#begin Textures/Animals/LoRes/Bugs_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/LoRes/Bugs_1.png
+
+#begin Textures/Animals/LoRes/Bugs_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/LoRes/Bugs_2.png
+
+#begin Textures/Animals/LoRes/FlyingInsects_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Animals/LoRes/FlyingInsects_1.png
+
+#begin Textures/Animals/LoRes/FlyingInsects_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Animals/LoRes/FlyingInsects_2.png
+
+#begin Textures/Colonists/ColonistBody_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Colonists/ColonistBody_1.png
+
+#begin Textures/Colonists/ColonistBody_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Colonists/ColonistBody_2.png
+
+#begin Textures/Colonists/LoRes/ColonistBody_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Colonists/LoRes/ColonistBody_1.png
+
+#begin Textures/Colonists/LoRes/ColonistBody_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Colonists/LoRes/ColonistBody_2.png
+
+#begin Textures/Colonists/ColonistCarryItems_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Colonists/ColonistCarryItems_1.png
+
+#begin Textures/Colonists/ColonistCarryItems_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Colonists/ColonistCarryItems_2.png
+
+#begin Textures/Colonists/LoRes/ColonistCarryItems_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Colonists/LoRes/ColonistCarryItems_1.png
+
+#begin Textures/Colonists/LoRes/ColonistCarryItems_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Colonists/LoRes/ColonistCarryItems_2.png
+
+#begin Textures/Colonists/ColonistHead_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Colonists/ColonistHead_1.png
+
+#begin Textures/Colonists/ColonistHead_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Colonists/ColonistHead_2.png
+
+#begin Textures/Colonists/LoRes/ColonistHead_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Colonists/LoRes/ColonistHead_1.png
+
+#begin Textures/Colonists/LoRes/ColonistHead_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=False
+/build:Textures/Colonists/LoRes/ColonistHead_2.png
+
+#begin Textures/Colonists/ColonistColours.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Colonists/ColonistColours.png
+
+#begin Textures/Colonists/ColonistHairColours.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Colonists/ColonistHairColours.png
+
+#begin Textures/Colonists/PackContentColours.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Colonists/PackContentColours.png
+
+#begin Textures/Misc/TemperatureOverlayColours.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:PremultiplyAlpha=True
+/build:Textures/Misc/TemperatureOverlayColours.png
+
+#begin Effects/TreeTopShadowEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/TreeTopShadowEffect.fx
+
+#begin Effects/BuildingEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/BuildingEffect.fx
+
+#begin Effects/GeneralEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/GeneralEffect.fx
+
+#begin Effects/GeneralEffectWithCoastMask.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/GeneralEffectWithCoastMask.fx
+
+#begin Effects/ColonistEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/ColonistEffect.fx
+
+#begin Effects/SmokeEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/SmokeEffect.fx
+
+#begin Effects/TerrainOverlayEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/TerrainOverlayEffect.fx
+
+#begin Sounds/BatteryCellFactory.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/BatteryCellFactory.wav
+
+#begin Sounds/Bee.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Bee.wav
+
+#begin Sounds/CharcoalMaker.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/CharcoalMaker.wav
+
+#begin Sounds/Construct.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Construct.wav
+
+#begin Sounds/Cooker.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Cooker.wav
+
+#begin Sounds/Door.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Door.wav
+
+#begin Sounds/ElectricFurnace.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/ElectricFurnace.wav
+
+#begin Sounds/EnvironmentControl.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/EnvironmentControl.wav
+
+#begin Sounds/FuelFactory.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/FuelFactory.wav
+
+#begin Sounds/Generator.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Generator.wav
+
+#begin Sounds/Mine.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Mine.wav
+
+#begin Sounds/MushChurn.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/MushChurn.wav
+
+#begin Sounds/LandingPod.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/LandingPod.wav
+
+#begin Sounds/LandingPod2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/LandingPod2.wav
+
+#begin Sounds/PowerStation.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/PowerStation.wav
+
+#begin Sounds/ResourceProcessor.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/ResourceProcessor.wav
+
+#begin Sounds/Rocket.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Rocket.wav
+
+#begin Sounds/StoneFurnace.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/StoneFurnace.wav
+
+#begin Sounds/WindTurbine.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/WindTurbine.wav

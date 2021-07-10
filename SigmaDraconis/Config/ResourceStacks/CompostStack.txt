@@ -1,0 +1,4 @@
+﻿TYPE CompostStack
+RENDERER GeneralA
+TILEBLOCK Circle
+OPTIONAL FOUNDATION

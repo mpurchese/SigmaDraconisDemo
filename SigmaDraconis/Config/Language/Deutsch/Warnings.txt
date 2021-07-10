@@ -1,0 +1,22 @@
+﻿None.Single		 
+None.Plural		 
+Idle.Single					{0} sucht nach neuen Aufgaben
+Idle.Plural					{0} Kolonisten suchen nach neuen Aufgaben
+NoFood.Single				{0} kann kein Essen finden
+NoFood.Plural				{0} Kolonisten können kein Essen finden
+NoWater.Single				{0} findet kein Wasser
+NoWater.Plural				{0} Kolonisten finden kein Wasser
+NoSleepPod.Single			{0} findet keine Schlafkapsel
+NoSleepPod.Plural			{0} Kolonisten finden keine Schlafkapseln
+WorkloadHigh.Single			{0} fühlt sich überarbeitet
+WorkloadHigh.Plural			{0} Kolonisten fühlen sich überarbeitet
+WorkloadExtreme.Single		{0} fühlt sich extrem überarbeitet
+WorkloadExtreme.Plural		{0} Kolonisten fühlen sich extrem überarbeitet
+Unhappy.Single				{0} ist unglücklich
+Unhappy.Plural				{0} Kolonisten fühlen sich unglücklich
+VeryUnhappy.Single			{0} fühlt sich sehr unglücklich und wird nicht arbeiten
+VeryUnhappy.Plural			{0} Kolonisten fühlen sich sehr unglücklich und wollen nicht arbeiten
+Hypothermia.Single			{0} leidet unter Unterkühlung
+Hypothermia.Plural			{0} Kolonisten haben eine Unterkühlung
+WaitingForCooker.Single		{0} wartet auf einen verfügbaren Koch
+WaitingForCooker.Plural		{0} Kolonisten warten auf einen verfügbaren Koch

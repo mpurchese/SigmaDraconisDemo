@@ -1,0 +1,360 @@
+﻿# TYPE is the identifier (don't change this)
+# DISPLAYNAME defaults to equal TYPE
+# DISPLAYNAMEPLURAL defaults to equal DISPLAYNAME + 's'.  Used for power and water tooltips and only required for buildings that produce or consume power or water.
+# SHORTNAME only applies to plants.  It doesn't need to be translated.
+# DESCRIPTION Only required for buildings and plants.  It will have a maximum line length and line count - TBC (UI is being redesigned)
+
+TYPE AlgaePool
+DISPLAYNAME Algae Pool
+DESCRIPTION Generates organics slowly over time.|Consumes 4 units of water at the start of each cycle.||Works best in warm temperatures and bright sunlight.||Does not require a foundation.
+
+TYPE Battery
+DESCRIPTION Increases energy storage capacity by 25 kWh.||Requires foundation.
+
+TYPE BatteryCellFactory
+DISPLAYNAME Battery Cell Factory
+DISPLAYNAMEPLURAL Battery Cell Factories
+DESCRIPTION Makes battery cells from metal.|Requires battery cells to construct.||1 metal => 2 battery cells.|Production takes 1 hour and consumes 2kW energy.|Requires foundation.
+
+TYPE BigSpineBush
+DISPLAYNAME Yada-spaydax (greater spine bush)
+SHORTNAME Yada-spaydax
+DESCRIPTION A bigger relative of nida-spaydax.|Good source of organics.
+
+TYPE Biolab
+DISPLAYNAME Biology Lab
+DESCRIPTION Allows botanists to work on projects to improve food production|and enable algae farming or kek production.|Labs work more quickly when placed indoors.
+
+TYPE BiomassPower
+DISPLAYNAME Biomass Power Station
+DESCRIPTION Generates up to 7.5kW electrical energy by burning organics.|Uses up to 1.5 units of organics per hour.|Burns organics more efficiently than a basic generator.|Uses 0.2 units of water per kWh generated.||Build outdoors, requires foundation x4.
+
+TYPE BlueBug
+DISPLAYNAME Dabolnit (large blue bug)
+
+TYPE Bush
+DISPLAYNAME Yunndu-dax (yellowfruit plant)
+SHORTNAME Yunndu-dax
+DESCRIPTION Yunndu-dax take a few days to grow.|When mature they produce large [yellow]yellow fruit[/yellow],|which ripen in the hot part of the day.
+
+TYPE CharcoalMaker
+DISPLAYNAME Charcoal Maker
+DESCRIPTION Slowly converts organics into coal.|Produces one unit of coal every four hours.|Requires foundation.
+
+TYPE CoalPower
+DISPLAYNAME Coal Power Station
+DESCRIPTION Generates up to 18kW of electrical energy by burning coal.|Uses up to 2.6 units of coal per hour.|Burns coal more efficiently than a basic generator.|Uses 0.2 units of water per kWh generated.||Build outdoors, requires foundation x4.
+
+TYPE CoalStack
+DISPLAYNAME Coal
+
+TYPE CoastGrass
+DISPLAYNAME Haida-spindax (coast grass)
+SHORTNAME Haida-spindax
+DESCRIPTION Haida-spindax is a grass-like plant|that grows in wet ground near water
+
+TYPE CompositesFactory
+DISPLAYNAME Composites Factory
+DISPLAYNAMEPLURAL Composites Factories
+DESCRIPTION Makes lightweight composite materials from metal and organics.|Composites are ideal for constructing wind turbines.||1 metal + 1 organics => 4 composites.|Production takes 2 hours and consumes 4kW energy.||Requires foundation x4.
+
+TYPE CompostFactory
+DISPLAYNAME Compost Factory
+DESCRIPTION Makes compost from organics or mush.|Production takes 4 hours and consumes 0.2kW energy.|Requires foundation.
+
+TYPE CompostStack
+DISPLAYNAME Compost
+
+TYPE ConduitNode
+DISPLAYNAME Network Node
+DESCRIPTION Expands buildable area
+
+TYPE Cooker
+DISPLAYNAME Cooker
+DESCRIPTION Makes food from harvested fruit and crops.|Consumes water.|Requires foundation.
+
+TYPE DirectionalHeater
+DISPLAYNAME Directional Heater
+DESCRIPTION Rotatable heater that warms an adjacent tile by up to 20°C.|Consumes up to 2kW of energy.||Less efficient than an environment control, but can be used outdoors.|Requires foundation.
+
+TYPE Door
+DESCRIPTION Build a glass door.
+
+TYPE ElectricFurnace
+DISPLAYNAME Electric Furnace
+DESCRIPTION Converts ore to metal.|Does not require coal but uses 8kW of energy.|Produces two units of metal per hour.|Requires foundation.
+
+TYPE EnvironmentControl
+DISPLAYNAME Environment Control
+DESCRIPTION Heats, cools, and controls the lights in a room.|Only works indoors.  Requires foundation.
+
+TYPE FoodDispenser
+DISPLAYNAME Food Dispenser
+DESCRIPTION Dispenses cooked food or nutrient mush.|Build indoors or outdoors.
+
+TYPE FoodStorage
+DISPLAYNAME Food Storage
+DESCRIPTION Increases food and mush storage capacity by 16.|Requires foundation.
+
+TYPE FoundationMetal
+DISPLAYNAME Foundation (Metal)
+DESCRIPTION Most structures need a solid foundation.
+
+TYPE FoundationStone
+DISPLAYNAME Foundation (Stone)
+DESCRIPTION Most structures need a solid foundation.
+
+TYPE FuelFactory
+DISPLAYNAME Electrolyser
+DESCRIPTION Produces one unit of hydrogen per hour.|Uses 20kW of energy and must be built on coast.|Build outdoors, requires foundation x2.
+
+TYPE Generator
+DESCRIPTION Generates electrical energy by burning 1.5 units of fuel per hour.|Produces 6kW when burning organics or 8.5kW from coal.|Uses 0.25 units of water per kWh generated.||Build outdoors_comma_ requires foundation.
+
+TYPE GeologyLab
+DISPLAYNAME Geology Lab
+DESCRIPTION Allows geologists to work on projects to help find resources and make mines more efficient.|Labs work more quickly when placed indoors.
+
+TYPE GlassFactory
+DISPLAYNAME Glass Factory
+DISPLAYNAMEPLURAL Glass Factories
+DESCRIPTION Makes glass from stone.|1 stone => 2 glass panels.|Production takes 1 hour and consumes 4kW energy.|Requires foundation.
+
+TYPE Grass
+DISPLAYNAME Dada-spindax (giant grass)
+SHORTNAME Dada-spindax
+DESCRIPTION Dada-spindax is a large, fast-growing plant|with long, narrow leaves.|It forms dense forests.
+
+TYPE HydrogenBurner
+DISPLAYNAME Hydrogen Burner
+DESCRIPTION Generates up to 38kW of electrical energy by burning hydrogen.|Useful for converting excess hydrogen back into energy.|Uses up to 2 units of hydrogen per hour.|Uses 0.1 units of water per kWh generated.||Build outdoors_comma_ requires foundation.
+
+TYPE HydrogenStorage
+DISPLAYNAME Hydrogen Storage
+DESCRIPTION Stores 16 units of hydrogen.|80 units required to launch rocket.
+
+TYPE IronOreStack
+DISPLAYNAME Ore
+
+TYPE IronStack
+DISPLAYNAME Metal
+
+TYPE ItemsStorage
+DISPLAYNAME Items Storage
+DESCRIPTION Increases items storage capacity by 16.|Stores glass panels, battery cells, solar cells, and composites.|Requires foundation.
+
+TYPE KekDispenser
+DISPLAYNAME Kek Dispenser
+DESCRIPTION Dispenses kek for your colonists.|Build indoors or outdoors.
+
+TYPE KekFactory
+DISPLAYNAME Kek Factory
+DISPLAYNAMEPLURAL Kek Factories
+DESCRIPTION Produces kek from harvested kekke crops.|Consumes water.|Requires foundation.
+
+TYPE Lamp
+DESCRIPTION Lights an area. Consumes 1kW of energy.||Build outdoors. Does not require a foundation.
+
+TYPE Lander
+
+TYPE LandingPod
+DISPLAYNAME Landing Pod
+
+TYPE LaunchPad
+DISPLAYNAME Launch Pad
+DESCRIPTION Allows rocket construction and launch.|Build outdoors, requires foundation x25.
+
+TYPE MaterialsLab
+DISPLAYNAME Engineering Lab
+DESCRIPTION Allows engineers to work on projects to enable advanced technologies.|Labs work more quickly when placed indoors.
+
+TYPE Mine
+DESCRIPTION Extracts resources from the ground.|Extraction rate depends on resource density.|Uses 8kW of energy.|Requires foundation.
+
+TYPE MushFactory
+DISPLAYNAME Mush Churn
+DESCRIPTION Makes nutrient mush from organics and water.||The only food available until a botanist arrives.|Easy to make and nutritious, but doesn't taste very nice.||Build indoors or outdoors. Requires foundation.
+
+TYPE OreScanner
+DISPLAYNAME Ore Scanner
+DESCRIPTION Scans for buried ore, coal, and stone.||Works in a slowly expanding circle.|Uses 2kW energy.||Build indoors or outdoors. Does not require a foundation.
+
+TYPE OrganicsStack
+DISPLAYNAME Organics
+
+TYPE PlanterHydroponics
+DISPLAYNAME Planter (Hydroponics)
+DISPLAYNAMEPLURAL Hydroponics
+DESCRIPTION Allows botanists to grow food.|Growth rate depends on temperature and light.|Consumes 0.4 units of water per hour.|20% growth rate bonus.|Requires foundation.|Does not require compost.
+
+TYPE PlanterStone
+DISPLAYNAME Planter (Stone)
+DISPLAYNAMEPLURAL Stone Planters
+DESCRIPTION Allows botanists to grow food using compost.|Cheaper than hydroponics and allows more crop types.|Consumes 0.2 units of water per hour.|Requires foundation.
+
+TYPE RedBug
+DISPLAYNAME Dadaruanit (giant red bug)
+
+TYPE ResourceProcessor
+DISPLAYNAME Resource Processor
+DESCRIPTION Processes resources gathered by colonists.
+
+TYPE Rocket
+DESCRIPTION A rocket with a satellite payload.|Launch the rocket to complete the game.
+
+TYPE RocketGantry
+DISPLAYNAME Rocket Gantry
+DESCRIPTION Allows rocket construction and launch.
+
+TYPE RockLarge
+DISPLAYNAME Large Rock
+
+TYPE RockSmall
+DISPLAYNAME Small Rock
+
+TYPE Roof
+DESCRIPTION Build a roof.|Must be placed over an area completely enclosed by walls and doors.
+
+TYPE ShorePump
+DISPLAYNAME Shore Pump
+DESCRIPTION Pumps and filters water from lakes or the sea.||Produces 4 units of water per hour.|Uses 1kW of energy and stores 1 unit of water.||Requires foundation and must be built by a coast.
+
+TYPE Silo
+DISPLAYNAME Resource Silo
+DESCRIPTION Increases resource storage capacity by 16.|Stores organics, stone, ore, coal, and compost.|Requires foundation.
+
+TYPE SleepPod
+DISPLAYNAME Sleep Pod
+DESCRIPTION Provides a comfortable place to sleep.|Contains a small heater which consumes up to 0.2kW of energy.|Construct indoors for maximum confort.||Requires a foundation.
+
+TYPE SmallPlant1
+DISPLAYNAME Eya-flodax (whiteflower plant)
+SHORTNAME Eya-flodax
+DESCRIPTION This plant has white, flower-like seed pods,|which open suddenly late in the day,|speading seeds over a large distance.
+
+TYPE SmallPlant2
+DISPLAYNAME Bollag-dax (blue lantern plant)
+SHORTNAME Bollag-dax
+DESCRIPTION The flowers of bollag-dax glow in the dark.|The light attracts many small insects|which assist in pollination.
+
+TYPE SmallPlant3
+DISPLAYNAME Far-flodax (fireflower plant)
+SHORTNAME Far-flodax
+DESCRIPTION This plant closes up at night,|then opens in the morning to reveal|large red and yellow flowers.
+
+TYPE SmallPlant4
+DISPLAYNAME Rah-lodax (roundleaf plant)
+SHORTNAME Rah-lodax
+DESCRIPTION Rah-lodax is common in wet areas.
+
+TYPE SmallPlant5
+DISPLAYNAME Boldu-dax (bluefruit plant)
+SHORTNAME Boldu-dax
+DESCRIPTION Boldu-dax have yellow flowers late in the day.|In the morning they grow large [blue]blue fruit[/blue]|that can provide a useful food supply.
+
+TYPE SmallPlant6
+DISPLAYNAME Ruadu-dax (redfruit plant)
+SHORTNAME Ruadu-dax
+DESCRIPTION Ruadu-dax like to grow along the edges of|dada-spindax forests. They produce [red]red fruit[/red].
+
+TYPE SmallPlant7
+DISPLAYNAME Dinrey-kadax (five-branched cactus)
+SHORTNAME Dinrey-kadax
+DESCRIPTION Dinrey-kadax is an extremely slow growing|plant which favours dry areas.
+
+TYPE SmallPlant8
+DISPLAYNAME Pin-lodax
+SHORTNAME Pin-lodax
+DESCRIPTION Pin-lodax grows abundantly in wet ground.
+
+TYPE SmallPlant9
+DISPLAYNAME Jardu-dax (pinkfruit plant)
+SHORTNAME Jardu-dax
+DESCRIPTION Jardu-dax have long, narrow leaves.|In the daytime they sometimes have [pink]pink fruit[/pink]|that can provide a useful food supply.
+
+TYPE SmallPlant10
+DISPLAYNAME Daneep-kadax (wormtail plant)
+SHORTNAME Daneep-kadax
+DESCRIPTION Daneep-kadax is an unusual plant that|draws its nutrients from nearby water.
+
+TYPE SmallPlant11
+DISPLAYNAME Darga-kadax (dragontail plant)
+SHORTNAME Darga-kadax
+DESCRIPTION Darga-kadax is a relative of Daneep-kadax.|It is bigger but less common,|and grows very slowly.
+
+TYPE SmallPlant12
+DISPLAYNAME Oggdu-dax (orange fruit plant)
+SHORTNAME Oggdu-dax
+DESCRIPTION Oggdu-dax can most often|be found near the coast.|In the evening they grow edible [orange]orange fruit[/orange].
+
+TYPE SmallPlant13
+DISPLAYNAME Klay-fook (coal fungus)
+SHORTNAME Klay-fook
+DESCRIPTION Klay-fook can often be found in|areas with undergound coal deposits.|The denser the coal, the bigger they grow.
+
+TYPE SmallSpineBush
+DISPLAYNAME Nida-spaydax (lesser spine bush)
+SHORTNAME Nida-spaydax
+DESCRIPTION Part plant, part fungus.  Nida-spaydax|has a hemispherical core surrounded by|long, sharp, leaf-like structures.
+
+TYPE SnowTortoise
+DISPLAYNAME Sla-granux (snow tortoise)
+
+TYPE SoilSynthesiser
+DISPLAYNAME Soil Synthesiser
+DESCRIPTION Enables the construction of stone planters.|Stone planters are cheaper to build than hydroponics.|Requires foundation.
+
+TYPE SolarCellFactory
+DISPLAYNAME Solar Cell Factory
+DISPLAYNAMEPLURAL Solar Cell Factories
+DESCRIPTION Makes solar cells from metal and stone.|1 metal bar + 1 stone => 4 solar cells.|Production takes 2 hours and consumes 8kW energy.|Requires foundation x4.
+
+TYPE SolarPanelArray
+DISPLAYNAME Solar Panel Array
+DESCRIPTION Generates up to 4 kW of energy.|Tracks sun for optimum efficiency.|Requires solar cells to construct.||Build outdoors. Does not require a foundation.
+
+TYPE StackingArea
+DISPLAYNAME Stacking Area
+DESCRIPTION An area for stacking excess resources on the ground.||Costs nothing and can be placed in any empty space.||Resources will need to be returned to a resource processor before they can be|consumed by factories, or used for construction.
+
+TYPE StoneFurnace
+DISPLAYNAME Stone Furnace
+DESCRIPTION Makes metal from ore and coal.|Produces one unit of metal every two hours.|Requires foundation.
+
+TYPE StoneStack
+DISPLAYNAME Stone
+
+TYPE TableMetal
+DISPLAYNAME Table (Metal)
+DESCRIPTION A place for colonists to relax, socialise, and drink kek.|Up to four colonists can gather at a table.||Does not require a foundation.
+
+TYPE TableStone
+DISPLAYNAME Table (Stone)
+DESCRIPTION A place for colonists to relax, socialise, and drink kek.|Up to four colonists can gather at a table.||Does not require a foundation.
+
+TYPE Tortoise
+DISPLAYNAME Granux (greenback tortoise)
+
+TYPE Tree
+DISPLAYNAME Gull-dadax (palm tree)
+SHORTNAME Gull-dadax
+DESCRIPTION A tall tree with long narrow leaves.
+
+TYPE Wall
+DESCRIPTION Build a glass wall.
+
+TYPE WaterDispenser
+DISPLAYNAME Water Dispenser
+DESCRIPTION Dispenses drinking water for your colonists.|Build indoors or outdoors.
+
+TYPE WaterPump
+DISPLAYNAME Groundwater Pump
+DESCRIPTION Pumps water from the ground.||Extraction rate depends on soil moisture.|Prolonged use will have drying effect.|Uses 1kW of energy and stores 1 unit of water.||Does not require a foundation.
+
+TYPE WaterStorage
+DISPLAYNAME Water Storage
+DESCRIPTION Increases water storage capacity by 8.|Requires foundation.
+
+TYPE WindTurbine
+DISPLAYNAME Wind Turbine
+DESCRIPTION Produces up to 10 kW of energy, best in open areas.|Winds are usually strongest at dawn and dusk.|Requires composites to construct.||Build outdoors. Does not require a foundation.

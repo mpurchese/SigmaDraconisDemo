@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFFA7746-1574-458D-B26B-8682E98A925C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.Sound</RootNamespace>
+    <AssemblyName>SigmaDraconis.Sound</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\Assemblies\MonoGame\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SoundInstance.cs" />
+    <Compile Include="MusicManager.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Draconis.Shared\Draconis.Shared.csproj">
+      <Project>{34a1a3e2-ce4c-42f9-9f22-a862ea6fce47}</Project>
+      <Name>Draconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Draconis.UI\Draconis.UI.csproj">
+      <Project>{35c820ff-e512-4dc0-926d-440747093dfd}</Project>
+      <Name>Draconis.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Settings\SigmaDraconis.Settings.csproj">
+      <Project>{c384d01d-4250-4dbe-8562-16586cd1bf88}</Project>
+      <Name>SigmaDraconis.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Shared\SigmaDraconis.Shared.csproj">
+      <Project>{e7777407-4d94-406e-b80e-75de5ddf2187}</Project>
+      <Name>SigmaDraconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.WorldInterfaces\SigmaDraconis.WorldInterfaces.csproj">
+      <Project>{9a26d0a1-7070-425c-8d14-25f9b68e85ca}</Project>
+      <Name>SigmaDraconis.WorldInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.World\SigmaDraconis.World.csproj">
+      <Project>{b29e2725-2817-445f-9db3-3692db968a1f}</Project>
+      <Name>SigmaDraconis.World</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

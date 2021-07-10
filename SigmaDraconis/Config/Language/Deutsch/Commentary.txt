@@ -1,0 +1,321 @@
+﻿# Max 60 chars (59 ideal) for non-scrolling comments.
+
+# For line lengths bear in mind that strings in square brackets will be replaced:
+# [name], [othername], and [arrivingname] will be replaced by colonist names, which are up to 8 characters
+# [skill] will be replaced by the SkillTypeSubject strings from UI.txt
+# [arrivingskill] will be replaced by the SkillType strings from UI.txt
+# [lastfood] is up to 7 characters
+# [resource] and [scannerresource] will be coal, stone, or ore (via UI.txt)
+# [resourcedensity] and [scannerresourcedensity] will be replaced by the MineResourceDensity strings from UI.txt
+
+# First arrival comments
+1		Ich bin hier! Ich bin der erste! Las uns bauen!
+2		Ich bin als erster angekommen. Was für eine Verantwortung!
+10		[name] der Techniker kommt. Bereit zum Arbeiten!
+20		[name] hier. Ich werde mich um die Pflanzen kümmern.
+21		[name] der Botaniker ist da. Bereit zum Arbeiten!
+30		[name] der Geologe ist da. Bereit zum Scannen!
+31		[name] der Geologe ist angekommen. Bereit zum Arbeiten!
+90		Ich bin endlich angekommen! Das ist so aufregend!!
+
+# Urgent warnings etc.
+100		Ich bin dehydriert und fühle mich nicht gut.
+110		Ich bin hungrig und fühle mich nicht gut.
+120		Es ist so kalt!
+190		Das Mutterschiff kann den nächsten Kolonisten zu wecken.
+
+# Early game hints
+200		Baue einen Resourcenkonstruktor mit dem Fertigteil.
+205		In der Nähe sind Resourcen. Ich hole als erstes Steine.
+210		Der Boden ist weich. Die Gebäude brauchen Fundamente.
+215		Wenn ich genug Steine habe, baue ich einen Holzkohleofen.
+220		Holzkohleöfen brauchen Biomasse von Pflanzen.
+225		Holzkohleöfen sind langsam, so dass wir mehrere brauchen.
+232		Ich werde viel Wasser brauchen und sollte vorsorgen.
+233		Wir haben ein Fertigteil für eine Grundwasserpumpe.
+234		Ich brauche das Landeschiff nicht mehr, aber Metall.
+235		Ich habe Durst und sollte einen Wasserspender bauen.
+240		Ich habe Hunger und sollte einen Essensspender bauen.
+245		Ich bin durstig und sollte einen Wasserspender bauen.
+250		Ich bin hungrig und sollte einen Essensspender bauen.
+254		Ich bin sehr müde und habe noch keine Schlafkapsel.
+255		Ich fühle mich müde und muss eine Schlafkapsel bauen.
+260		Ich werde bald müde und sollte eine Schlafkapsel bauen.
+265		Schmelzöfen machen Metall aus Erz und Kohle/Holzkohle.
+270		Der Schmelzofen braucht Erz.
+275		Wecke einen Botaniker, er kennt sich mit Pflanzen aus.
+278		Wecke einen Geologen, er findet Resourcen.
+280		Ein Breimixer ist als temporäre Nahrungsquelle nötig.
+285		Wecke einen anderen Kolonisten, um nicht allein zu sein.
+
+# Thirst, hunger, sleep.  Order in descending importance
+305		Ich bin sehr durstig, warum ist hier kein Wasserspender?
+310		Ich bin sehr durstig.
+315		Ich bin sehr hungrig, warum gibt es kein Essen?
+320		Ich bin sehr hungrig, warum ist hier kein Essensspender?
+325		Ich bin sehr hungrig.
+330		Ich bin hungrig und es ist kein Essen da.
+335		Ich bin durstig und wo ist der Wasserspender?
+340		Ich bin hungrig, wo ist der Essensspender?
+345		Ich bin müde und es gibt keinen Schlafplatz!
+350		Ich bin sehr müde und es gibt keine Schlafkapsel!
+355		Ich werde langsam sehr müde.
+360		Ich bin müde und kann nirgends schalfen.
+365		Ich bin müde und es ist keine Schlafkapsel vorhanden.
+
+# Botanist hints
+400		Rohe Nahrung ist nicht zum Essen, wir brauchen eine Küche!
+405		Farmen dauert lange, vielleicht gibt es wilde Früchte?
+410		Wir haben keine Nahrung. Kann ich da irgendwas machen?
+
+# Geologist hints
+500		Es kann sinnvoll sein Felsen in der Nähe zu scannen.
+
+# Engineer hints
+600		Wir haben kein Essen. Soll ich einen Breimixer bauen?
+601		Wir haben kein Essen. Können wir den Breimixer benutzen?
+610		Ich rechne damit, dass wir bald mehr Energie brauchen.
+615		Die Solarpanelleistung nimmt bei Sonnenuntergang ab.
+616		Wir brauchen einen Generator bevor es dunkel wird.
+620		Wir haben kaum Energie. Das kann ein großes Problem werden!
+621		Wir müssen mehr Energie erzeugen oder etwas abschalten.
+630		Unsere Silos sind voll. Wir sollten dafür etwas tun.
+631		Wir sollten Silos bauen oder auf dem Boden stapeln.
+632		Unsere Silos sind voll.
+633		Wir brauchen ein größeres Nahrungsmittellager.
+634		Unser Lager für Nahrung ist komplett voll.
+
+# Events etc.
+1101	Willkommen in der Kolonie, [arrivingname]!
+1102	Schön dich zu sehen [arrivingname]!
+1103	Willkommen im neuen zu Hause, [arrivingname]!
+1104	Willkommen [arrivingname]! Ich freue mich.
+1105	Hurra [arrivingname] der [arrivingskill] ist da!
+1110	Vielleicht sollten wir derzeit keine Kolonisten mehr wecken.
+1111	Stelle sicher, dass die Versorgung für die Nacht reicht.
+1112	Wir brauchen viel Nahrung und Treibstoff zum Heizen.
+1115	Unsere Wasserpumpen arbeiten nicht, wenn es zu kalt ist.
+1120	Schlafenszeit.
+1122	Schlafenszeit. Die erste Nacht auf einer neuen Welt!
+1123	Schlafen ohne Schlafkapsel. Nicht schön.
+1124	Draußen schlafen. Keine schöne Vorstellung.
+1130	Aufgewacht. Frisch und einsatzbereit.
+1131	Aufgewacht. Ein neuer Tag!
+1132	Aufgewacht. Schön in einer eigenen Schlafkapsel zu schlafen.
+1133	Aufgewacht. Schalfen ohne Schlafkapsel ist schlecht. 
+1134	Aufgewacht. Draußen schlafen mag ich nicht!
+1135	Schlecht geschlafen, zu kalt.
+1136	Schlecht geschlafen, zu heiß.
+1137	Aufgewacht. Ich fühl mich super!
+1140	Das erste Mal [lastfood] gegessen. Es ist sehr gut!
+1141	Das erste Mal [lastfood] gegessen. Mag ich nicht.
+1142	Das erste Mal [lastfood] gegessen. Schmeckt OK.
+1143	Habe [lastfood] gegessen. Mein Lieblingsessen!
+1144	Habe [lastfood] gegessen. Das mag ich überhaupt nicht!
+1150	Habe schöne Gedanken! :-)
+1151	Wir leben! Ist das nicht Grund genug sich zu freuen? :-)
+1160	Bin etwas grantig. Ohne erkennbaren Grund. :-(
+1161	Habe etwas Heimweh. Ich denke, dass geht vorbei. :-(
+1170	Unser neuer [arrivingskill], [arrivingname], sollte bald hier sein.
+1180	Hatte wieder [lastfood]. Ein bisschen mehr Abwechslung wäre gut.
+1181	Hatte wieder [lastfood]. Schön, aber ich mag Abwechslung.
+1182	Hatte dieses Mal [lastfood]. Ich mag ausgewogene Ernährung :-)
+1183	Musste wieder [lastfood] essen.. Ugh.
+1190	Ich habe Lust eine Abreit zu erledigen!
+1191	Ich habe hart gearbeitet, aber ich denke, dass es das Wert ist!
+1192	Habe hart gearbeitet, vielleicht sollte ich mal entspannen.
+1193	Ich habe hart gearbeitet und brauche eine Pause!
+1200	Es ist sehr heiß. Sehr unangenehm.
+1201	Es ist extrem heiß. Das mag ich nicht!
+1210	Mir ist kalt.
+1211	Es ist extrem kalt. Ich muss irgendwo warm werden!
+1300	Ich habe [resource] mit [resourcedensity] Dichte gefunden.
+1301	Die [resource]-Dichte ist hier größer.
+1305	Unser Scanner hat [scannerresource] mit [scannerresourcedensity] Dichte gefunden.
+1400	Ich habe einen Spaziergang gemacht. Gut um Neues zu entdecken :-)
+1410	Eine Pause fühlt sich gut an!
+1420	Alle Aufgaben erledigt, suche mir neue Arbeit.
+1421	Ich habe derzeit nichts zu tun.
+1423	Suche Schutz in der Schlafkapsel. Es ist sehr kalt draußen!
+1425	Arbeit erledigt. Ich mache eine wohlverdiente Pause!
+1426	Alle Aufgaben erledigt, mache jetzt eine Pause.
+1430	Ich bleibe drinnen. Draußen ist es zu kalt.
+1431	Außer abwarten ist nachts nicht viel zu tun.
+1432	Abwarten und entspannen, das Morgenrot wird kommen!
+1500	Ich bin unglücklich. Das wirkt sich auf meine Arbeit aus.
+1501	Ich fühle mich schlecht. Ich mache eine Pause..
+1600	Habe einen Durchbruch erziehlt! Wir können Algenfarmen bauen.
+1601	Algenfarmen erzeugen Biomasse aus Wärme & Licht.
+1605	Ich habe gerade das Algenschnellwachstum-Projekt gemacht.
+1606	Das Algenwachstum solte jetzt deutlich schneller sein.
+1610	Ich habe das Algenschnellwachstum-Projekt erledigt.
+1611	Die Algenausbeute sollte deutlich größer sein.
+1615	Ich habe das Projekt "Algen bei Dunkelheit" abgeschlossen.
+1616	Algen wachsen nun auch langsam in der Dunkelheit.
+1620	Ich habe das Projekt "Kaltwasseralgen" beendet.
+1621	Das wird das Wachstum bei kälteren Temperaturen verbessern.
+1625	Wir können jetzt Hydrokulturen bauen.
+1630	Ich habe das Projekt "Verbesserte Hydrokultur abgeschlossen.
+1635	Ich habe das Projekt "Kompostproduktion" gemacht.
+1636	Wir können jetzt Kompostanlagen und Steinpflanzgefäße bauen.
+1640	Ich habe das Projekt "Schneller Komposter" abgeschlossen.
+1645	Ich have das Projekt "Verbesserter Kompost" fertig gemacht.
+1650	Ich habe das Projekt "Batteriezellen" fertig gemacht.
+1651	Wir können jetzt eine Batteriezellenfabrik bauen.
+1655	Ich habe das Projekt "Leichte Verbundwerkstoffe" erledigt.
+1656	Wir können jetzt eine Kompostfabrik bauen.
+1660	Ich habe das Projekt "Photovoltaik" erledigt.
+1661	Wir können jetzt eine Solarzellenfabrik bauen.
+1665	Ich habe das Projekt "Wasserstoffspeicher" fertiggestellt.
+1666	Wir können jetzt einen Elektrolyseur bauen.
+1670	Ich habe das Raketen-Projekt gemacht.
+1671	Wir sind jetzt in der Lage unsere erste Rakete zu bauen.
+1675	Projekt fertig! Unsere Minen arbeiten jetzt etwas schneller.
+1680	Ein anderes Projekt ist fertig. Unsere Minen sind schneller.
+1685	Ich habe das Projekt "Resourcen scannen" erledigt.
+1686	Wir können nun nach Resourcen scannen.
+1690	Ich habe das Projekt "Schneller-Erz-Scanner" gemacht.
+1695	Ich habe das Projekt "Erz-Scanner-Reichweite" erledigt.
+
+1800	We're low on food. We should probably make some mush.
+1900	[othername] ist gestorben! Ein Desaster!
+1901	[othername] ist gestorben! Wie konnte das passieren!
+1902	[othername] ist gestorben! Das ist so traurig :-(
+
+# General observations
+2000	Die niedrige Gravitation lässt die Pflanzen groß werden.
+2001	Ich wundere mich, warum das Gras so hoch wächst.
+2002	Wow, dieses Gras ist riesig! Nicht wie zu Hause.
+2010	Hroße rote und gelbe Pflanzen. Hübsch.
+2011	Riesige Pflanzen und große Bienen. Ich liebe diesen Ort!
+2012	Diese Blumen sind sehr schön.
+2021	Die weißen "Blumen" sind Samenkapseln, keine Blumen.
+2030	Was bringt diese blauen Blumen in der Nacht zum Leuchten?
+2031	Insekten werden von den blauen Blumen angezogen.
+2040	Mmm eine Ruadu-Pflanze. I mag Ruadu.
+2041	Ruadu-dax-Pflanzen brauchen ein paar Tage zum Wachsen.
+2042	Das sind Ruadu-Pflanzen. Mein Lieblingsessen!
+2050	Das ist ein Yunndu-Busch. Wann hat er Früchte?
+2051	Yunndu-Büschewachsen langsam, sind es aber wert.
+2052	Die Yunndu (gelbe Frucht) werden bald reif sein.
+2060	Die Boldu-dax haben schöne gelbe Blüten.
+2061	Das Licht hat die Boldu reifen lassen. Interessant!
+2070	Diese Bäume können uns mit viel Treibstoff versorgen.
+2071	Wir haben ähnliche Bäume auf dem Heimatplaneten.
+2072	Die Bäume erinnern mich ein bisschen an zu Hause.
+2100	Auf dieser Welt sind sehr viele Resourcen zum Einsammeln.
+2101	Kohle an der Oberfläche. Das gab es zu Hause nicht.
+2200	Wir können Treibstoff aus Wasserstoff und Wasser machen.
+2201	Ich bin gern am Wasser. Viele Pflanzen mögen es auch.
+2202	Das Wasser ist ziemlich ruhig hier.
+2300	Huch, das ist ein großer Käfer! Scheint harmlos zu sein.
+2301	Die roten Käfer verstecken sich nachts unter Büschen.
+2302	Alles hier muss Kälte überleben können.
+2303	Diese glänzenden blauen Käfer leben in nassen Gebieten.
+2310	Ein Granux. Groß und langsam mit Panzer.
+2311	Diese Granux lieben die gleichen Früchte wie wir.
+2312	Da ist ein großes grünes Tier das herumtappst. Huh.
+2400	Automatische Abbaumaschinen sind fantastisch.
+2402	Die Solarzellen folgen der Sonne für max. Energie.
+2403	Mit Verbundwerkstoffen können wir Windräder bauen.
+2404	Windräder arbeiten am besten im freien Gelände.
+2405	Wir können und sollten jetzt Batterien bauen.
+2410	Wir haben jetzt Pflanzgefäße, billiger als Hydrokulturen.
+2420	Unser ersten Kraftwerk ist fertig.
+2421	Wir müssen sehen, dass wir dafür genug Treibstoff haben.
+2430	Wir haben jetzt ein Biologielabor! Nutzen wir es!
+2490	Wir haben eine Rakete!! Fehlt nur noch genug Treibstoff.
+2491	Unsere Rakete ist fertig zum Start. Ab geht´s!
+2500	Das Wetter wird schön und warm. Das mag ich.
+2501	Die Schatten werden länger. Es wird bald dunkel.
+2502	Die Schatten werden länger. Es wird bald Nacht sein.
+2510	Die Sonne steht schon tief. Bald ist es dunkel.
+2520	Die Temperatur sinkt sehr schnell.
+2530	Es ist unter 0 Grad. Das wird richtig kalt.
+2532	Zu kalt für einige, aber für mich kein Problem.
+2534	Es ist richtig heiß, aber das stört mich nicht.
+2600	Es ist schwierig im dunkeln zu arbeiten.
+2601	Im Dunkeln ist arbeiten schwierig, wir sollten Licht machen.
+
+
+# Social observations
+#####################
+
+3110	[othername] war einst ein Xarolian Skyball-Spieler.
+3111	[othername] hat Xarolian Skyball gespielt. Sehr cool!
+3112	[othername] sagte mir, dass er Xarolian Skyball spielt.
+3113	[othername] war einst ein Water-Curveball-Spieler.
+3114	[othername] hat Water-Curveball gespielt. Super cool!
+3115	[othername] sagte mir, dass er Water Curveball spielt.
+
+3116	[othername] war einst ein Zero-G Zinga-Spieler.
+3117	Zero-G Zinga ist ein schwieriges Teamspiel...
+3118	Wird in großen Sphären gespielt auf den Orbitalen 6 und 7.
+
+3119	[othername] war einst ein Quanditch-Spieler. Gewusst!?
+3120	[othername] hat Quanditch gespielt. Sehr interessant!
+3121	[othername] sagte mir, dass er Quanditch spielt.
+
+3140	[othername] war ein Amateur-Zuba-Spieler.
+3141	[othername] hat Zuba gespielt. Offenbar sehr gut.
+3142	[othername] sagte mir, das er Zuba spielt.
+3143	[othername] war ein Amateuer Narp-Spieler.
+3144	[othername] hat Narp gespielt. Offenbar sehr gut.
+3145	[othername] sagte mir, dass er Narp spielt.
+3146	[othername] war ein Amateuer Quilka-Spieler.
+3147	[othername] hat Quilka gespielt. Jetzt nicht mehr.
+3148	[othername] sagte mir, dass er Quilka spielt.
+3149	[othername] war ein Amateuer Stromba-Spieler.
+3150	[othername] hat Stromba gespielt. Jetzt nicht mehr.
+3151	[othername] sagte mir, das er Stromba spielt.
+
+3170	[othername] erzählte mir über die Arbeitszeit auf Xoroloa.
+3171	Xoroloa ist eine Insel im Zentralmeer der Heimatwelt.
+3172	Viele verschiedene Kulturen kommen dort zusammen.
+
+3173	[othername] erzählte mir über die Arbeitszeit auf Phoba.
+3174	Phoba ist eine schöne Welt mit Bergen aus Trockeneis.
+
+3176	[othername] erzählte mir über die Arbeitszeit auf Plaxa.
+3177	Plaxa ist eine heiße Wüstenwelt mit vielen Metallerzen.
+
+3179	[othername] erzählte mir über die Arbeitszeit auf Rosca.
+3180	Rosca ist ein kleiner Mond. G-Sport ist hier populär.
+
+3182	[othername] erzählte mir über die Arbeitszeit auf Daxa.
+3183	Daxa is a trstloser Ort, hat aber große Rhodiumvorkommen.
+
+3900	Habe etwas Zeit zum Reden mit [othername] verbracht.
+3901	Hatte eine nette Unterhaltung mit [othername].
+3902	Hatte eine freundliche Unterhaltung mit [othername].
+
+3910	Dieses Kek ist wirklich gut!
+
+# General comments (social)
+4000	Ich bin froh, dass ich [skill] studiert habe.
+
+# World info
+5000	Interstellare Reisen wären unmöglich ohne Kälteschlaf.
+5001	Die Reise war extrem lang, aber sie war es wert.
+5002	Ich frage mich, was sich auf der Heimatwelt geändert hat.
+5003	Es hat fast 800 Jahre bis hierher gedauert.
+5004	Xantha's Ringe sind das Schönste am Nachthimmel.
+5005	Selbst am Tag kann man Xantha am Himmel sehen.
+5006	Xaralox umrundet den Gasgiganten Xantha in 192 Stunden.
+5007	Der Planet Xantha hat ein wunderschönes Ringsystem.
+5008	Das Heimatsystem hat zwei Gasgiganten. Hier ist nur einer.
+5009	Sigma Draconis 1 ist metallreich. 
+5010	Sigma Draconis 2 ist zu heiß für Leben.
+5011	Sigma Draconis 4 ist weit von der Sonne entfernt.
+5012	Wie viele Gasgiganten hat Xantha viele Monde.
+5013	Man kann einige andere Monde am Nachthimmel sehen.
+5014	Diese Welt, Xaralox, ist sehr groß für einen Mond.
+5015	Hier gibt es viele andere Inseln wie diese.
+5016	Wir haben diesen Mond Xaralox genannt.
+5017	Xantha ist der dritte Planet im Sigma Draconis System.
+5018	Dieser Mond, Xaralox, wird auch Sigma Draconis 3b genannt.
+5019	Bewohnbare welten sind selten. Diese hier ist sehr speziell.
+5020	Die Luft entspricht der auf der Heimatwelt, nur sauberer.
+5030	Es wird etwas dauern uns an die Tageslänge zu gewöhnen.
+5040	Wegen Gewichtsvorgaben konnten wir nicht viel mitnehmen.
+5041	Interstellare Reisen sind wahnsinnig teuer.

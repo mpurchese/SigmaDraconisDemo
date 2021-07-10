@@ -1,0 +1,13 @@
+﻿0	Überlebensrationen
+1	Jarbo					Pinkes Getreide
+2	Bolbo					Blaues Getreide
+3	Yanbo					Goldenes Getreide
+4	Prondu					Lila Wasserfrucht
+5	Grakadu					Grüne Kaktusfrucht
+6	Kekke
+100	Yundu					Gelbe Frucht
+101	Boldu					Blaue Frucht
+102	Ruadu					Rote Frucht
+110	Jardu					Rosa Frucht
+111	Oggdu					Orange Frucht
+999	Mush

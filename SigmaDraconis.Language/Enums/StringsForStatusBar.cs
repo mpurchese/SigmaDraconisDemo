@@ -1,0 +1,31 @@
+﻿namespace SigmaDraconis.Language
+{
+    public enum StringsForStatusBar
+    {
+        Paused,
+        GameSpeedFormat,
+        TimeFormat,
+        TemperatureFormat,
+        WindFormat,
+        TooltipSunriseSunset,
+        TooltipTemperatureRange,
+        TooltipWindSpeedRange,
+        TooltipConstruct,
+        TooltipDeconstruct,
+        TooltipGeology,
+        TooltipHarvest,
+        TooltipHarvestRequirement,
+        TooltipFarm,
+        TooltipFarmRequirement,
+        TooltipGeologyRequirement,
+        TooltipIncreaseGameSpeed,
+        TooltipMothership,
+        TooltipPause,
+        TooltipPlay,
+        TooltipResourceOverlay,
+        TooltipTemperatureOverlay,
+        TooltipToggleRoofs,
+        TooltipZoomIn,
+        TooltipZoomOut
+    }
+}

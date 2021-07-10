@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52BD6093-496F-48B3-92A9-13ADAF60FCC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.CheckList</RootNamespace>
+    <AssemblyName>SigmaDraconis.CheckList</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net, Version=2.3.14.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.3.14\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckListController.cs" />
+    <Compile Include="CheckListSerializationObject.cs" />
+    <Compile Include="Context\CheckListContext.cs" />
+    <Compile Include="Context\ThingProxy.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemDefinition.cs" />
+    <Compile Include="Operators\EqualsOperator.cs" />
+    <Compile Include="Operators\LessThanOperator.cs" />
+    <Compile Include="Operators\MoreThanOperator.cs" />
+    <Compile Include="Operators\Operator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requirements\GeologistWokenRequirement.cs" />
+    <Compile Include="Requirements\HaveFoodFromCropsRequirement.cs" />
+    <Compile Include="Requirements\HavePumpIndoorsRequirement.cs" />
+    <Compile Include="Requirements\HaveGeologistRequirement.cs" />
+    <Compile Include="Requirements\HaveBotanistRequirement.cs" />
+    <Compile Include="Requirements\ClimateRequirement.cs" />
+    <Compile Include="Requirements\HaveFoodFromFruitRequirement.cs" />
+    <Compile Include="Requirements\CountRequirement.cs" />
+    <Compile Include="Requirements\ArrivedColonistCountRequirement.cs" />
+    <Compile Include="Requirements\RocketsLaunchedRequirement.cs" />
+    <Compile Include="Requirements\HourRequirement.cs" />
+    <Compile Include="Requirements\AllColonistsHaveOwnSleepPodRequirement.cs" />
+    <Compile Include="Requirements\StorageCountRequirement.cs" />
+    <Compile Include="Requirements\ProjectCompleteRequirement.cs" />
+    <Compile Include="Requirements\ItemCompleteRequirement.cs" />
+    <Compile Include="Requirements\BotanistWokenRequirement.cs" />
+    <Compile Include="Requirements\MothershipStatusRequirement.cs" />
+    <Compile Include="Requirements\ItemCountRequirement.cs" />
+    <Compile Include="Requirements\RequirementBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Draconis.Shared\Draconis.Shared.csproj">
+      <Project>{34a1a3e2-ce4c-42f9-9f22-a862ea6fce47}</Project>
+      <Name>Draconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Draconis.UI\Draconis.UI.csproj">
+      <Project>{35c820ff-e512-4dc0-926d-440747093dfd}</Project>
+      <Name>Draconis.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Config\SigmaDraconis.Config.csproj">
+      <Project>{3b6ef309-2642-4035-98e1-04fc50bff7ac}</Project>
+      <Name>SigmaDraconis.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Language\SigmaDraconis.Language.csproj">
+      <Project>{9e1bd91d-d540-4f64-9d4b-a388ebdfcd49}</Project>
+      <Name>SigmaDraconis.Language</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Shared\SigmaDraconis.Shared.csproj">
+      <Project>{e7777407-4d94-406e-b80e-75de5ddf2187}</Project>
+      <Name>SigmaDraconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.WorldControllers\SigmaDraconis.WorldControllers.csproj">
+      <Project>{7b9f3118-fdc1-47cd-8c95-926803af49b1}</Project>
+      <Name>SigmaDraconis.WorldControllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.WorldInterfaces\SigmaDraconis.WorldInterfaces.csproj">
+      <Project>{9a26d0a1-7070-425c-8d14-25f9b68e85ca}</Project>
+      <Name>SigmaDraconis.WorldInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.World\SigmaDraconis.World.csproj">
+      <Project>{b29e2725-2817-445f-9db3-3692db968a1f}</Project>
+      <Name>SigmaDraconis.World</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

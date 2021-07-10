@@ -1,0 +1,134 @@
+﻿ColdTolerant.Name		Cold Tolerant
+ColdTolerant.Desc		{0} can cope with the cold better than most.|5°C bonus to cold tolerance
+FastWalk.Name			Fast Walker
+FastWalk.Desc			{0} always seems to be in a hurry.|20% walk speed bonus
+HeatTolerant.Name		Heat Tolerant
+HeatTolerant.Desc		{0} can happily put up with temperatures|that would make others very uncomfortable.|5°C bonus to heat tolerance
+Workaholic.Name			Hard Worker
+Workaholic.Desc			{0} always works hard.|Workload rating increases 10% less quickly.
+
+VeryHappy.Name			Very Happy
+VeryHappy.Desc			{0} is feeling very happy (happiness {1}).|20% work speed bonus|20% walk speed bonus when working
+
+Happy.Name				Happy
+Happy.Desc				{0} is feeling happy (happiness {1}).|10% work speed bonus|10% walk speed bonus when working
+
+NeutralHappiness.Name	Neutral Happiness
+NeutralHappiness.Desc	{0} is feeling OK (happiness {1}).
+
+Unhappy.Name			Unhappy
+Unhappy.Desc			{0} is feeling unhappy (happiness {1}).|30% work speed penalty|30% walk speed penalty when working
+
+VeryUnhappy.Name		Very Unhappy
+VeryUnhappy.Desc		{0} is feeling very unhappy (happiness {1}).|On strike - will not work
+
+Cold1.Name				Cold
+Cold1.Desc				{0} is feeling a little cold.|Will need to eat 20% more often|Stress +0.5%/hour
+
+Cold2.Name				Very Cold
+Cold2.Desc				{0} is feeling very cold.|Will need to eat 50% more often|Stress +1%/hour
+
+Cold3.Name				HYPOTHERMIA SEVERITY {0}%
+Cold3.Desc				Will need to eat 50% more often until recovered|50% work speed penalty|50% walk speed penalty|Stress +1.5%/hour|WILL DIE IF SEVERITY REACHES 100%
+
+Hot1.Name				Hot
+Hot1.Desc				{0} is feeling a little hot.|Will need to drink 50% more often|Stress +0.5%/hour
+
+Hot2.Name				Very Hot
+Hot2.Desc				{0} is feeling very hot.|Will need to drink 2x more often|Stress +1%/hour
+
+Hot3.Name				HYPERTHERMIA SEVERITY {0}%
+Hot3.Desc				Will need to drink 2x often until recovered|50% work speed penalty|50% walk speed penalty|Stress +1.5%/hour|WILL DIE IF SEVERITY REACHES 100%
+
+Hunger1.Name			Hungry
+Hunger1.Desc			{0} is starting to feel hungry.|Will eat if food is available
+
+Hunger2.Name			Very Hungry
+Hunger2.Desc			{0} is very hungry.|Will eat if food is available|Happiness -5
+
+Hunger3.Name			STARVATION SEVERITY {0}%
+Hunger3.Desc			Will need to eat more often until recovered|50% work speed penalty|50% walk speed penalty|WILL DIE IF SEVERITY REACHES 100%
+
+Thirst1.Name			Thirsty
+Thirst1.Desc			{0} is starting to feel thirsty.|Will drink if water is available
+
+Thirst2.Name			Very Thirsty
+Thirst2.Desc			{0} is very thirsty.|Will drink if water is available|Happiness -5
+
+Thirst3.Name			DEHYDRATION SEVERITY {0}%
+Thirst3.Desc			Will need to drink more often until recovered|50% work speed penalty|50% walk speed penalty|WILL DIE IF SEVERITY REACHES 100%
+
+NewArrival.Name			New Arrival
+NewArrival.Desc			{0} recently arrived and is excited to start a new life here!|Happiness +{1} (decreases over time)
+
+NewColony.Name			New Colony
+NewColony.Desc			This is a frontier colony, we should|be prepared to put up with some hardships.|Happiness +2 (expires in {1} hours)
+
+Lonely.Name				Lonely
+Lonely.Desc				Been here a while now and still all alone.|When will the others arrive?|Happiness {0} (penalty increases over time)
+
+EnjoyedWalk.Name		Enjoyed Walk
+EnjoyedWalk.Desc		{0} had a nice walk.|Happiness +{1}
+
+WorkloadLow.Name		Low Stress
+WorkloadLow.Desc		{0} is feeling motivated.|Happiness +{1}
+
+WorkloadModerate.Name	Moderate Stress
+WorkloadModerate.Desc	{0} has been working quite hard.
+
+WorkloadHigh.Name		High Stress
+WorkloadHigh.Desc		{0} is feeling overworked and stressed.|Happiness {1}
+
+WorkloadExtreme.Name	Extreme Stress
+WorkloadExtreme.Desc	{0} is feeling very overworked and stressed.|Happiness {1}
+
+GoodDiet.Name			Good Diet
+GoodDiet.Desc			The food here is good.  Happiness +{0}.|Likes / dislikes: {1}|Variety: {2}||{3} likes {4}.|{3} dislikes {5}.|All colonists dislike mush.
+
+NeutralDiet.Name		Neutral Diet
+NeutralDiet.Desc		The food here is OK.  Happiness +0.|Likes / dislikes: {1}|Variety: {2}||{3} likes {4}.|{3} dislikes {5}.|All colonists dislike mush.
+
+BadDiet.Name			Bad Diet
+BadDiet.Desc			The food here is not good.  Happiness {0}.|Likes / dislikes: {1}|Variety: {2}||{3} likes {4}.|{3} dislikes {5}.|All colonists dislike mush.
+
+GoodMood.Name			Good Mood
+GoodMood.Desc			For no particular reason,|{0} is just feeling good right now.|Happiness +{1}
+
+BadMood.Name			Bad Mood
+BadMood.Desc			For no particular reason,|{0} is in a bit of a bad mood.|Happiness {1}
+
+Kek.Name				Good Kek
+Kek.Desc				We have really good kek!  Happiness +2 (expires in {0} hours)
+
+Roam.Name				Went for a Walk
+Roam.Desc				{0} went for a nice walk.  Happiness +2 (expires in {1} hours)
+
+SleepGood.Name			Slept Well
+SleepGood.Desc			{0} slept well.  Happiness +{1}
+
+SleepBad.Name			Slept Badly
+SleepBad.Desc			{0} slept badly.  Happiness {1}
+
+Tired1.Name				Tired 
+Tired1.Desc				{0} is starting to feel tired.|Will sleep if a pod is available.
+
+Tired2.Name				Very Tired
+Tired2.Desc				{0} is very tired.|May sleep outside if no pod is available.|Happiness -3
+
+Dark.Name				In Darkness
+Dark.Desc				It's difficult to work and move around in the dark.|40% work speed penalty|40% walk speed penalty
+
+Social1.Name			Social
+Social1.Desc			Spent time talking with {0}.|Happiness +1
+
+Social2.Name			Social
+Social2.Desc			Spent time talking with {0}.|Happiness +1
+
+Social3.Name			Social
+Social3.Desc			Spent time talking with {0}.|Happiness +1
+
+WorkOutside.Name		Outdoors
+WorkOutside.Desc		Lab work takes a little longer when working outside.|20% work speed penalty
+
+Programmer.Name			Programmer
+Programmer.Desc			Programmers can only work at labs, but they are very good at this.|20% work speed bonus

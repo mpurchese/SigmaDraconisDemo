@@ -1,0 +1,81 @@
+﻿namespace SigmaDraconis.Language
+{
+    public enum StringsForMouseCursor
+    {
+        AccessBlocked,
+        AlreadyDeconstructingThingType,
+        AreaTooLarge,
+        BlocksAccessTo,
+        BlocksMaintenanceAccessTo,
+        BuildOnLaunchPad,
+        CancelNextCrop,
+        CancelThisCrop,
+        CantBuildByCoast,
+        CantDeconstructThingType,
+        CantDeconstructThingTypeReason,
+        CantGrowHydroponics,
+        CantGrowSoil,
+        ClickToCancelDeconstruction,
+        ClickToRemoveEmptyStack,
+        ClickToRemoveStackingArea,
+        DeconstructGeneral1,
+        DeconstructGeneral2,
+        DeconstructRock,
+        DeconstructRoof,
+        DeconstructRocket,
+        ExtractionRatePercent,
+        FruitWillBeDestroyed,
+        HarvestRequiresBotanistAndCooker,
+        HarvestYieldFruit,
+        InUse,
+        LocationNotAccessible,
+        LowStorageMayLoseResources,
+        NextCrop,
+        NoKnownResources,
+        None,
+        NoResources,
+        NotEmpty,
+        PlantProducesEdibleFruit,
+        PodNotEmpty,
+        PressKeyToHideRoof,
+        PressToRotate,
+        RecycleDeadColonistOrganics,
+        SetNextCrop,
+        SetThisCrop,
+        SupportingRoof,
+        SwitchOffToEnableDeconstruction,
+        ThisCrop,
+        ThisCropPercent,
+        TileAlreadySurveyed,
+        TileNotEmpty,
+        TooCloseToAnother,
+        WallDoorConversionCost,
+        UnscannedTiles,
+
+        MetalCost,
+        EnergyCost,
+        StoneCost,
+        BatteryCellsCost,
+        CompositesCost,
+        CompostCost,
+        SolarCellsCost,
+        GlassCost,
+
+        CoalCount,
+        OreCount,
+        StoneCount,
+
+        CantBuildOnFoundation,
+        CantBuildOnPartialFoundation,
+        RequiresCoast,
+        RequiresFoundation,
+        RequiresFoundationX,
+        BuildNextToWater,
+
+        // NoResources
+        // NoKnownResources
+        // CoalCount
+        // OreCount
+        // StoneCount
+    }
+}

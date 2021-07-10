@@ -1,0 +1,32 @@
+﻿namespace SigmaDraconis.Config
+{
+    public enum TextureAtlasIdentifiers
+    {
+        Animals,
+        Blueprint,
+        Conduit,
+        Floor,
+        Floor2,
+        FlyingInsects,
+        GeneralA,
+        GeneralB,
+        GeneralC,
+        PlantsAndRocks,
+        PlantsAndRocksSnow,
+        GeneralD,
+        GeneralShadows,
+        GroundCover,
+        StackingArea,
+        PalmTop,
+        Roof,
+        EnvironmentControlFan,
+        TerrainDirtAbovewater,
+        TerrainDirtDeepwater,
+        TerrainDirtUnderwater,
+        TerrainCoastMask,
+        WaterAnimals,
+        Birds,
+        Bugs,
+        SnowAnimals
+    }
+}

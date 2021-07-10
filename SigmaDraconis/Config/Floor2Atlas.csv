@@ -1,0 +1,11 @@
+﻿FoodDispenser,150,25,23,13,11.5,6.5
+HydrogenStorage,0,26,64,35,32,19
+KekDispenser,150,25,23,13,11.5,6.5
+Wall_SW1,49,0,46,24,43.5,1.5
+Wall_SE1,95,0,46,24,0.5,1.5
+Wall_SW2,141,0,46,24,43.5,1.5
+Wall_SE2,187,0,46,24,0.5,1.5
+WaterDispenser,150,25,23,13,11.5,6.5
+WaterPump,64,26,46,26,23,13.5
+WaterStorage,110,25,40,24,20,13
+WindTurbine,0,0,48,26,24,14

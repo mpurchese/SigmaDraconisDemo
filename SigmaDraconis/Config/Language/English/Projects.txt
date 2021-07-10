@@ -1,0 +1,22 @@
+﻿1	Algae Farming				Enables the culture of native algae,|for efficient organics production.|Unlocks Algae Pool.|Time to complete: 18 hours
+2	Fast Growing Algae			Improves algae growth rate by 20%.|Time to complete: 12 hours
+3	High Density Algae			Improves algae pool yield from 4 units to 5 units ber cycle.|Time to complete: 12 hours
+4	Grow in the Dark Algae		Allows algae to grow in the dark at a reduced rate.|Time to complete: 12 hours
+5	Cold Water Algae			Reduces the growth rate penalty for low temperature.|Time to complete: 9 hours
+6	Hydroponics					Hydroponics planters can grow food relatively|quickly (20% faster than stone planters).|They are ideal for getting a good quality food|supply in place as soon as possible.||However they are relatively expensive to make,|consume 0.4 units of water per hour, and can|only grow jarbo, bolbo, and prondu.||Unlocks hydroponics planter.|Time to complete: 4 hours
+7	Improved Hydroponics		Increases growth rate of crops in hydroponics planters by 15%.|Time to complete: 12 hours
+8	Compost Production			Our crops cannot grow directly in the local soil.|This means that stone planters require compost to be|manufactured from organics, which takes time.||However in the long term stone planters are|ideal for large-scale food production as they|are cheap to make, have a low water consumption,|and can grow all types of crops except for prondu.||Unlocks compost factory and stone planter.|Time to complete: 12 hours
+9	Faster Compost Production	Compost factories will work 25% more quickly.|Time to complete: 9 hours
+10	Improved Compost			Plants grown in stone planters will mature 15% more quickly.|Time to complete: 12 hours
+11	Kek Production				Allows kekke to be grown in stone planters,|and unlocks the Kek Factory and Kek Dispenser.|Kek is a drink that reduces stress when consumed.|Time to complete: 12 hours
+12	Improved Kek				Drinking kek grants a +2 happiness bonus for 24 hours.|Time to complete: 12 hours
+101	Battery Cells				Enables the production of batteries,|to increase our energy storage capacity.|Unlocks Battery Cell Factory and Battery.|Time to complete: 12 hours
+102	Lightweight Composites		Lightweight plastic composites are needed to|manufacture wind turbine blades.|Unlocks Composites Factory and Wind Turbine.|Time to complete: 18 hours
+103	Photovoltaics				Semiconducting materials allow electricity to be|generated directly from sunlight.|Unlocks Solar Cell Factory and Solar Panel Array.|Time to complete: 18 hours
+104	Hydrogen Fuel				Liquefied hydrogen can be used to store energy,|or combined with oxygen to use as rocket fuel.|Unlocks Electrolyser, Hydrogen Storage, and Hydrogen Burner.|Time to complete: 18 hours
+105	Rocketry					Our primary goal here is to re-establish our connection to space.|Unlocks Launch Pad, Rocket Gantry, and Rocket.|Time to complete: 24 hours
+201	Faster Mining 1				Increases production rate of mines by 10%.|Time to complete: 9 hours
+202	Faster Mining 2				Increases production rate of mines by another 10%.|Time to complete: 15 hours
+203	Resource Scanning			Enables the construction of ore scanners.|Ore scanners can aid in the detection of underground|ore, coal and stone deposits.|Time to complete: 9 hours
+204	Ore Scanner Speed Upgrade	Increases the speed of ore scanners by 25%.|Time to complete: 12 hours
+205	Ore Scanner Range Upgrade	Increases maximum range of ore scanners by two tiles.|Time to complete: 15 hours

@@ -1,0 +1,22 @@
+﻿1	Algenfarm							Ermöglicht das Kultivieren von Algen,|für effiziente Biomasse-Produktion.|Schaltet den Algen-Pool frei.|Zeit zum Fertigstellen: 18 Stunden
+2	Schnelles Algenwachstum				Verbessert das Algenwachstum um 20%.|Zeit zum Fertigstellen: 12 Stunden
+3	Verbesserte Algenfarm				Verbessert den Algenfarmertrag von 4 auf 5 Einheiten pro Zyklus.|Zeit zum Fertigstellen: 12 Stunden
+4	Algen wachsen lassen im dunkeln		Erlaubt Algen langsam bei Dunkelheit zu wachsen.|Zeit zum Fertigstellen: 12 Stunden
+5	Algen bei Kälte wachsen lassen		Reduziert den Wachstumsnachteil bei niedrigen TemperaturenReduces.|Zeit zum Fertigstellen: 9 Stunden
+6	Hydrokulturen						Hydrokulturen können Pflanzen relativ schnell wachsen|lassen (20% schneller als Steinpflanzgefäße).|Sie sind ideal für qualitativ guten Essen|und sollten daher so früh wie|möglich gebaut werden.||Allerdings sind sie relativ teuer in der Herstellung,|brauchen 0.4 Einheiten Wasser pro Stunde und|können nur Jarbo, Bolbo, und Prondu wachsen lassen.||Schaltet Hydrokulturen frei.|Zeit zum Fertigstellen: 4 Stunden
+7	Verbesserte Hydrokultur				Verbessert die Wachstumsrate von Hydrokulturen um 15%.|Zeit zum Fertigstellen: 12 Stunden
+8	Kompostherstellung					Die Pflanzen können nicht direkt in der Erde gepflanzt werden.|Das bedeutet, das Steinpflanzgefäße Kompost|von Biomasse benötigen, was Zeit kostet.||Auf lange Sicht sind Steinpflanzgefäße ideal|für die Herstellung großer Mengen Essen.|Sie sind billig herzustellen, brauchen wenig Wasser|und kömmem alle Pflanzen außer Prondu wachsen lassen.||Schaltet die Kompostfabrik und Steinpflanzgefäße frei.|Zeit zum Fertigstellen: 12 Stunden
+9	Beschleunigte Kompostherstellung	Kompostfabriken arbeiten 25% schneller.|Zeit zum Fertigstellen: 9 Stunden
+10	Verbesserter Kompost				Pflanzen in Steinpflanzgefäßen werden 15% schneller ausgewachsen sein.|Zeit zum Fertigstellen: 12 Stunden
+11	Kek-Produktion						Erlaubt das anpflanzen von Kekke in Steinpflanzgefäßen|und schaltet die Kek-Fabrik und den Kek-Spender frei.|Kek ist ein Getränk, dass Stress reduziert.|Zeit zum Fertigstellen: 12 Stunden
+12	Verbesertes Kek						Trinken von Kek gewährt einen +2 Glücklichkeitsbonus für 24 Stunden.|Zeit zum Fertigstellen: 12 Stunden
+101	Batteriezellen						Ermöglich die Produktion von Batterien,|um die Energiekapazität zu erhöhen.|Schaltet Batteriezellen und Batterien frei.|Zeit zum Fertigstellen: 12 Stunden
+102	Verbundwerkstoffe					Verbundwerkstoffe werden benötigt, um|Windräderrotorblätter zu bauen.|Schaltet die Verbundwerkstofffabrik und Windräder frei.|Zeit zum Fertigstellen: 18 Stunden
+103	Solaranlagen						Halbleitermaterialien erlauben die Produktion von Energie|direkt vom Sonnenlicht.|Schaltet die Solarzellenfabrik und Solarpanels frei.|Zeit zum Fertigstellen: 18 Stunden
+104	Wasserstofftreibstoff				Verflüssigter Wasserstoff kann zum Speichern von Energie genutzt werden|oder kombiniert mit Sauerstoff als Raketentreibstoff|Schaltet den Elektrolyseur, Wasserstoffspeicher und Wasserstoffverbrenner frei.|Zeit zum Fertigstellen: 18 Stunden
+105	Raketentechnik						Das Hauptziel ist die Herstellung des Zugangs zum Weltraum.|Schaltet die Landeplattform, das Raketengerüst, und die Rakete frei.|Zeit zum Fertigstellen: 24 Stunden
+201	Schneller Bergbau 1					Erhöht die Produktionsrate von Minen um 10%.|Zeit zum Fertigstellen: 9 Stunden
+202	Schneller Bergbau 2					Erhöht die Produktionsrate von Minen um weitere 10%.|Zeit zum Fertigstellen: 15 Stunden
+203	Resourcen scannen					Ermöglicht die Konstruktion von Erzscannern.|Erzscanner können dabei helfen Erz, Kohle|und Steinvorkommen im Untergrund zu finden.|Zeit zum Fertigstellen: 9 Stunden
+204	Erzscanner Beschleunigungsupgrade	Erhöht die Geschwindigkeit von Erzscanner um 25%.|Zeit zum Fertigstellen: 12 Stunden
+205	Erzscanner Reichweitenupgrade		Erhöht die maximale Reichweite von Erzscannern um zwei Felder.|Zeit zum Fertigstellen: 15 Stunden

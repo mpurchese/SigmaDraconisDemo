@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B29E2725-2817-445F-9DB3-3692DB968A1F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.World</RootNamespace>
+    <AssemblyName>SigmaDraconis.World</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\Assemblies\MonoGame\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Priority Queue, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OptimizedPriorityQueue.4.0.0\lib\net45\Priority Queue.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.3.14.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.3.14\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blueprints\Blueprint.cs" />
+    <Compile Include="Buildings\ConduitMinor.cs" />
+    <Compile Include="Buildings\KekFactory.cs" />
+    <Compile Include="Buildings\GlassFactory.cs" />
+    <Compile Include="Buildings\CompositesFactory.cs" />
+    <Compile Include="Buildings\ShorePump.cs" />
+    <Compile Include="Buildings\OreScanner.cs" />
+    <Compile Include="Buildings\KekDispenser.cs" />
+    <Compile Include="Buildings\WaterStorage.cs" />
+    <Compile Include="Buildings\SolarCellFactory.cs" />
+    <Compile Include="Buildings\CompostFactory.cs" />
+    <Compile Include="Buildings\BatteryCellFactoryOld.cs" />
+    <Compile Include="Buildings\ConduitMajor.cs" />
+    <Compile Include="Buildings\HydrogenBurner.cs" />
+    <Compile Include="Buildings\CoalPower.cs" />
+    <Compile Include="Buildings\BiomassPower.cs" />
+    <Compile Include="Buildings\FoodStorage.cs" />
+    <Compile Include="Buildings\ItemsStorage.cs" />
+    <Compile Include="Buildings\BatteryCellFactory.cs" />
+    <Compile Include="Buildings\SolarCellFactoryOld.cs" />
+    <Compile Include="Buildings\WaterPump.cs" />
+    <Compile Include="Buildings\Mine.cs" />
+    <Compile Include="Buildings\HydrogenStorage.cs" />
+    <Compile Include="Buildings\SoilSynthesiser.cs" />
+    <Compile Include="Buildings\StoneFurnace.cs" />
+    <Compile Include="Buildings\ConduitNode.cs" />
+    <Compile Include="Buildings\LanderPanel.cs" />
+    <Compile Include="Buildings\CharcoalMaker.cs" />
+    <Compile Include="Buildings\DirectionalHeater.cs" />
+    <Compile Include="Buildings\CompositesFactoryOld.cs" />
+    <Compile Include="Buildings\Lamp.cs" />
+    <Compile Include="Buildings\MushFactory.cs" />
+    <Compile Include="Buildings\GlassFactoryOld.cs" />
+    <Compile Include="Buildings\Table.cs" />
+    <Compile Include="Buildings\BuildingFactory.cs" />
+    <Compile Include="Buildings\Planter.cs" />
+    <Compile Include="Buildings\LandingPod.cs" />
+    <Compile Include="Buildings\SleepPod.cs" />
+    <Compile Include="Buildings\Lab.cs" />
+    <Compile Include="Buildings\DispenserBase.cs" />
+    <Compile Include="Buildings\Door.cs" />
+    <Compile Include="Buildings\Foundation.cs" />
+    <Compile Include="Buildings\AlgaePool.cs" />
+    <Compile Include="Buildings\Cooker.cs" />
+    <Compile Include="Buildings\Roof.cs" />
+    <Compile Include="Buildings\EnvironmentControl.cs" />
+    <Compile Include="Buildings\Wall.cs" />
+    <Compile Include="Buildings\WaterDispenser.cs" />
+    <Compile Include="Buildings\Lander.cs" />
+    <Compile Include="Buildings\FuelFactory.cs" />
+    <Compile Include="Buildings\ResourceProcessor.cs" />
+    <Compile Include="Buildings\Rocket.cs" />
+    <Compile Include="Buildings\FoodDispenser.cs" />
+    <Compile Include="Buildings\LaunchPad.cs" />
+    <Compile Include="Buildings\ElectricFurnace.cs" />
+    <Compile Include="Buildings\FactoryBuilding.cs" />
+    <Compile Include="Buildings\RocketGantry.cs" />
+    <Compile Include="ConduitHelper.cs" />
+    <Compile Include="Fauna\Bird2.cs" />
+    <Compile Include="Fauna\ColonistStress.cs" />
+    <Compile Include="Fauna\Bird1.cs" />
+    <Compile Include="Fauna\BlueBug.cs" />
+    <Compile Include="Fauna\SnowTortoise.cs" />
+    <Compile Include="Fauna\Tortoise.cs" />
+    <Compile Include="Fauna\Fish.cs" />
+    <Compile Include="Fauna\WaterAnimal.cs" />
+    <Compile Include="Fauna\FlyingInsect.cs" />
+    <Compile Include="Fauna\Colonist.cs" />
+    <Compile Include="Fauna\Bee.cs" />
+    <Compile Include="Fauna\RedBug.cs" />
+    <Compile Include="Fauna\Bug.cs" />
+    <Compile Include="Fauna\Animal.cs" />
+    <Compile Include="Flora\SmallSpineBush.cs" />
+    <Compile Include="Flora\BigSpineBush.cs" />
+    <Compile Include="Flora\FruitPlant.cs" />
+    <Compile Include="Flora\PlantSeed.cs" />
+    <Compile Include="Flora\SmallPlant11.cs" />
+    <Compile Include="Flora\SmallPlant10.cs" />
+    <Compile Include="Flora\SmallPlant12.cs" />
+    <Compile Include="Flora\SmallPlant13.cs" />
+    <Compile Include="Flora\SmallPlant9.cs" />
+    <Compile Include="Flora\SmallPlant8.cs" />
+    <Compile Include="Flora\SmallPlant7.cs" />
+    <Compile Include="Flora\SmallPlant6.cs" />
+    <Compile Include="Flora\SmallPlant5.cs" />
+    <Compile Include="Flora\SmallPlant4.cs" />
+    <Compile Include="Flora\SmallPlant3.cs" />
+    <Compile Include="Flora\SmallPlant2.cs" />
+    <Compile Include="Flora\SmallPlant1.cs" />
+    <Compile Include="Flora\CoastGrass.cs" />
+    <Compile Include="Particles\MicrobotParticle.cs" />
+    <Compile Include="Particles\MicrobotParticleController.cs" />
+    <Compile Include="Buildings\Battery.cs" />
+    <Compile Include="Buildings\BuildHelper.cs" />
+    <Compile Include="Buildings\Building.cs" />
+    <Compile Include="Buildings\Generator.cs" />
+    <Compile Include="Buildings\Silo.cs" />
+    <Compile Include="Buildings\SolarPanel.cs" />
+    <Compile Include="Buildings\WindTurbine.cs" />
+    <Compile Include="Flora\Bush.cs" />
+    <Compile Include="Flora\Plant.cs" />
+    <Compile Include="Flora\Swordleaf.cs" />
+    <Compile Include="Flora\Tree.cs" />
+    <Compile Include="Particles\LanderExhaustSimulator.cs" />
+    <Compile Include="Particles\RocketExhaustSimulator.cs" />
+    <Compile Include="PathFinding\PathNode.cs" />
+    <Compile Include="PathFinding\Path.cs" />
+    <Compile Include="PathFinding\PathFinder.cs" />
+    <Compile Include="Prefabs\PrefabCollection.cs" />
+    <Compile Include="Projects\ProjectManager.cs" />
+    <Compile Include="Projects\Project.cs" />
+    <Compile Include="ResourceNetworks\ResourceNetwork.cs" />
+    <Compile Include="Particles\SmokeParticle.cs" />
+    <Compile Include="Particles\SmokeSimulator.cs" />
+    <Compile Include="ResourceNetworks\SmoothedWaterConsumer.cs" />
+    <Compile Include="Buildings\StackingArea.cs" />
+    <Compile Include="ResourceStacks\ResourceStack.cs" />
+    <Compile Include="Rock\Rock.cs" />
+    <Compile Include="Rooms\Room.cs" />
+    <Compile Include="Rooms\RoomManager.cs" />
+    <Compile Include="Terrain\MineTileResource.cs" />
+    <Compile Include="Terrain\SmallTileMap.cs" />
+    <Compile Include="Terrain\SmallTile.cs" />
+    <Compile Include="Thing.cs" />
+    <Compile Include="Terrain\BigTileMap.cs" />
+    <Compile Include="Terrain\BigTile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="World.cs" />
+    <Compile Include="WorldStatKeys.cs" />
+    <Compile Include="WorldStatsEventArgs.cs" />
+    <Compile Include="WorldStats.cs" />
+    <Compile Include="Zones\PathFinderBlock.cs" />
+    <Compile Include="Zones\PathFinderBlockManager.cs" />
+    <Compile Include="Zones\PathFinderNode.cs" />
+    <Compile Include="Zones\PathFinderZone.cs" />
+    <Compile Include="Zones\ResourceNetworkZone.cs" />
+    <Compile Include="Zones\ZoneManager.cs" />
+    <Compile Include="Zones\ResourceNetworkNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Draconis.Shared\Draconis.Shared.csproj">
+      <Project>{34a1a3e2-ce4c-42f9-9f22-a862ea6fce47}</Project>
+      <Name>Draconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Cards.Interface\SigmaDraconis.Cards.Interface.csproj">
+      <Project>{f37e96d4-034c-48a4-8bc8-3f8e927be693}</Project>
+      <Name>SigmaDraconis.Cards.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Cards\SigmaDraconis.Cards.csproj">
+      <Project>{50aed0eb-c4d6-4671-b086-cb5cb84830f4}</Project>
+      <Name>SigmaDraconis.Cards</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Config\SigmaDraconis.Config.csproj">
+      <Project>{3b6ef309-2642-4035-98e1-04fc50bff7ac}</Project>
+      <Name>SigmaDraconis.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Language\SigmaDraconis.Language.csproj">
+      <Project>{9e1bd91d-d540-4f64-9d4b-a388ebdfcd49}</Project>
+      <Name>SigmaDraconis.Language</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Medical\SigmaDraconis.Medical.csproj">
+      <Project>{12310bdf-67d2-4627-9d46-212bb14cb63b}</Project>
+      <Name>SigmaDraconis.Medical</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Settings\SigmaDraconis.Settings.csproj">
+      <Project>{c384d01d-4250-4dbe-8562-16586cd1bf88}</Project>
+      <Name>SigmaDraconis.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Shared\SigmaDraconis.Shared.csproj">
+      <Project>{e7777407-4d94-406e-b80e-75de5ddf2187}</Project>
+      <Name>SigmaDraconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Smoke\SigmaDraconis.Smoke.csproj">
+      <Project>{39f00042-5035-4223-9ff8-693e081c3fcc}</Project>
+      <Name>SigmaDraconis.Smoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.WorldInterfaces\SigmaDraconis.WorldInterfaces.csproj">
+      <Project>{9a26d0a1-7070-425c-8d14-25f9b68e85ca}</Project>
+      <Name>SigmaDraconis.WorldInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

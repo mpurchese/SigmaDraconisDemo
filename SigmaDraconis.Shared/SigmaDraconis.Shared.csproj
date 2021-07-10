@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7777407-4D94-406E-B80E-75DE5DDF2187}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.Shared</RootNamespace>
+    <AssemblyName>SigmaDraconis.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\Assemblies\MonoGame\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.3.14.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.3.14\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\ClimateType.cs" />
+    <Compile Include="Enums\SpeedUnit.cs" />
+    <Compile Include="Enums\TemperatureUnit.cs" />
+    <Compile Include="Enums\DoorState.cs" />
+    <Compile Include="Enums\ResourceStackingJobStatus.cs" />
+    <Compile Include="Enums\StackingAreaMode.cs" />
+    <Compile Include="Enums\ColonistEventType.cs" />
+    <Compile Include="Enums\ColonistPlaceholderStatus.cs" />
+    <Compile Include="Enums\BuildingDisplayStatus.cs" />
+    <Compile Include="Enums\BuildingLayer.cs" />
+    <Compile Include="Enums\MineResourceDensity.cs" />
+    <Compile Include="Enums\SmokeParticleType.cs" />
+    <Compile Include="Enums\SoundEventType.cs" />
+    <Compile Include="Enums\WarningType.cs" />
+    <Compile Include="Enums\StressLevel.cs" />
+    <Compile Include="Enums\MothershipStatus.cs" />
+    <Compile Include="Enums\KekPolicy.cs" />
+    <Compile Include="Enums\WorkPolicy.cs" />
+    <Compile Include="Enums\WorkPriority.cs" />
+    <Compile Include="Enums\SkillType.cs" />
+    <Compile Include="ColonistEvent.cs" />
+    <Compile Include="DisplaySettingsChangeRequestEventArgs.cs" />
+    <Compile Include="SoundEvent.cs" />
+    <Compile Include="TileHighlight.cs" />
+    <Compile Include="WarningMessage.cs" />
+    <Compile Include="SmoothedEnergy.cs" />
+    <Compile Include="HeatOrLightSource.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="CoordinateHelper.cs" />
+    <Compile Include="DirectionHelper.cs" />
+    <Compile Include="Energy.cs" />
+    <Compile Include="Enums\ColonistPriority.cs" />
+    <Compile Include="Enums\ColonistActivityType.cs" />
+    <Compile Include="Enums\DeathReason.cs" />
+    <Compile Include="Enums\EnumExtensions.cs" />
+    <Compile Include="Enums\EventSubType.cs" />
+    <Compile Include="Enums\EventType.cs" />
+    <Compile Include="Enums\FoodType.cs" />
+    <Compile Include="Enums\OverlayType.cs" />
+    <Compile Include="Enums\BiomeType.cs" />
+    <Compile Include="Enums\LabStatus.cs" />
+    <Compile Include="Enums\RoomTemperatureSetting.cs" />
+    <Compile Include="Enums\RoomLightSetting.cs" />
+    <Compile Include="Enums\MineStatus.cs" />
+    <Compile Include="Enums\TileBlockType.cs" />
+    <Compile Include="Enums\TileBlockModel.cs" />
+    <Compile Include="Enums\SiloStatus.cs" />
+    <Compile Include="Enums\DispenserStatus.cs" />
+    <Compile Include="Enums\PlanterStatus.cs" />
+    <Compile Include="Enums\FactoryStatus.cs" />
+    <Compile Include="Enums\MouseCursorType.cs" />
+    <Compile Include="Enums\RendererType.cs" />
+    <Compile Include="Enums\TerrainType.cs" />
+    <Compile Include="Enums\Direction.cs" />
+    <Compile Include="Enums\ItemType.cs" />
+    <Compile Include="Enums\ThingType.cs" />
+    <Compile Include="Enums\WeatherType.cs" />
+    <Compile Include="EventManager.cs" />
+    <Compile Include="ExceptionManager.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Rand.cs" />
+    <Compile Include="GameVersion.cs" />
+    <Compile Include="Light.cs" />
+    <Compile Include="LoadGameEventArgs.cs" />
+    <Compile Include="NewGameEventArgs.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="RoomLightChangeEvent.cs" />
+    <Compile Include="PropertyChangeEvent.cs" />
+    <Compile Include="ResourceContainer.cs" />
+    <Compile Include="RoutePlanSection.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="PerfMonitor.cs" />
+    <Compile Include="Rectanglef.cs" />
+    <Compile Include="FastRandom.cs" />
+    <Compile Include="ShadowModel.cs" />
+    <Compile Include="Vector3i.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorldLight.cs" />
+    <Compile Include="WorldTime.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Draconis.Shared\Draconis.Shared.csproj">
+      <Project>{34a1a3e2-ce4c-42f9-9f22-a862ea6fce47}</Project>
+      <Name>Draconis.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B9F3118-FDC1-47CD-8C95-926803AF49B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.WorldControllers</RootNamespace>
+    <AssemblyName>SigmaDraconis.WorldControllers</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\Assemblies\MonoGame\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.3.14.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.3.14\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bird2Proxy.cs" />
+    <Compile Include="BlueprintController.cs" />
+    <Compile Include="BuildingNameController.cs" />
+    <Compile Include="ColonistPlaceholder.cs" />
+    <Compile Include="Bird1Proxy.cs" />
+    <Compile Include="GroundCoverController.cs" />
+    <Compile Include="GroundWaterController.cs" />
+    <Compile Include="GeologyController.cs" />
+    <Compile Include="ResourceDeconstructionController.cs" />
+    <Compile Include="TileGroundWaterDetail.cs" />
+    <Compile Include="WarningsController.cs" />
+    <Compile Include="FishProxy.cs" />
+    <Compile Include="BirdsController.cs" />
+    <Compile Include="WaterAnimalsController.cs" />
+    <Compile Include="FlyingInsectController.cs" />
+    <Compile Include="ColonistArrivalController.cs" />
+    <Compile Include="ColonistNameGenerator.cs" />
+    <Compile Include="MothershipController.cs" />
+    <Compile Include="ConstructionJob.cs" />
+    <Compile Include="ResourceDeconstructionJob.cs" />
+    <Compile Include="PlantGrowthController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceNetworkController.cs" />
+    <Compile Include="ResourceMapController.cs" />
+    <Compile Include="WeatherController.cs" />
+    <Compile Include="WorldController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Draconis.Shared\Draconis.Shared.csproj">
+      <Project>{34a1a3e2-ce4c-42f9-9f22-a862ea6fce47}</Project>
+      <Name>Draconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Draconis.UI\Draconis.UI.csproj">
+      <Project>{35c820ff-e512-4dc0-926d-440747093dfd}</Project>
+      <Name>Draconis.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Cards.Interface\SigmaDraconis.Cards.Interface.csproj">
+      <Project>{f37e96d4-034c-48a4-8bc8-3f8e927be693}</Project>
+      <Name>SigmaDraconis.Cards.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Cards\SigmaDraconis.Cards.csproj">
+      <Project>{50aed0eb-c4d6-4671-b086-cb5cb84830f4}</Project>
+      <Name>SigmaDraconis.Cards</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Config\SigmaDraconis.Config.csproj">
+      <Project>{3b6ef309-2642-4035-98e1-04fc50bff7ac}</Project>
+      <Name>SigmaDraconis.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Language\SigmaDraconis.Language.csproj">
+      <Project>{9e1bd91d-d540-4f64-9d4b-a388ebdfcd49}</Project>
+      <Name>SigmaDraconis.Language</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Medical\SigmaDraconis.Medical.csproj">
+      <Project>{12310bdf-67d2-4627-9d46-212bb14cb63b}</Project>
+      <Name>SigmaDraconis.Medical</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Settings\SigmaDraconis.Settings.csproj">
+      <Project>{c384d01d-4250-4dbe-8562-16586cd1bf88}</Project>
+      <Name>SigmaDraconis.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Shared\SigmaDraconis.Shared.csproj">
+      <Project>{e7777407-4d94-406e-b80e-75de5ddf2187}</Project>
+      <Name>SigmaDraconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.WorldInterfaces\SigmaDraconis.WorldInterfaces.csproj">
+      <Project>{9a26d0a1-7070-425c-8d14-25f9b68e85ca}</Project>
+      <Name>SigmaDraconis.WorldInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.World\SigmaDraconis.World.csproj">
+      <Project>{b29e2725-2817-445f-9db3-3692db968a1f}</Project>
+      <Name>SigmaDraconis.World</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

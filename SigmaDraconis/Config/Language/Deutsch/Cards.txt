@@ -1,0 +1,128 @@
+﻿ColdTolerant.Name		Kältetoleranz
+ColdTolerant.Desc		{0} kann mit der Kälte besser umgehen als die meisten anderen.|5°C Bonus für Kältetoleranz
+FastWalk.Name			Schneller Geher
+FastWalk.Desc			{0} hat es immer eilig.|20% Geschwindigkeitsbonus
+HeatTolerant.Name		Hitzetoleranz
+HeatTolerant.Desc		{0} geht entspannt mit hohen Temperaturen um,|bei denen sich andere sehr unwohl fühlen würden.|5°C Bonus für Hitzetoleranz
+Workaholic.Name			Workaholic
+Workaholic.Desc			{0} ist immer hart am arbeiten.|Die Abeitsbelastung steigt 10% langsamer.
+
+VeryHappy.Name			Sehr glücklich
+VeryHappy.Desc			{0} fühlt sich sehr glücklich (Zufriedenheit {1}).|Arbeitet 20% schneller|Bewegt sich 20% schneller beim Arbeiten
+
+Happy.Name				Glücklich
+Happy.Desc				{0} fühlt sich glücklich (Zufriedenheit {1}).|Arbeitet 10% schneller|Bewegt sich 10% schneller beim Arbeiten
+
+NeutralHappiness.Name	Zufrieden
+NeutralHappiness.Desc	{0} fühlt sich OK (Zufriedenheit {1}).
+
+Unhappy.Name			Unglücklich
+Unhappy.Desc			{0} fühlt sich unglücklich (Zufriedenheit {1}).|Arbeitet 30% langsamer|Bewegt sich 30% langsamer beim Arbeiten
+
+VeryUnhappy.Name		Sehr unglücklich
+VeryUnhappy.Desc		{0} fühlt sich sehr unglücklich (Zufriedenheit {1}).|Streikt - arbeitet nicht
+
+Cold1.Name				Kalt
+Cold1.Desc				{0} ist etwas kalt.|Muss 20% öfter essen|Stress +0.5%/h
+
+Cold2.Name				Sehr kalt
+Cold2.Desc				{0} ist sehr kalt.|Muss 50% öfter essen|Stress +1%/h
+
+Cold3.Name				UNTERKÜHLUNGGRAD {0}%
+Cold3.Desc				Muss 50% öfter essen solange die Unterkühlung da ist|50% geringere Arbeitsgeschwindigkeit|50% geringere Laufgeschwindigkeit|Stress +1.5%/h|WIRD STERBEN WENN DER GRAD 100% ERREICHT
+
+Hot1.Name				HEISS
+Hot1.Desc				{0} ist etwas heiss.|Muss 50% öfter trinken|Stress +0.5%/h
+
+Hot2.Name				Sehr heiß
+Hot2.Desc				{0} ist sehr heiss.|Muss doppelt so viel trinken|Stress +1%/h
+
+Hot3.Name				ÜBERHITZUNGSGRAD {0}%
+Hot3.Desc				Muss doppelt so viel trinken bis die Überhitzung verschwunden ist|50% geringere Arbeitsgeschwindigkeit|50% geringere Laufgeschwindigkeit|Stress +1.5%/h|WIRD STERBEN WENN DER GRAD 100% ERREICHT
+
+Hunger1.Name			HUNGER
+Hunger1.Desc			{0} bekommt Hunger.|Wird etwas essen, wenn Nahrung vorhanden ist.
+
+Hunger2.Name			SEHR HUNGRIG
+Hunger2.Desc			{0} hat sehr viel Hunger.|Wird etwas essen, wenn Nahrung vorhanden ist.|Zufriedenheit -5
+
+Hunger3.Name			VERHUNGERN {0}%
+Hunger3.Desc			Muss mehr essen bis der Hunger verschwunden ist|50% geringere Arbeitsgeschwindigkeit|50% geringere Laufgeschwindigkeit|WIRD STERBEN WENN DER GRAD 100% ERREICHT
+
+Thirst1.Name			DURST
+Thirst1.Desc			{0} bekommt Durst.|Wird trinken, wenn Wasser vorhanden ist
+
+Thirst2.Name			SEHR DURSTIG
+Thirst2.Desc			{0} hat sehr viel Durst.|Wird trinken, wenn Wasser vorhanden ist|Zufriedenheit -5
+
+Thirst3.Name			DEHYDRATIONSGRAD {0}%
+Thirst3.Desc			Muss mehr trinken bis der Durst verschwunden ist|50% geringere Arbeitsgeschwindigkeit|50% geringere Laufgeschwindigkeit|WIRD STERBEN WENN DER GRAD 100% ERREICHT
+
+NewArrival.Name			Neuankömmling
+NewArrival.Desc			{0} ist gerade angekommen und ist gespannt auf sein neues Leben hier!|Zufriedenheit +{1} (verringert sich mit der Zeit)
+
+NewColony.Name			Neue Kolonie
+NewColony.Desc			Dies ist eine Grenzkolonie, wir sollten uns darauf|vorbereiten mit einigen Entbehrungen klar zu kommen.|Zufriedenheit +2 (läuft in {1} Stunden ab)
+
+Lonely.Name				Einsamkeit
+Lonely.Desc				Bin schon seit einer Weile hier, aber immer noch allein.|Wann werden die anderen kommen?|Zufriedenheit {0} (die Strafe erhöht sich mit der Zeit)
+
+EnjoyedWalk.Name		Angehmener Spaziergang
+EnjoyedWalk.Desc		{0} hat seinen Spaziergang genossen.|Zufriedenheit +{1}
+
+WorkloadLow.Name		Wenig Stress
+WorkloadLow.Desc		{0} fühlt sich motiviert.|Zufriedenheit +{1}
+
+WorkloadModerate.Name	Etwas Stress
+WorkloadModerate.Desc	{0} hat hart gearbeitet.
+
+WorkloadHigh.Name		Viel Stress
+WorkloadHigh.Desc		{0} fühlt sich überarbeitet und gestresst.|Zufriedenheit {1}
+
+WorkloadExtreme.Name	Extremer Stress
+WorkloadExtreme.Desc	{0} fühlt sich extrem überarbeitet und gestresst.|Zufriedenheit {1}
+
+GoodDiet.Name			Gute Ernährung
+GoodDiet.Desc			Das Essen hier ist gut.  Zufriedenheit +{0}.|Mag / mag nicht: {1}|Abwechslung: {2}||{3} mag {4}.|{3} mag nicht {5}.|Alle Kolonisten mögen keinen Brei.
+
+NeutralDiet.Name		Normale Ernährung
+NeutralDiet.Desc		Das Essen hier is OK.  Zufriedenheit +0.|Mag / mag nicht: {1}|Abwechslung: {2}||{3} mag {4}.|{3} mag nicht {5}.|Alle Kolonisten mögen keinen Brei.
+
+BadDiet.Name			Schlechte Ernährung
+BadDiet.Desc			Das Essen hier ist schlecht.  Zufriedenheit {0}.|Mag / mag nicht: {1}|Abwechslung: {2}||{3} mag {4}.|{3} mag nicht {5}.|Alle Kolonisten mögen keinen Brei.
+
+Kek.Name				Gutes Kek
+Kek.Desc				Wir haben wirklich gutes Kek!  Zufriedenheit +2 (läuft in {0} Stunden ab)
+
+Roam.Name				Mache einen Spaziergang
+Roam.Desc				{0} macht einen Spaziergang.  Zufriedenheit +2 (läuft in {1} Stunden ab)
+
+SleepGood.Name			Gut geschlafen
+SleepGood.Desc			{0} hat gut geschlafen.  Zufriedenheit +{1}
+
+SleepBad.Name			Schlecht geschlafen
+SleepBad.Desc			{0} hat schlecht geschalfen.  Zufriedenheit {1}
+
+Tired1.Name				Müde 
+Tired1.Desc				{0} fühlt sich müde.|Wird schlafen gehen, wenn eine Schlafkapsel vorhanden ist.
+
+Tired2.Name				Sehr müde
+Tired2.Desc				{0} ist sehr müde.|Wenn keine Schlafkapsel vorhanden ist wird er auch draußen schlafen.|Zufriedenheit -3
+
+Dark.Name				Dunkelheit
+Dark.Desc				Es ist schwer in der Dunkelheit zu arbeiten und sich zu bewegen.|40% geringere Arbeitsgeschwindigkeit|40% geringere Laufgeschwindigkeit
+
+Social1.Name			Sozial
+Social1.Desc			Spricht einige Zeit mit {0}.|Zufriedenheit +1
+
+Social2.Name			Sozial
+Social2.Desc			Spricht einige Zeit mit {0}.|Zufriedenheit +1
+
+Social3.Name			Sozial
+Social3.Desc			Spricht einige Zeit mit {0}.|Zufriedenheit +1
+
+WorkOutside.Name		Draußen
+WorkOutside.Desc		Labore arbeiten außerhalb von Gebäuden etwas langsamer.|20% langsamere Arbeitsgeschwindigkeit
+
+Programmer.Name			Programmierer
+Programmer.Desc			Programmierer können nur in Laboren arbeiten, aber das machen sie sehr gut.|20% schnellere Arbeitsgeschwindigkeit

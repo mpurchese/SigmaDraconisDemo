@@ -1,0 +1,13 @@
+﻿0	Survival rations
+1	Jarbo					Pink grain
+2	Bolbo					Blue grain
+3	Yanbo					Gold grain
+4	Prondu					Purple aquatic fruit
+5	Grakadu					Green cactus fruit
+6	Kekke
+100	Yundu					Yellow fruit
+101	Boldu					Blue fruit
+102	Ruadu					Red fruit
+110	Jardu					Pink fruit
+111	Oggdu					Orange fruit
+999	Mush

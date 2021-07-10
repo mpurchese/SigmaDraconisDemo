@@ -1,0 +1,313 @@
+﻿# This file contains most of the text needed for the tutorial Checklist feature.
+
+# The UI has limited space, it has some vertical scrolling functionality but no auto-resizing.
+# TITLE has space for 1 line of text with up to 40 characters.  Multiple lines not supported.
+# TEXT1 has space for 3 lines of text.  Any more and scrollbars appear, try to avoid this.
+# TEXT2 has space for 2 paragraphs with a total of 7 lines of text, or 3 with 6 lines of text.  Any more and scrollbars appear.  Avoid scrolling if possible, otherwise keep the line length to <= 43 chars.
+
+# This guide can be used for checking line lengths.
+###### TITLE max length 40 chars #######
+##### TEXT1 max length 37 chars #####
+######### TEXT2 max length 45 chars #########
+
+# | indicates a new line.
+# || indicates a new paragraph.
+
+ITEM 10
+TITLE Resourcenkonstruktor herstellen
+TEXT1 Drücke B oder das Kran-Symbol in|der unteren linken Ecke zum Öffnen des|Konstruktions-Menüs.
+TEXT2 Der erste Resourcenkonstruktor ist gratis.|Platziere ihn in der Nähe der Landefähre|und warte bis es fertig gebaut ist.||Resourcenkonstruktoren erlauben Kolonisten das|Sammeln von Metall, Steinen, Erzen, Kohle|und Biomasse.
+
+ITEM 20
+TITLE Besorge Metall
+TEXT1 Drücke X oder das Papierkorb-Symbol|in der unteren linken Ecke|zum Aktivieren des Abreiß-Tools.
+TEXT2 Die Landefähre wird nicht länger gebraucht|- und es ist aus Metall.||Tipp: Du musst nicht gleich das ganze Metall|einsammeln. Sobald du ein paar Einheiten hast,|kannst du die Priorität auf "keine" ändern|um das weitere Einsammeln zu stoppen.
+
+ITEM 30
+TITLE Besorge Steine
+TEXT1 Drücke X oder das Papierkorb-Symbol|in der unteren linken Ecke|zum Aktivieren des Abreiß-Tools.
+TEXT2 In der Nähe sollten einige Felsen sein.|Sie können aus Steinen, Erzen oder|Kohle bestehen.||Suche einen Felsen und baue ihn ab.||Tipp: Die meisten Konstruktionen brauchen|Metall und/oder Steine, so dass es|wichtig ist immer einiges davon|auf Lager zu haben.
+
+ITEM 40
+TITLE Fundament herstellen
+TEXT1 Baue mindestens ein|Fundament.
+TEXT2 Fundamente werden für die meisten Gebäude|benötigt. Sie können aus Steinen und Metall|hergestellt werden.||Tipp: Metall ist wertvoller als Steine.|Aus diesem Grund sollten Stein-Fundamente|bevorzugt werden.
+
+ITEM 50
+TITLE Stelle eine Wasserversorgung her
+TEXT1 Baue eine Grundwasserpumpe|und einen Wasserspender.
+TEXT2 Die erste Grundwasserpumpe ist gratis.|Der Wasserspender benötigt zwei Metalle.||Tipp: Die Effektivität der Grundwasserpumpe|hängt vom Ort ab.|Außerdem haben sie einen|Austrocknungseffekt so dass die|Produktivität mit der Zeit nachlässt.
+
+ITEM 60
+TITLE Besorge Kohle oder baue einen Holzkohleofen
+TEXT1 Kohle ist zum Schmelzen|von Metall notwendig.
+TEXT2 Es muss ein kohlehaltiger Felsen in der Nähe|sein. Wenn keine da ist, dann baue einen|Holzkohleofen. Er wandelt langsam Biomasse|in Kohle um.||Der Holzofen kann auf Seite 2|des Konstruktionsmenüs gefunden werden.
+
+ITEM 70
+TITLE Besorge Biomasse
+TEXT1 Sammel dafür Planzen ein.
+TEXT2 Biomasse is eine grundlegende|Resource mit vielen Anwendungsmöglichkeiten.||Tipp: Versuche Pflanzen mit dem Namen|"Du-Dax" zu finden.|Diese haben Früchte die später|sehr nützlich für die Essensversorgung sind.
+
+ITEM 80
+TITLE Besorge Erze
+TEXT1 Erz ist notwendig um Metall|zu schmelzen.
+TEXT2 Suche Felsen in der Nähe,|einige sollten Erz beinhalten.||Tipp: Manche Felsen weisen auf versteckte|unterirdische Resourcen hin.|Du kannst das Geologie-Tool(G) verwenden,|um diese Orte zu markieren|um sie später zu nutzen.
+
+ITEM 90
+TITLE Bause einen Schmelzofen
+TEXT1 Der Stein-Schmelzofen is auf Seite 2|im Konstruktions-Menü.
+TEXT2 Er produziert solange Metall,|solange du Erz und Kohle hast.||Tipp: Elektrische Schmelzöfen sind schneller|und brauchen keine Kohle. Dafür|benötigen sie sehr viel|Energie, so dass am Anfang|Stein-Schmelzöfen besser sind.
+
+ITEM 95
+TITLE Baue einen weiteren Holzkohleofen
+TEXT1 Holzkohleöfen sind langsam.
+TEXT2 Du brauchst zwei davon, um einen|Stein-Schmelzofen durchgehend laufen zu lassen.||Tipp: Hab ein Auge auf die Versorgung mit|Biomasse: Stein-Schmelzöfen|brauchen ununterbrochen Nachschub.
+
+ITEM 100
+TITLE Baue einen Essensspender
+TEXT1 Der Essensspender ist auf der ersten|Seite des Konstruktionsmenüs.
+TEXT2 Einige Essensvorräte sind in der Landefähre,|aber der Essensspender ist nötig, bevor du es|essen kannst.||Zwei Metalle sind für den Bau notwendig.
+
+ITEM 110
+TITLE Baue eine Schlafkapsel
+TEXT1 Du findest sie auf Seite 6|des Konstruktionsmenüs.
+TEXT2 Letztlich müssen alle|Kolonisten irgendwann schlafen.||Tipp: Kolonisten sind normalerweise|19 Stunden wach und schlafen 5 Stunden.||Wenn es notwendig ist, können sie auch im|Freien schlafen, aber das ist nicht ideal!
+
+ITEM 120
+TITLE Wecke einen weiteren Kolonisten auf
+TEXT1 Klicke dafür auf das Symbol in der|unteren linken Ecke.
+TEXT2 Sinnvollerweise solltest du möglichst|früh einen Botaniker wecken. Er kann Pflanzen|anpflanzen, ernten und zubereiten.||Alternativ kannst du auch einen Geologen wecken|und erst mal von Brei überleben. Geologen können|Resourcen im Untergrund finden.
+
+ITEM 121
+TITLE Wecke einen Botaniker
+TEXT1 Klicke dafür auf das Symbol in der|unteren linken Ecke.
+TEXT2 Du hast jetzt einen Ingenieur und einen Geologen.|Nun solltest du einen Botaniker wecken.||Er kann Pflanzen anpflanzen, ernten und zubereiten.
+
+ITEM 122
+TITLE Wecke einen Geologen
+TEXT1 Klicke dafür auf das Symbol in der|unteren linken Ecke.
+TEXT2 Du hast jetzt einen Ingenieur und einen|Botaniker. Nun solltest du einen|Geologen wecken.||Er kann Resourcen im Untergrund finden.
+
+ITEM 130
+TITLE Baue eine Küche
+TEXT1 Sie ist auf Seite 4|des Konstruktionsmenüs.
+TEXT2 Kolonisten können nur gekochte Nahrung essen,|daher brauchst du ihn, wenn die Kolonisten|nicht nur Brei essen sollen. Botaniker können|Früchte ernten bis ein Kocher verfügbar ist.||Tipp: Küchen benötigen Wasser.|Daher macht es Sinn eine weitere Pumpe zu bauen.
+
+ITEM 140
+TITLE Baue einen Breimixer
+TEXT1 Er ist auf Seite 3|des Konstruktionsmenüs.
+TEXT2 Im späteren Verlauf werden Botaniker dafür|sorgen, dass genug Essen vorhanden ist,|aber am Anfang benötigst du einen Breimixer.||Er kann Biomasse und Wasser mit|Energie in einfaches Essen umwandeln (Brei).
+
+ITEM 150
+TITLE Ernte und koche Früchte
+TEXT1 Einige wilde Pflanzen haben essbare Früchte.|Drücke H zum Aktivieren des Ernte-Tools.
+TEXT2 In der Zukunft kannst du deine|eigenen Früchte anbauen.||Im Moment sind die essbaren wilden|Früchte eine gute Essensgrundlage.||Tipp: Anfangs gibt es Planzen mit blauen|Früchten. Später gelbe und rote Früchte.
+
+ITEM 160
+TITLE Baue einen Netzwerkknoten
+TEXT1 Er ist auf der ersten Seite|des Konstruktionsmenüs.
+TEXT2 Du brauchst Netzwerknoten, um deine Basis|zu vergrößern. Jeder Knoten kostet|vier Metall und 4kWH Energie.||Tipp: Überlege genau, wo du sie platzierst,|da sie relativ teuer sind!
+
+ITEM 170
+TITLE Baue einen Generator oder ein Kraftwerk
+TEXT1 Du findest sie auf Seite 4|des Konstruktionsmenüs.
+TEXT2 Kraftwerke sind effizienter als Generatoren,|aber auch teurer.||Tipp: Die Solarzellen von der Landefähre erzeugen|etwas Energie, aber nur bei Tageslicht.|Du brauchst eine andere Energiequelle|für die Dunkelheit.
+
+ITEM 180
+TITLE Baue eine Glasfabrik
+TEXT1 Sie ist auf Seite 2|des Konstruktionsmenüs.
+TEXT2 Die Glasfabrik wandelt Steine in Glas um.||In Räumen aus Glas kann die Temperatur geregelt|werden, was zu einer angenehmen Umgebung|zum Arbeiten, Schlafen,|Entspannen und Kochen führt.
+
+# This is similar to item 180 but for the harsh climate - colonists may die of cold if player does not build a room in time.
+ITEM 181
+TITLE Baue eine Glasfabrik
+TEXT1 Sie ist auf Seite 2|des Konstruktionsmenüs.
+TEXT2 Die Glasfabrik wandelt Steine in Glas um.||Diese Region hat extrem kalte Nächte. Daher|ist es sehr wichtig Räume aus Glas zu|bauen, um die Temperatur regeln zu können.
+
+ITEM 190
+TITLE Baue einen Raum
+TEXT1 Raumstrukturen sind auf Seite 6|des Konstruktionsmenüs.
+TEXT2 Um diesen Schritt abzuschließen musst du|einen Bereich von mindestens 6 Feldern von|Glaswänden und einer Tür umbauen.|Dann füge ein Dach und eine|Umweltkontrolle hinzu.||Tipp: Klicke auf die fertige Umweltkontrolle|um Temperatur, Licht und Ernergieverbrauch|zu kontrollieren.
+
+# This is similar to item 190 but for the harsh climate - colonists may die of cold if player does not build a room in time.
+ITEM 191
+TITLE Baue einen Raum
+TEXT1 Die Glasfabrik ist auf Seite 6|des Konstruktionsmenüs.
+TEXT2 Um diesen Schritt abzuschließen musst du|einen Bereich von mindestens 6 Feldern von|Glaswänden und einer Tür umbauen. Dann|füge ein Dach und eine Umweltkontrolle hinzu.||Tipp: Heizen kostet Energie.|Stelle sicher, dass genug Treibstoff|vorhanden ist, bevor es zu kalt|ist um nach draußen zu gehen.
+
+# Should build a pump indoors if harsh climate
+ITEM 192
+TITLE Baue eine Pumpe in einem Raum
+TEXT1 Pumpen, Wasserpumpen und Breimixer|haben eine minimale Betriebstemperatur.
+TEXT2 Diese Geräte hören auf zu arbeiten,|wenn es kälter als -10°C ist.||Alternativ kannst du gerichtete Heizer benutzen,|aber die verbrauchen viel Energie.
+
+ITEM 195
+TITLE Baue einen Tisch
+TEXT1 Tische sind auf Seite 6|des Konstruktionsmenüs.
+TEXT2 Ein Tisch kann aus Stein oder Metall|hergestellt werden. Kolonisten nutzen sie|entspannen und unterhalten. Stelle sicher,|dass genug Platz drumherum ist.||Tipp: Am besten sind Tische in Gebäuden,|aber aus Platzmangel ist es das beste,|sie zunächst draußen zu platzieren.
+
+ITEM 198
+TITLE Weise allen Kolonisten Schlafkapseln zu
+TEXT1 Kolonisten mögen eigene|Schlafkapseln.
+TEXT2 Sie bekommen einen kleinen Glücklichkeitsbonus,|wenn sie ihre eigene Schlafkapsel haben.||Du kannst jeder Schlafkapsel per Klick|einen anderen Kolonisten zuweisen.||Eine Zuweisung kannst du nur alle 24 Stunden ändern.
+
+ITEM 200
+TITLE Baue ein technisches Labor
+TEXT1 Technische Labore sind auf|Seite 7 des Konstruktionsmenüs.
+TEXT2 Dein Ingenieur wird einige Zeit im Labor|verbringen, bis bessere Technologien|erforscht sind.||In der Demoversion nicht verfügbar.
+
+ITEM 210
+TITLE Baue ein biologisches Labor
+TEXT1 Labore sind auf Seite 7|des Konstruktionsmenüs.
+TEXT2 Es erlaubt Botanikern an Nahrungsmittel-|projekten zu arbeiten, und es ermöglicht|Algenfarmen und Kek-Produktion.||In der Demoversion nicht verfügbar.
+
+ITEM 220
+TITLE Baue ein geologisches Labor
+TEXT1 Labore sind auf Seite 7|des Konstruktionsmenüs.
+TEXT2 Es erlaubt Geologen an Projekten zum|Finden von Resourcen zu arbeiten|und macht Minen effizienter.||In der Demoversion nicht verfügbar.
+
+ITEM 230
+TITLE Baue einen Resourcen-Silo
+TEXT1 Er ist auf Seite 5|des Konstruktionsmenüs.
+TEXT2 Das Landeschiff hat nur wenig Lagerplatz.|Du wirst einen Silo bauen müssen.||Tipp: Kurzzeitig können überschüssige|Resourcen in Lagerplätzen gelagert werden.|Diese zählen nicht zur Inventarsumme.||Aber nur Dinge, die in Gebäuden aufbewahrt|werden können zum Konstruieren, als|Treibstoff oder zur Herstellung|genutzt werden.
+
+ITEM 240
+TITLE Baue eine Mine
+TEXT1 Minen sind auf Seite 2|des Konstruktionsmenüs.
+TEXT2 Das Sammeln von Resourcen kostet viel|Zeit, und es wird zeitintensiver,|je weiter die Felsen entfernt sind.|Das Problem lässt sich durch Minen zum| Sammeln von Steinen, Erz und Kohle lösen.||Tipp: Minen verbrauchen sehr viel Energie.|Um sie so effektiv wie möglich zu machen,|solltest du sie auf großen|Vorkommen platzieren.
+
+ITEM 250
+TITLE Baue ein Kraftwerk
+TEXT1 Kraftwerke sind auf Seite 4|des Konstruktionsmenüs.
+TEXT2 Sie sind effektiver als Generatoren,|aber sehr teuer zu bauen.||Tipp: Ein Kohlekraftwerk is etwas effektiver|als Biomasse, aber es ist teurer und du| brauchst ein paar Kohleöfen|oder eine Kohlemine um es am Laufen zu halten.
+
+ITEM 260
+TITLE Baue ein Nahrungsmittellager
+TEXT1 Es ist auf Seite 5|des Konstruktionsmenüs.
+TEXT2 Dein Nahrungsmittellager wird zu klein.||Tipp: Im Gegensatz zu Rohmaterialien kann|Nahrung und Brei nicht draußen in|Lagerplätzen aufbewahrt werden.|Wenn du zu viel Brei hast, dann|schalte den Breimixer aus oder setze|ein Inventarziel.|Brei kann außerdem in einem Biomasse-Kraftwerk|verbrannt oder in Kompost umgewandelt werden.
+
+ITEM 270
+TITLE Baue ein Gegenstandslager
+TEXT1 Es ist auf Seite 5|des Konstruktionsmenüs.
+TEXT2 Dein Lager für herrgestellte Gegenstände|wird zu klein.||Dieses Gebäude lagert Glasplatten, Batterie-,|und Solarzellen sowie Verbundwerkstoffe.|Diese Gegenstände können nicht in Silos|oder Lagerbereichen aufbewahrt werden.
+
+ITEM 280
+TITLE Baue eine Lampe
+TEXT1 Sie ist auf Seite 6|des Konstruktionsmenüs.
+TEXT2 Kolonisten können auch im dunkeln|arbeiten, aber sie sind dann langsamer.|Abhilfe schaffen Lampen.||Tipp: Pflanzen und Algen können auch|unter Lampen wachsen, aber relativ langsam.
+
+ITEM 290
+TITLE Wecke einen weiteren Kolonisten
+TEXT1 Klicke dafür auf das Symbol in der|unteren linken Ecke.
+TEXT2 Der vierte Kolonist kann ein Ingenieur,|Botaniker, Geologe oder|ein Programmierer sein.||Tipp: Es ist nur ein Programmierer|auf dem Mutterschiff. Er ist|perfekt im Umgang mit Laboren,|aber er arbeitet nichts anderes.
+
+# This is similar to item 290 but for the harsh climate - best not to get too many colonists on day one.
+ITEM 291
+TITLE Wecke einen weiteren Kolonisten
+TEXT1 Klicke dafür auf das Symbol in der|unteren linken Ecke.
+TEXT2 Der vierte Kolonist kann ein Ingenieur,|Botaniker, Geologe oder|ein Programmierer sein.||Tipp: Je mehr Kolonisten du hast, je|mehr Resourcen verbrauchst du nachts.|Es ist ratsam bis zum zweiten Tag zu|warten, bis man neue Kolonisten aufweckt.
+
+ITEM 300
+TITLE Schließe das Batteriezellenprojekt ab
+TEXT1 Du findest es im technischen Labor.
+TEXT2 Battieren erlauben es, deinen Energiespeicher|zu vergrößern.||Das Abschließen dieses Projektes ist|außerdem notwendig, um neue fortschrittlichere|Technologien anwenden zu können.
+
+ITEM 310
+TITLE Beende das Verbundwerkstoffe-Projekt
+TEXT1 Dieses Projekt ist im|technischen Labor verfügbar.
+TEXT2 Hiermit kannst du eine Verbundwerstoff-|fabrik bauen, die die Materialien produziert,|mit denen man Windräder bauen kann.||Diese Technologie ist Grundvoraussetzung für|den Bau einer Rakete.
+
+ITEM 320
+TITLE Schließe das Solarzellenproject ab
+TEXT1 Dieses Project ist im|technischen Labor verfügbar.
+TEXT2 Nach der Fertigstellung kannst du eine|Solarzellenfabrik bauen, die die Materialen|für die Solarzellen herstellt.||Diese Technologie ist Grundvoraussetzung für|den Bau einer Rakete.
+
+ITEM 330
+TITLE Beende das Wasserstofftreibstoffprojekt
+TEXT1 Dieses Project ist im|technischen Labor verfügbar.
+TEXT2 Eine Rakete nutzt Wasserstoff als Treibstoff.||Du benötigst sehr viel Wasserstoff, was|wiederum sehr viel Energie für|die Herstellung benötigt.
+
+ITEM 340
+TITLE Schließe das Raketenprojekt ab
+TEXT1 Dieses Project ist im|technischen Labor verfügbar.
+TEXT2 Hiermit kannst du eine Rakete herstellen|und starten, wenn du genug Resourcen hast.
+
+ITEM 400
+TITLE Schalte Hydrokultur oder...
+TEXT1 ...Kompostproduktion frei.|Diese Projekte sind im|Biologielabor verfügbar.
+TEXT2 Pfanzen können in Hydrokulturen oder|in Steinpflanzgefäßen mit Kompost|angebaut werden.||Tipp: Einige Pflanzen wachsen nur in|Hydrokulturen, andere nur in|Steinpflanzgefäßen. Du solltest die|Vorlieben der Kolonisten beachten,|bevor die die eine oder die andere|Variante nutzt.
+
+ITEM 405
+TITLE Schließe das Kompostproduktionsprojekt ab
+TEXT1 Dieses Projekt ist im|Biologielabor verfügbar.
+TEXT2 Du kannst jetzt Hydrokulturen nutzen,|aber eventuell ist es auch sinnvoll|Steinpflanzgefäße zu nutzen.|Sie sind billiger und es lassen sich mehr|verschiedene Pflanzen darin anbauen,|u.a. auch Kekke.
+
+ITEM 410
+TITLE Schließe das Algenanbauprojekt ab
+TEXT1 Dieses Projekt ist im|Biologielabor verfügbar.
+TEXT2 Der Algenanbau ermöglicht eine einfache|Versorgung mit Biomasse.|Algenwachstum braucht Wärme,|Licht und viel Wasser.||Tipp: Dieses Verfahren funktioniert gut|in Kombination mit dem Biomasse-Kraftwerk.
+
+ITEM 420
+TITLE Schließe das Kek-Produktionsprojekt ab
+TEXT1 Dieses Projekt ist im|Biologielabor verfügbar.
+TEXT2 Du brauchst nicht zwingend Kek, aber|für Kolonisten ist es etwas Luxus.||Kek wird hergestellt durch den Anbau von|Kekke in Steinpflanzgefäßen, dessen Ernte und|Weiterverarbeitung in der Kek-Fabrik. Kek ist|ein Getränk was den Kolonisten hilft,|den Stress abzubauen und zu entspannen.
+
+ITEM 500
+TITLE Beende das Schneller-Bergbau-Projekt 1
+TEXT1 Dieses Projekt ist im|Geologielabor verfügbar.
+TEXT2 Bergbau benötigt eine Menge Energie.||Es gibt Projekte, die die Ausführungsgeschwindigkeit|erhöhen bei gleichem Energieverbrauch.|Wenn du diese Projekte abschließt,|wird das langfristig ein großer Vorteil sein.
+
+ITEM 510
+TITLE Schließe das Erzscanner-Projekt ab
+TEXT1 Dieses Projekt ist im|Geologielabor verfügbar.
+TEXT2 Manuelle Suche nach Untergrundresourcen|dauert lange und kleine Depots können|schnell übersehen werden.||Ein Erzscanner scannt systematisch|vom Ausgangspunkt weg.
+
+ITEM 520
+TITLE Baue einen Erzscanner
+TEXT1 Es ist auf Seite 2|des Konstruktionsmenüs.
+TEXT2 Ein Erzscanner scannt systematisch|vom Ausgangspunkt weg.||Tipp: Erzscanner verbrauchen 2kW Energie.|Das ist zwar nicht viel, aber wenn|du knapp an Energie bist solltest|du ihn ausschalten..
+
+ITEM 600
+TITLE Pflanze, ernte und koche Pflanzen 
+TEXT1 Du brauchst ein Steinpflanzgefäß|und eine Küche.
+TEXT2 Überprüfe die Vorlieben der Kolonisten|und die Voraussetzungen der verschiedenen|Pflanzen, bevor du dich entscheidest,|was du planzt.||Tip: Pflanzen brauchen lange zum Wachsen.|Daher sollte eine Kolonie mindestens|zwei Steinpflanzgefäße pro Kolonist haben.
+
+ITEM 610
+TITLE Starte mit der Kek-Produktion
+TEXT1 Sie ist auf Seite 6|des Konstruktionsmenüs.
+TEXT2 Pflanze Kekke in einem Steinpflanzgefäß|und stelle Kek in der Kek-Fabrik her.|Kek wird wie Essen und Brei gelagert.||Zum Fertigstellen dieser Aufgabe brauchst|du mindestens einmal Kek im Inventar,|einen Kek-Spender und einen Tisch.
+
+ITEM 620
+TITLE Baue eine Batterie
+TEXT1 Die Batteriezellenfabrik ist auf|Seite 2 des Konstruktionsmenüs.|Die Batterie auf Seite 4.
+TEXT2 Wir müssen unser Energielager erweitern|bevor wir größere Gebäude bauen können.||Um eine Batterie zu bauen, benötigen wir|8 Batteriezellen. Diese sind aus Metall und|werden in der Batteriezellenfabrik hergestellt.
+
+ITEM 630
+TITLE Baue eine Fabrik für Verbundwerkstoffe...
+TEXT1 ...oder Solarzellen. Sie sind auf|Seite 2 des Konstruktionsmenüs.
+TEXT2 Die Verbundwertstofffabrik wird benötigt, bevor|wir Windräder herstellen können.||Die Solarzellenfabrik wird für|Solarzellen gebraucht.||Beides wird für den Bau einer Rakete benötigt.
+
+ITEM 640
+TITLE Baue ein Solarpanel oder ein Windrad
+TEXT1 Sie sind auf Seite 4|des Konstruktionsmenüs.
+TEXT2 Solarpanels können überall platziert werden|und erzeugen eine kleine Menge an|Energie bei Tageslicht.||Windräder sollten im freien Gelände platziert|werden. Sie produzieren eine Menge Energie,|aber nur wenn Wind da ist.
+
+ITEM 650
+TITLE Baue eine Algenfarm
+TEXT1 Sie ist auf Seite 2|des Konstruktionsmenüs.
+TEXT2 Sie erzeugen mit der Zeit Biomasse.|Das Wachstum hängt von Temperatur und Licht ab.||Tipp: Sie verbrauchen sehr viel Wasser um|einen Produktionsdurchgang zu starten.|Wenn nicht schon vorhanden, solltest du|eventuell einen Wasserspeicher bauen.
+
+ITEM 660
+TITLE Erzeuge 80 Wasserstoff auf Vorrat
+TEXT1 Der Wasserstoffvorratsbehälter ist auf|Seite 5 des Konstruktionsmenüs.|Der Elektrolyseur ist auf Seite 8.
+TEXT2 Raketen verwenden Wasserstoff als Treibstoff.||Zum Herstellen von Wasserstoff brauchst du|einen Elektrolyseur. Dieser braucht zwei Felder|Platz und muss am Wasser platziert werden.|Zum Lagern von Wasserstoff brauchst|du fünf Vorratsgebäude.||Elektrolyseure verbauchen sehr viel Energie.
+
+ITEM 670
+TITLE Bau eine Startplattform...
+TEXT1 ...und ein Raketengerüst. Die|Startplattform ist auf Seite 8|des Konstruktionsmenüs.
+TEXT2 Bevor du die Rakete starten kannst,|brauchst du eine Startplattform.|Sie braucht ein 5x5 Felder großes Fundament.||Nach dem Bau der Plattform kannst du darauf|ein Raketengerüst bauen.
+
+ITEM 900
+TITLE Baue und starte die Rakete
+TEXT1 Sie ist auf Seite 8|des Konstruktionsmenüs.
+TEXT2 Der Zugang zum Weltraum wird das langfristige|Überleben auf dieser Welt sicherstellen.||Tipp: Du brauchst mindestens vier Batterien|bevor du genug Energie für das|Konstruktionsprojekt hast.|Dazu brauchst du noch 80 Einheiten|Wasserstoff für den Start der Rakete.

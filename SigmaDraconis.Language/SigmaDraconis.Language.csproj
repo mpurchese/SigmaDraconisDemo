@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E1BD91D-D540-4F64-9D4B-A388EBDFCD49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigmaDraconis.Language</RootNamespace>
+    <AssemblyName>SigmaDraconis.Language</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\StringsForAchievement.cs" />
+    <Compile Include="Enums\StringsForAchievementsPanel.cs" />
+    <Compile Include="Enums\StringsForFlagTooltips.cs" />
+    <Compile Include="Enums\StringsForItemTypeLower.cs" />
+    <Compile Include="Enums\StringsForDialogTitles.cs" />
+    <Compile Include="Enums\StringsForChecklistPanel.cs" />
+    <Compile Include="Enums\StringsForProjectTooltip.cs" />
+    <Compile Include="Enums\StringsForCommentArchiveDialog.cs" />
+    <Compile Include="Enums\StringsForMineResourceDiamondCellTooltip.cs" />
+    <Compile Include="Enums\StringsForSkillTypeDetail.cs" />
+    <Compile Include="Enums\StringsForSkillTypeSubject.cs" />
+    <Compile Include="Enums\StringsForCommentaryHistoryPopup.cs" />
+    <Compile Include="Enums\StringsForMothershipStatusTooltip.cs" />
+    <Compile Include="Enums\StringsForMothershipStatus.cs" />
+    <Compile Include="Enums\StringsForColonistPanel.cs" />
+    <Compile Include="Enums\StringsForWaterDisplay.cs" />
+    <Compile Include="Enums\StringsForKeyboardControlsDialog.cs" />
+    <Compile Include="Enums\StringsForStatusBar.cs" />
+    <Compile Include="Enums\StringsForColonistStory.cs" />
+    <Compile Include="Enums\StringsForFarmPanel.cs" />
+    <Compile Include="Enums\StringsForGameScreen.cs" />
+    <Compile Include="Enums\StringsForSystem.cs" />
+    <Compile Include="Enums\StringsForConstructPanel.cs" />
+    <Compile Include="Enums\StringsForSavedGameDialog.cs" />
+    <Compile Include="Enums\StringsForSaveGameDialog.cs" />
+    <Compile Include="Enums\StringsForGameOverDialog.cs" />
+    <Compile Include="Enums\StringsForCropTooltip.cs" />
+    <Compile Include="Enums\StringsForThingPanels.cs" />
+    <Compile Include="Enums\StringsForConfirmSettingsDialog.cs" />
+    <Compile Include="Enums\StringsForEnergyTooltip.cs" />
+    <Compile Include="Enums\StringsForMothershipDialog.cs" />
+    <Compile Include="Enums\StringsForErrorDialog.cs" />
+    <Compile Include="Enums\StringsForDeleteGameDialog.cs" />
+    <Compile Include="Enums\StringsForLoadGameDialog.cs" />
+    <Compile Include="Enums\StringsForButtons.cs" />
+    <Compile Include="Enums\StringsForDialogText.cs" />
+    <Compile Include="Enums\StringsForInventoryDisplay.cs" />
+    <Compile Include="Enums\StringsForOptionsPanel.cs" />
+    <Compile Include="Enums\StringsForFileDetailsTooltip.cs" />
+    <Compile Include="Enums\StringsForWarnings.cs" />
+    <Compile Include="Enums\StringsForUnits.cs" />
+    <Compile Include="Enums\StringsForSettingsDialog.cs" />
+    <Compile Include="LanguageHelper.cs" />
+    <Compile Include="LanguageManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Enums\StringsForMouseCursor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Draconis.Shared\Draconis.Shared.csproj">
+      <Project>{34a1a3e2-ce4c-42f9-9f22-a862ea6fce47}</Project>
+      <Name>Draconis.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Draconis.UI\Draconis.UI.csproj">
+      <Project>{35c820ff-e512-4dc0-926d-440747093dfd}</Project>
+      <Name>Draconis.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Cards.Interface\SigmaDraconis.Cards.Interface.csproj">
+      <Project>{f37e96d4-034c-48a4-8bc8-3f8e927be693}</Project>
+      <Name>SigmaDraconis.Cards.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Settings\SigmaDraconis.Settings.csproj">
+      <Project>{c384d01d-4250-4dbe-8562-16586cd1bf88}</Project>
+      <Name>SigmaDraconis.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SigmaDraconis.Shared\SigmaDraconis.Shared.csproj">
+      <Project>{e7777407-4d94-406e-b80e-75de5ddf2187}</Project>
+      <Name>SigmaDraconis.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,313 @@
+﻿# This file contains most of the text needed for the tutorial Checklist feature.
+
+# The UI has limited space, it has some vertical scrolling functionality but no auto-resizing.
+# TITLE has space for 1 line of text with up to 40 characters.  Multiple lines not supported.
+# TEXT1 has space for 3 lines of text.  Any more and scrollbars appear, try to avoid this.
+# TEXT2 has space for 2 paragraphs with a total of 7 lines of text, or 3 with 6 lines of text.  Any more and scrollbars appear.  Avoid scrolling if possible, otherwise keep the line length to <= 43 chars.
+
+# This guide can be used for checking line lengths.
+###### TITLE max length 40 chars #######
+##### TEXT1 max length 37 chars #####
+######### TEXT2 max length 45 chars #########
+
+# | indicates a new line.
+# || indicates a new paragraph.
+
+ITEM 10
+TITLE Construct resource processor
+TEXT1 Press B or the crane icon in|the bottom-left to open the|construction menu.
+TEXT2 The first resource processor is free.|Place it near to the lander|and wait for it to be built.||Resource processors allow colonists to gather|metal, stone, ore, coal and organics.
+
+ITEM 20
+TITLE Obtain metal
+TEXT1 Press X or the recycle icon in|the bottom-left to activate the|deconstruction tool.
+TEXT2 The landing pod is no-longer needed|- and it's made of metal.||Tip: There is no need collect all the metal|right away. Once we have a couple of units,|you change the prioriry to "none"|to stop any more from being collected.
+
+ITEM 30
+TITLE Obtain stone
+TEXT1 Press X or the recycle icon in|the bottom-left to activate the|deconstruction tool.
+TEXT2 There should be some rocks nearby.|Rocks can contain stone, ore, or coal.||Find a stone rock, and deconstruct it.||Tip: Most contruction requires metal and / or|stone, so it's important to always have a|source of both.
+
+ITEM 40
+TITLE Construct foundation
+TEXT1 Build at least one|foundation.
+TEXT2 Foundations are required for most buildings.|they can be made from either stone or metal.||Tip: Metal is more expensive to produce than|stone. For this reason stone foundations are|oftern preferred.
+
+ITEM 50
+TITLE Establish water supply
+TEXT1 Build a groundwater pump|and a water dispenser.
+TEXT2 The first groundwater pump is free.|The water dispenser requires 2 metal.||Tip: The operational effeciency of|groundwater pumps may vary with location.|Also, they have a drying effect which will|gradually decrease output over time.
+
+ITEM 60
+TITLE Obtain coal or build a charcoal maker
+TEXT1 Coal is needed to smelt metal.
+TEXT2 There might be coal-bearing rocks nearby.|If not, then build a charcoal maker.|These slowly convert organics into coal.||The charcoal maker can be found|on page 2 of the construction menu.
+
+ITEM 70
+TITLE Obtain organics
+TEXT1 Deconstruct plants for organics.
+TEXT2 Organics are a vital resource with a|variety of different uses.||Tip: Try to avoid deconstructing plants|with "du-dax" in the name.|These produce fruit which will|be a useful source of food later.
+
+ITEM 80
+TITLE Obtain ore
+TEXT1 Ore is needed to smelt metal.
+TEXT2 Check the rocks nearby,|some should contain ore.||Tip: Rocks sometimes indicate the presence|of hidden underground resources in the area.|You can use the geology tool (G) to flag|locations to survey in the future.
+
+ITEM 90
+TITLE Build a furnace
+TEXT1 The stone furnace is on page 2|of the construction menu.
+TEXT2 The stone furnace will automatically produce|metal as long as we have both ore and coal.||Tip: Electric furnaces are much faster than|stone ones and don't need coal. However they|require a large amount of energy to operate,|so it's best to build stone furnaces first.
+
+ITEM 95
+TITLE Build another charcoal maker
+TEXT1 Charcoal makers are slow.
+TEXT2 It takes two charcoal makers to keep one|stone furnace running continuously.||Tip: Keep an eye on the level of organics;|the charcoal makers need a continuous supply.
+
+ITEM 100
+TITLE Build a food dispenser
+TEXT1 The food dispenser is on the fisrt|page of the construction menu.
+TEXT2 We have a small amount of food in the lander,|but a food dispenser is required before it|can be consumed.||2 metal is required to build a dispenser.
+
+ITEM 110
+TITLE Build a sleep pod
+TEXT1 The sleep pod is on page 6|of the construction menu.
+TEXT2 Eventually all colonists need to sleep.||Tip: Colonists will normally be awake for|around 19 hours and sleep for 5.||If necessary they can sleep outside,|but this is not ideal!
+
+ITEM 120
+TITLE Wake another colonist
+TEXT1 Click the button in the bottom-left|to wake another colonist
+TEXT2 It is suggested to wake a botanist as soon|as possible. A botanist can to grow, harvest,|and cook food.||Alternatively we could wake a geologist first|and survive on mush for now. Geologists can|locate underground resources for mining.
+
+ITEM 121
+TITLE Wake a botanist
+TEXT1 Click the button in the bottom-left|to wake another colonist
+TEXT2 We have an engineer and a geologist.|Next we should wake a botanist.||Botanists can to grow, harvest, and cook food.
+
+ITEM 122
+TITLE Wake a geologist
+TEXT1 Click the button in the bottom-left|to wake another colonist
+TEXT2 We have an engineer and a botanist.|Next we should wake a geologist.||Geologists can locate underground|resources for mining.
+
+ITEM 130
+TITLE Build a cooker
+TEXT1 The cooker is on page 3|of the construction menu.
+TEXT2 Colonists can only eat cooked food, so a|cooker is needed unless we plan to survive|on mush. Botanists also cannot harvest fruit|until a cooker is available.||Tip: Cookers require water to operate.|It might be worth building another pump.
+
+ITEM 140
+TITLE Build a mush churn
+TEXT1 The mush churn is on page 3|of the construction menu.
+TEXT2 Hopefully botanists will eventually be able|to grow and harvest enough to feed the colony,|but early on we will almost certainly need|a mush churn.||A mush churn can convert organics, water and|energy into low quality food (mush).
+
+ITEM 150
+TITLE Harvest and cook fruit
+TEXT1 Some wild plants produce edible fruit.|Press H to activate the harvest tool.
+TEXT2 Eventually we should grow our own crops, but|this is a long-term goal.||For now edible wild fruit|could be a useful food source.||Tip: Bluefruit plants fruit early in the day.|Yellow and red fruit come later.
+
+ITEM 160
+TITLE Build a network node
+TEXT1 The network node is on the fisrt|page of the construction menu.
+TEXT2 Network nodes are used to expand the base.|Each node costs 4 units of metal|and 4kWH of energy to construct.||Tip: Choose carefully where you place these|- they aren't cheap!
+
+ITEM 170
+TITLE Build generator or power station
+TEXT1 Generators and power stations are|on page 4 of the construction menu.
+TEXT2 Power stations are more efficient than|generators but are very expensive to build.||Tip: The lander solar panels provide some|energy but will only work during daylight.|We'll need another power source before dark.
+
+ITEM 180
+TITLE Build glass factory
+TEXT1 The glass factory is on page 2|of the construction menu.
+TEXT2 The glass factory converts stone into glass.||Glass rooms can be temperature-controlled,|providing a comfortable environment in which|to work, sleep, relax, and grow food.
+
+# This is similar to item 180 but for the harsh climate - colonists may die of cold if player does not build a room in time.
+ITEM 181
+TITLE Build glass factory
+TEXT1 The glass factory is on page 2|of the construction menu.
+TEXT2 The glass factory converts stone into glass.||This region has extremely cold nights,|therefore it is essential that we build a|temperature-controlled room before it|gets too cold.
+
+ITEM 190
+TITLE Construct a room
+TEXT1 Habitation structures are on page 6|of the construction menu.
+TEXT2 To complete this item enclose an area of at|least 6 tiles with glass walls and a door.|Then add a roof and an environment control.||Tip: Click on a completed environment control|to control temperature and lighting.|Keep an eye on energy consumption.
+
+# This is similar to item 190 but for the harsh climate - colonists may die of cold if player does not build a room in time.
+ITEM 191
+TITLE Construct a room
+TEXT1 The glass factory is on page 6|of the construction menu.
+TEXT2 To complete this item enclose an area of at|least 6 tiles with glass walls and a door.|Then add a roof and an environment control.||Tip: Heating costs energy.|Make sure we have plenty of fuel before it|gets too cold for colonists to go outside.
+
+# Should build a pump indoors if harsh climate
+ITEM 192
+TITLE Have a pump indoors
+TEXT1 Pumps, water pumps and mush churns|have a minimum operating temperature.
+TEXT2 All of these buildings will stop working when|the temperature drops below -10°C.||Alternatively we could use directional|heaters to keep them warm, but these do use|quite a lot of energy.
+
+ITEM 195
+TITLE Build a table
+TEXT1 Tables are page 6|of the construction menu.
+TEXT2 A table can be made from stone or metal.|Colonists will visit a table to relax and|socialise.  Make sure there is some space|around it for this purpose.||Tip: Ideally it's good to have a table|indoors but they need plenty of space,|so it might be best to put one outside first.
+
+ITEM 198
+TITLE Assign private sleep pods to everyone
+TEXT1 Colonists like to have their own|private pod.
+TEXT2 Colonists get a small happiness bonus after|sleeping if the pod is assigned just to them.||If you have enough pods, you can click on|each one and assign to a different colonist.||Note that after assigning a pod, this cannot|be changed again for 24 hours.
+
+ITEM 200
+TITLE Build engineering lab
+TEXT1 Labs are on page 7|of the construction menu.
+TEXT2 Our engineer will need to do some work at an|engineering lab before we can make use of the|more advanced technologies available to us.||Not available in demo version.
+
+ITEM 210
+TITLE Build biology lab
+TEXT1 Labs are on page 7|of the construction menu.
+TEXT2 The biology lab allows botanists to work on|food production projects, and to|enable algae farming or the production of kek.||Not available in demo version.
+
+ITEM 220
+TITLE Build geology lab
+TEXT1 Labs are on page 7|of the construction menu.
+TEXT2 The geology lab allows geologists to work on|projects help find resources and to|make mines more efficient.||Not available in demo version.
+
+ITEM 230
+TITLE Build a resource silo
+TEXT1 The resource silo is on page 5|of the construction menu.
+TEXT2 The lander has some storage space, but this|is running out.  We'll need to build a silo.||Tip: Excess resources can also be temporarily|stored in stacking areas, but these don't|count towards inventory totals.|Only items stored in buildings can be used|for construction, fuel, and manufacturing.
+
+ITEM 240
+TITLE Build a mine
+TEXT1 The mine is on page 2|of the construction menu.
+TEXT2 Collecting resources is time consuming, and|will get more so as the nearby rocks are|used up.  To solve this problem we can build|mines to collect stone, ore, and coal.||Tip: Mines consume a lot of energy.|To make them work as effeciently as possible,|place them on high density resource deposits.
+
+ITEM 250
+TITLE Build a power station
+TEXT1 Power stations are|on page 4 of the construction menu.
+TEXT2 Power stations are more efficient than|generators but are very expensive to build.||Tip: The coal power station is somewhat more|efficient than the biomass, but it's more|expensive and you'll need a few charcoal|makers or a coal mine to keep it running.
+
+ITEM 260
+TITLE Build a food storage
+TEXT1 The food storage is on page 5|of the construction menu.
+TEXT2 We're running out of food storage space.||Tip: Unlike raw materials, food and mush|cannot be stored outside in stacking areas.|If you have too much mush, switch off the|mush churn or set an inventory target.|Mush can also be burned in a biomass power|station or turned into compost.
+
+ITEM 270
+TITLE Build an items storage
+TEXT1 The items storage is on page 5|of the construction menu.
+TEXT2 We're running out of storage space for|manufactured items.||This building stores glass panels,|battery cells, solar cells, and composites.|These items cannot be stored in silos or|stacking areas.
+
+ITEM 280
+TITLE Build a lamp
+TEXT1 The lamp is on page 6|of the construction menu.
+TEXT2 Colonists can work in the dark, but they will|be slower.  Building some lamps can help.||Tip: Crops and algae can also grow under lamp|light, but not as quickly as in sunlight.
+
+ITEM 290
+TITLE Wake another colonist
+TEXT1 Click the button in the bottom-left|to wake another colonist
+TEXT2 The fourth colonist could be another engineer,|botanist, geologist, or the programmer.||Tip: There is only one programmer on the|mothership.  Xe is excellent at operating|labs, but won't do any other work.
+
+# This is similar to item 290 but for the harsh climate - best not to get too many colonists on day one.
+ITEM 291
+TITLE Wake another colonist
+TEXT1 Click the button in the bottom-left|to wake another colonist
+TEXT2 The fourth colonist could be another engineer,|botanist, geologist, or the programmer.||Tip: The more colonists you have, the more|resources you will need to survive the night.|It may be advisable to wait until day two|before waking more colonists.
+
+ITEM 300
+TITLE Complete the Battery Cells project
+TEXT1 This project is available at the|engineering lab.
+TEXT2 Batteries will allow us to expand our energy|storage capacity.||Completion of this project is also a|prerequisite for more advanced technologies.
+
+ITEM 310
+TITLE Complete Lightweight Composites project
+TEXT1 This project is available at the|engineering lab.
+TEXT2 After completing this project we will be able|to build a composites factory, which in turn|will produce the materials required to build|wind turbines.||This technology is also a pre-requisite for|the construction of a rocket.
+
+ITEM 320
+TITLE Complete the Photovoltaics project
+TEXT1 This project is available at the|engineering lab.
+TEXT2 After completing this project we will be able|to build a solar cell factory, which in turn|will produce the materials required to build|solar panels.||This technology is also a pre-requisite for|the construction of a rocket.
+
+ITEM 330
+TITLE Complete the Hydrogen Fuel project
+TEXT1 This project is available at the|engineering lab.
+TEXT2 Our rocket will be powered by hydrogen fuel.||We're going to need a lot of hydrogen, which|will take a lot of energy to produce.
+
+ITEM 340
+TITLE Complete the Rocketry project
+TEXT1 This project is available at the|engineering lab.
+TEXT2 Completion of this project will enable us|to build and launch a rocket, once we have|enough resources.
+
+ITEM 400
+TITLE Unlock hydroponics or compost production
+TEXT1 These projects are available at the|biology lab.
+TEXT2 Crops can be grown in hydroponics planters,|or in stone planters using compost.||Tip: Some crops only grow in hydroponics|and others require compost - see the|farming panel (F) for details.||It may be worth checking colonists'|food preferences before choosing a project.
+
+ITEM 405
+TITLE Complete the Compost Production project
+TEXT1 This project is available at the|biology lab.
+TEXT2 We can now grow crops in hydroponics, but|eventually it will be useful to have the|ability to make stone planters as well. These|are cheaper and grow a wider range of crops,|including kekke (with addtional project work).
+
+ITEM 410
+TITLE Complete the Algae Farming project
+TEXT1 This project is available at the|biology lab.
+TEXT2 Algae farming could provide a convenient|supply of organics.  Algae growth requires|warmth, light, and plenty of water.||Tip: This technology can work very well in|combination with biomass power.
+
+ITEM 420
+TITLE Complete the Kek Production project
+TEXT1 This project is available at the|biology lab.
+TEXT2 We don't *need* to produce kek, but why not|make the time for a little luxury?||Kek is produced by growing kekke in a stone|planter, then taking the harvest to a kek|factory.  Kek is a drink which will help|colonists de-stress when they take a break.
+
+ITEM 500
+TITLE Complete the Faster Mining 1 project
+TEXT1 This project is available at the|geology lab.
+TEXT2 Mines consume a lot of energy.||We have projects available which will improve|their speed without increasing energy use.|Completing these could be well worth the|effort in the long run.
+
+ITEM 510
+TITLE Complete the Ore Scanner project
+TEXT1 This project is available at the|geology lab.
+TEXT2 Searching for underground resources manually|takes a long time, and small high-density|deposits can easily be missed.||An ore scanner will systematically scan tiles|in an expanding circle around its location.
+
+ITEM 520
+TITLE Build an ore scanner
+TEXT1 The ore scanner is on page 2|of the construction menu.
+TEXT2 An ore scanner will systematically scan tiles|in an expanding circle around its location.||Tip: Ore scanners do use some power (2kW).|It's not much, but you might want to|switch them off if you're low on energy.
+
+ITEM 600
+TITLE Grow, harvest, and cook some crops
+TEXT1 You'll need at least one planter|and a cooker.
+TEXT2 Check the colonists' preferences and the|requirements of different crops before|deciding what to plant.||Tip: Crops take a long time to grow.|It is suggested that a colony should have|at least two planters for each colonist.
+
+ITEM 610
+TITLE Begin kek production
+TEXT1 The kek factory is on page 6|of the construction menu.
+TEXT2 Grow kekke in a stone planter and make kek|in a kek factory.  Kek is stored in the same|way as food and mush.||To complete this task you'll need at least|one unit of kek in the inventory,|a kek dispenser, and a table.
+
+ITEM 620
+TITLE Build a battery
+TEXT1 The battery cell factory is on page 2|of the construction menu.|The battery is on page 4.
+TEXT2 We'll need to increase our energy storage|capacity before we can construct some of the|bigger buildings.||To build a battery we will first need to|make 8 battery cells.  These are made from|metal using a battery cell factory.
+
+ITEM 630
+TITLE Build a composites or solar cell factory
+TEXT1 These are on page 2|of the construction menu.
+TEXT2 The composites factory is needed before we|can build wind turbines.||The solar cell factory is needed for|solar panels.||Both are needed before we can construct|a rocket.
+
+ITEM 640
+TITLE Build a solar panel array or a wind turbine
+TEXT1 These are on page 4|of the construction menu.
+TEXT2 Solar panels can be placed anywhere and|produce a small amount of energy all day.||Wind turbines should be spaced well apart|in open areas.  They can produce a lot of|energy but won't work all of the time.
+
+ITEM 650
+TITLE Build an algae pool
+TEXT1 The algae pool is on page 2|of the construction menu.
+TEXT2 Algae pools generate organics over time.|Growth rate depends on temperature and light.||Tip: These require a lot of water to start|each production cycle.  You might want to|build a water storage if you haven't already.
+
+ITEM 660
+TITLE Stockpile 80 units of hydrogen
+TEXT1 The hydrogen storage is on page 5|of the construction menu.|The electrolyser is on page 8.
+TEXT2 Our rockets are powered by hydrogen fuel.||To make hydrogen, we'll need to build an|electrolyser.  These occupy 2 tiles and must|be placed by water.  To store the hydrogen|we'll need five storage buildings.||Electrolysers consume a lot of energy.
+
+ITEM 670
+TITLE Build a launch pad and rocket gantry
+TEXT1 The launch pad is on page 8|of the construction menu.
+TEXT2 Before we can build a rocket, we need|a launch pad.  A launch pad must be built on|a 5x5 square of foundation.||After building the launch pad, construct a|rocket gantry on it.
+
+ITEM 900
+TITLE Build and launch a rocket
+TEXT1 The rocket is on page 8|of the construction menu.
+TEXT2 Regaining access to space will help to ensure|our long-term survival on this world.||Tip: We will need at least 4 batteries before|we can have enough energy for the|construction project.  Then, we'll need|80 units of hydrogen to launch it.

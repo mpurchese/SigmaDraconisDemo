@@ -1,0 +1,2 @@
+﻿TYPE Tortoise
+RENDERER Animals

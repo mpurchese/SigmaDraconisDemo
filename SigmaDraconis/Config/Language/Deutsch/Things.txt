@@ -1,0 +1,363 @@
+﻿# TYPE is the identifier (don't change this)
+# DISPLAYNAME defaults to equal TYPE
+# DISPLAYNAMEPLURAL defaults to equal DISPLAYNAME + 's'.  Used for power and water tooltips and only required for buildings that produce or consume power or water.
+# SHORTNAME only applies to plants.  It doesn't need to be translated.
+# DESCRIPTION Only required for buildings and plants.  It will have a maximum line length and line count - TBC (UI is being redesigned)
+
+TYPE AlgaePool
+DISPLAYNAME Algenfarm
+DESCRIPTION Produziert mit der Zeit Biomasse.|Braucht 4 Einheiten Wasser für jeden Durchlauf.||Funktioniert am besten bei warmen Temperaturen und viel Licht.||Braucht kein Fundament.
+
+TYPE Battery
+DISPLAYNAME Batterie
+DESCRIPTION Zusätzlich 25 kwh Energiespeicher.||Braucht ein Fundament.
+
+TYPE BatteryCellFactory
+DISPLAYNAME Batteriezellenfabrik
+DISPLAYNAMEPLURAL Batteriezellenfabriken
+DESCRIPTION Stellt Batteriezellen aus Metall her.|Braucht Energiezellen zum Herstellen.||1 Metall => 2 Batteriezellen.|Produktion braucht 1 Stunde und 2kw Energie.|Braucht ein Fundament.
+
+TYPE BigSpineBush
+DISPLAYNAME Yada-spaydax (Großer Dornenbusch)
+SHORTNAME Yada-spaydax
+DESCRIPTION Ein größerer Verwandter des Nida-spaydax.|Eine gute Quelle für Biomasse.
+
+TYPE Biolab
+DISPLAYNAME Biologielabor
+DESCRIPTION Erlaub Botanikern an Nahrungsmittelprojekten zu arbeiten|und ermöglicht Algenfarmen und Kek Produktion.|Labore arbeiten schneller in Gebäuden.
+
+TYPE BiomassPower
+DISPLAYNAME Biomasse-Kraftwerk
+DESCRIPTION Produziert bis zu 7.5kW Energie durch verbrennen von Biomasse.|Verbraucht 1.5 Einheiten Biomasse pro Stunde.|Verbrennt Biomasse effizienter als ein einfacher Generator.|Braucht 0.2 Einheiten Wasser pro kwh.||Bau außerhalb von Gebäuden mit x4-Fundament.
+
+TYPE BlueBug
+DISPLAYNAME Dabolnit (großer blauer Käfer)
+
+TYPE Bush
+DISPLAYNAME Yunndu-dax (gelber Frucht)
+SHORTNAME Yunndu-dax
+DESCRIPTION Yunndu-dax braucht ein paar Tage zum Wachsen.|Reif hat sie große [yellow]gelbe Früchte[/yellow],|die in der heißen Tageszeit reifen.
+
+TYPE CharcoalMaker
+DISPLAYNAME Holzkohleofen
+DESCRIPTION Wandelt langsam Biomasse in Kohle um.|Produziert eine Einheit Kohle alle vier Stunden.|Braucht ein Fundament.
+
+TYPE CoalPower
+DISPLAYNAME Kohlekraftwerk
+DESCRIPTION Produziert bis zu 18kW elektrische Energie aus Kohle.|Verbraucht bis zu 2.6 Einheiten Kohle pro Stunde.|Verbrennt Kohle effizienter als ein einfache Generator.|Braucht 0.2 Einheiten Wasser pro kWh.||Bau außerhalb von Gebäuden mit x4-Fundament.
+
+TYPE CoalStack
+DISPLAYNAME Kohle
+
+TYPE CoastGrass
+DISPLAYNAME Haida-spindax (Küstengras)
+SHORTNAME Haida-spindax
+DESCRIPTION Haida-spindax ist eine grasähnliche|Pflanze, die auf feuchtem Untergrund|in der Nähe von Wasser wächst.
+
+TYPE CompositesFactory
+DISPLAYNAME Verbundwerkstofffabrik
+DISPLAYNAMEPLURAL Verbundwerkstofffabriken
+DESCRIPTION Stellt leichtes Verbundmaterial aus Metall und Biomasse her.|Sie sind ideal für die Konstruktion von Windräder.||1 Metall + 1 Biomasse => 4 Verbundwerkstoffe.|Die Produktion braucht 2 Stunden und 4kw Energie.||Benötigt ein x4-Fundament.
+
+TYPE CompostFactory
+DISPLAYNAME Kompostfabrik
+DESCRIPTION Macht Kompost aus Biomasse oder Brei.|Die Produktion braucht 4 Stunden und 0.2kW Energie.|Braucht ein Fundament.
+
+TYPE CompostStack
+DISPLAYNAME Kompost
+
+TYPE ConduitNode
+DISPLAYNAME Netzwerkknoten
+DESCRIPTION Erweitert die bebaubare Fläche.
+
+TYPE Cooker
+DISPLAYNAME Küche
+DESCRIPTION Produziert Essen aus Früchten und Pflanzen.|Verbraucht Wasser.|Braucht ein Fundament.
+
+TYPE DirectionalHeater
+DISPLAYNAME Gerichtete Heizer
+DESCRIPTION Rotierbarer Heize, der einen benachbarten|Bereich um bis zu 20°C erwärmt.|Verbraucht bis zu 2kW Energie.||Nicht so effektiv wie eine Umweltkontrolle, kann aber draußen benutzt werden.|Braucht ein Fundament.
+
+TYPE Door
+DESCRIPTION Baut eine Glastür.
+
+TYPE ElectricFurnace
+DISPLAYNAME Elektrischer Schmelzofen
+DESCRIPTION Wandelt Erz in Metall um.|Braucht keine Kohle, aber verbraucht 8kW Energie.|Produziert zwei Einheiten Metall pro Stunde.|Braucht ein Fundament.
+
+TYPE EnvironmentControl
+DISPLAYNAME Umweltkontrolle
+DESCRIPTION Heizt, kühlt und steuert Licht in den Räumen.|Funktioniert nur in Gebäuden. Braucht ein Fundament.
+
+TYPE FoodDispenser
+DISPLAYNAME Essensspender
+DESCRIPTION Spendet gekochtet Essen oder Nährstoffbrei.|Kann innen oder außen gebaut werden.
+
+TYPE FoodStorage
+DISPLAYNAME Nahrungsmittellager
+DESCRIPTION Vergrößert das Nahrungsmittellager um 16.|Braucht ein Fundament.
+
+TYPE FoundationMetal
+DISPLAYNAME Metallfundament
+DESCRIPTION Die meisten Strukturen brauchen ein solides Fundament.
+
+TYPE FoundationStone
+DISPLAYNAME Steinfundament
+DESCRIPTION Die meisten Strukturen brauchen ein solides Fundament.
+
+TYPE FuelFactory
+DISPLAYNAME Elektrolyseur
+DESCRIPTION Produziert eine Einheit Wasserstoff pro Stunde.|Verbraucht 20kW Energie und muss in Küstennähe gebaut werden.|Bau außerhalb von Gebäuden mit x2-Fundament.
+
+TYPE Generator
+DESCRIPTION Produziert Energie durch verbrennen von 1.5 Einheiten Treibstoff pro Stunde.|Erzeugt 6kW durch verbrennen von Biomasse oder 8.5kW mit Kohle.|Braucht 0.25 Einheiten Wasser pro kWh.||Braucht ein Fundament.
+
+TYPE GeologyLab
+DISPLAYNAME Geologielabor
+DESCRIPTION Erlaubt Geologen das Arbeiten an Projekten zum Finden von Resourcen und Erhöhung der Effizienz.|Labore arbeiten innerhalb von Gebäuden schneller.
+
+TYPE GlassFactory
+DISPLAYNAME Glasfabrik
+DISPLAYNAMEPLURAL Glasfabriken
+DESCRIPTION Macht aus Steinen Glas.|1 Stein => 2 Glaspanele.|Die Produktion braucht eine Stunde und verbraucht 4kW Energie.|Braucht ein Fundament.
+
+TYPE Grass
+DISPLAYNAME Dada-spindax (Riesengras)
+SHORTNAME Dada-spindax
+DESCRIPTION Dada-spindax ist eine große, schnellwachsende Pflanze|mit langen, schmalen Blättern.|Es wächst in dichten Wäldern.
+
+TYPE HydrogenBurner
+DISPLAYNAME Wasserstoffbrenner
+DESCRIPTION Produziert bis zu 38kW Energie durch verbrennen von Wasserstoff.|Nützlich um überschüssigen Wasserstoff zurück in Energie zu wandeln.|Verbraucht bis zu 2 Einheiten Wasserstoff pro Stunde.|Nutzt 0.1 Einheiten Wasser pro kWh.||Braucht ein Fundament.
+
+TYPE HydrogenStorage
+DISPLAYNAME Wasserstoffspeicher
+DESCRIPTION Speichert 16 Einheiten Wasserstoff.|80 Einheiten werden für den Raketenstart gebraucht.
+
+TYPE IronOreStack
+DISPLAYNAME Erz
+
+TYPE IronStack
+DISPLAYNAME Metall
+
+TYPE ItemsStorage
+DISPLAYNAME Warenlager
+DESCRIPTION Erhöht den Speicherplatz um 16.|Lagert Glaspanelen, Batteriezellen, Solarzellen und Verbundwerkstoffe.|Braucht ein Fundament.
+
+TYPE KekDispenser
+DISPLAYNAME Kek-Spender
+DESCRIPTION Spendet Kek für Kolonisten.|Kann innen oder außen gebaut werden.
+
+TYPE KekFactory
+DISPLAYNAME Kek-Fabrik
+DISPLAYNAMEPLURAL Kek-Fabriken
+DESCRIPTION Produziert Kek von geernteten Kekke-Pflanzen.|Verbraucht Wasser.|Braucht ein Fundament.
+
+TYPE Lamp
+DESCRIPTION Beleuchtet ein Gebiet. Verbraucht 1kW Energie.||Außerhalb von Gebäuden bauen. Braucht kein Fundament.
+
+TYPE Lander
+DISPLAYNAME Landefähre
+
+TYPE LandingPod
+DISPLAYNAME Landefähre
+
+TYPE LaunchPad
+DISPLAYNAME Startplattform
+DESCRIPTION Erlaubt das Bauen von Raketeten und deren Start.|Außerhalb von Gebäuden bauen. Braucht ein x25-Fundament.
+
+TYPE MaterialsLab
+DISPLAYNAME Technisches Labor
+DESCRIPTION Erlaubt Technikern das Arbeiten an Projekten für fortgeschrittene Technologie.|Labore arbeiten schneller innerhalb von Gebäuden.
+
+TYPE Mine
+DESCRIPTION Fördert Resourcen.|Die Förderrate hängt von der Resourcendichte ab.|Verbraucht 8kW Energie.|Braucht ein Fundament.
+
+TYPE MushFactory
+DISPLAYNAME Breimixer
+DESCRIPTION Erzeugt nährstoffreichen Brei aus Biomasse und Wasser.||Das einzige Essen, solange kein Botniker da ist.|Einfach herzustellen und sättigend, aber schmeckt nicht gut.||In oder außerhalb von Gebäuden. Braucht ein Fundament.
+
+TYPE OreScanner
+DISPLAYNAME Erzscanner
+DESCRIPTION Scannt nach Erz, Kohle und Stein.||Arbeitet spiralförmig vom Startpunkt aus.|Verbraucht 2kW Energie.||In oder außerhalb von Gebäuden. Braucht kein Fundament.
+
+TYPE OrganicsStack
+DISPLAYNAME Biomasse
+
+TYPE PlanterHydroponics
+DISPLAYNAME Hydrokultur
+DISPLAYNAMEPLURAL Hydrokulturen
+DESCRIPTION Erlaubt Botanikern das Anbauen von Nahrung.|Wachstumsgeschwindigkeit hängt von Temperatur und Licht ab.|Verbraucht 0.4 Einheiten Wasser pro Stunde.|20% Wachstumsbonus.|Braucht ein Fundament.|Braucht keinen Kompost.
+
+TYPE PlanterStone
+DISPLAYNAME Steinpflanzgefäß
+DISPLAYNAMEPLURAL Steinpflanzgefäße
+DESCRIPTION Erlaubt Botanikern die Verwendung von Kompost zum Pflanzenanbau.|Billger als Hydrokulturen und ermöglicht das Anpflanzen von mehr Pflanzensorten.|Verbraucht 0.2 Einheiten Wasser pro Stunde.|Braucht ein Fundament.
+
+TYPE RedBug
+DISPLAYNAME Dadaruanit (riesiger roter Käfer)
+
+TYPE ResourceProcessor
+DISPLAYNAME Resourcenkonstruktor
+DESCRIPTION Verarbeitet gesammelte Resourcen der Kolonisten.
+
+TYPE Rocket
+DESCRIPTION Eine Rakete mit Nutzlast.|Starte die Rakete um das Spiel zu beenden.
+
+TYPE RocketGantry
+DISPLAYNAME Raketengerüst
+DESCRIPTION Erlaubt es eine Rakete zusammenzubauen und zu starten.
+
+TYPE RockLarge
+DISPLAYNAME Großer Felsen
+
+TYPE RockSmall
+DISPLAYNAME Kleiner Felsen
+
+TYPE Roof
+DESCRIPTION Baut ein Dach.|Muss über einem mit Wänden und Türen umschlossenen Bereich gebaut werden.
+
+TYPE ShorePump
+DISPLAYNAME Wasserpumpe
+DESCRIPTION Pumpt und filtert Wasser aus Meeren oder einem See.||Produziert 4 Einheiten Wasser pro Stunde.|Verbraucht 1kW Energie und 1 Einheit Wasser.||Braucht ein Fundament und muss küstennah gebaut werden.
+
+TYPE Silo
+DISPLAYNAME Resourcen-Silo
+DESCRIPTION Erhöht die Lagerkapazität um 16.|Kann Biomasse, Steine, Erz, Kohle und Kompost lagern.|Braucht ein Fundament.
+
+TYPE SleepPod
+DISPLAYNAME Schlafkapsel
+DESCRIPTION Stellt einen komfortablen Platz zum Schlafen bereit.|Hat eine kleine Heizung, die 0.2kW Energie verbraucht.|Für den größten Komfort innerhalb von Gebäuden bauen.||Braucht ein Fundament.
+
+TYPE SmallPlant1
+DISPLAYNAME Eya-flodax (weiße Blume)
+SHORTNAME Eya-flodax
+DESCRIPTION Diese Pflanze hat weiße, blütenförmige|Samenkapseln, die sich plötzlich Abends öffnen|und die Samen weit verteilen.
+
+TYPE SmallPlant2
+DISPLAYNAME Bollag-dax (blaue Lampionblume)
+SHORTNAME Bollag-dax
+DESCRIPTION Die Blüten leuchten im dunkeln.|Das Licht zieht viele kleine Insekten|zur Bestäubung an.
+
+TYPE SmallPlant3
+DISPLAYNAME Far-flodax (Feuerblume)
+SHORTNAME Far-flodax
+DESCRIPTION Diese Pflanze schließt sich nachts|und öffnet sich am morgen, um große|rote und gelbe Blüten zu zeigen.
+
+TYPE SmallPlant4
+DISPLAYNAME Rah-lodax (rundblättrige Pflanze)
+SHORTNAME Rah-lodax
+DESCRIPTION Rah-lodax ist weit verbreitet|in Feuchtgebieten.
+
+TYPE SmallPlant5
+DISPLAYNAME Boldu-dax (Pflanze mit blauen Früchten)
+SHORTNAME Boldu-dax
+DESCRIPTION Boldu-dax hat spät am Tag gelbe Blüten.|Am morgen tragen sie große [blue]blaue Früchte[/blue],|die eine nützliche Nahrungsquelle sind.
+
+TYPE SmallPlant6
+DISPLAYNAME Ruadu-dax (Pflanze mit roten Früchten)
+SHORTNAME Ruadu-dax
+DESCRIPTION Ruadu-dax wächst in der Nähe von|Dada-spindax-Wäldern. Sie haben [red]rote Früchte[/red].
+
+TYPE SmallPlant7
+DISPLAYNAME Dinrey-kadax (fünf-armiger-Kaktus)
+SHORTNAME Dinrey-kadax
+DESCRIPTION Dinrey-kadax wächst sehr langsam|in trockenen Gebieten.
+
+TYPE SmallPlant8
+DISPLAYNAME Pin-lodax
+SHORTNAME Pin-lodax
+DESCRIPTION Pin-lodax wächst üppig auf nassen Böden.
+
+TYPE SmallPlant9
+DISPLAYNAME Jardu-dax (Pflanze mit pinken Früchten)
+SHORTNAME Jardu-dax
+DESCRIPTION Jardu-dax haben lange, schmale Blätter.|Tagsüber tragen sie manchmal [pink]pinke Früchte[/pink],|die eine gute Nahrungsquelle sind.
+
+TYPE SmallPlant10
+DISPLAYNAME Daneep-kadax (Wurmschwanz-Planze)
+SHORTNAME Daneep-kadax
+DESCRIPTION Daneep-kadax ist eine seltene Pflanze,|die ihre Nährstoffe aus dem|naheliegenden Wasser bezieht.
+
+TYPE SmallPlant11
+DISPLAYNAME Darga-kadax (Drachenschwanz-Pflanze)
+SHORTNAME Darga-kadax
+DESCRIPTION Darga-kadax ist mit Daneep-kadax verwandt.|Sie ist größer, aber weniger häufig|und wächst sehr langsam.
+
+TYPE SmallPlant12
+DISPLAYNAME Oggdu-dax (Pflanze mit orangen Früchten)
+SHORTNAME Oggdu-dax
+DESCRIPTION Oggdu-dax kommt am häufigsten|in der Nähe von Küsten vor.|Am Abend wachsen essbare [orange]orange Früchte[/orange].
+
+TYPE SmallPlant13
+DISPLAYNAME Klay-fook (Kohlenpilz)
+SHORTNAME Klay-fook
+DESCRIPTION Klay-fook kommt häufig in Gegenden mit|Kohlevorkommen vor. Je größer die Dichte|der Kohle, desto größer die Pilze.
+
+TYPE SmallSpineBush
+DISPLAYNAME Nida-spaydax (kleiner Dornenbusch)
+SHORTNAME Nida-spaydax
+DESCRIPTION Teils Pflanze, teils Pilz. Nida-spaydax|hat einen halbkugelförmigen Kern, umgeben|von langen, scharfen Dornenblättern.
+
+TYPE SnowTortoise
+DISPLAYNAME Sla-granux (Schneeschildkröte)
+
+TYPE SoilSynthesiser
+DISPLAYNAME Erd-Synthesiser
+DESCRIPTION Ermöglicht die Konstruktion von Steinpflanzgefäßen.|Sie sind billiger als Hydrokulturen.|Braucht ein Fundament.
+
+TYPE SolarCellFactory
+DISPLAYNAME Solarzellenfabrik
+DISPLAYNAMEPLURAL Solarzellenfabriken
+DESCRIPTION Stellt Solarzellen aus Metall und Steinen her.|1 Metall + 1 Stein => 4 Solarzellen.|Die Produktion braucht 2 Stunden und verbraucht 8kW Energie.|Benötigt ein x4-Fundament.
+
+TYPE SolarPanelArray
+DISPLAYNAME Solarpanel
+DESCRIPTION Produziert bis zu 4 kW Energie.|Folgt der Sonne für eine optimale Energieausbeute.|Benötigt Solarzellen für den Bau.||Außerhalb von Gebäuden bauen. Braucht kein Fundament.
+
+TYPE StackingArea
+DISPLAYNAME Lagerbereich
+DESCRIPTION Ein Bereich auf dem Boden zum Lagern von Resourcen.||Kostet nichts and kann auf jedem freien Bereich platziert werden.||Die Resourcen müssen in einen Resourcenkonstruktor gebracht werden,|bevor Fabriken sie nutzen können oder sie zum Konstruieren genutzt werden können.
+
+TYPE StoneFurnace
+DISPLAYNAME Stein-Schmelzofen
+DESCRIPTION Stellt Metall aus Erz und Kohle her.|Produziert eine Einheit Metall alle zwei Stunden.|Braucht ein Fundament.
+
+TYPE StoneStack
+DISPLAYNAME Steine
+
+TYPE TableMetal
+DISPLAYNAME Tisch aus Metall
+DESCRIPTION Ein Platz für Kolonisten zum Relaxen, Reden und Kek trinken.|Bis zu vier Kolonisten können zusammen an einem Tisch sitzen.||Braucht kein Fundament.
+
+TYPE TableStone
+DISPLAYNAME Tisch aus Stein
+DESCRIPTION Ein Platz für Kolonisten zum Relaxen, Reden und Kek trinken.|UBis zu vier Kolonisten können zusammen an einem Tisch sitzen.||Braucht kein Fundament.
+
+TYPE Tortoise
+DISPLAYNAME Granux (Grünrückenschildkröte)
+
+TYPE Tree
+DISPLAYNAME Gull-dadax (Palme)
+SHORTNAME Gull-dadax
+DESCRIPTION Ein hoher Baum mit langen schmalen Blättern.
+
+TYPE Wall
+DISPLAYNAME Wand
+DESCRIPTION Baut eine Glasswand.
+
+TYPE WaterDispenser
+DISPLAYNAME Wasserspender
+DESCRIPTION Spendet Wasser zum Trinken für die Kolonisten.|Kann innen oder außen gebaut werden.
+
+TYPE WaterPump
+DISPLAYNAME Grundwasserpumpe
+DESCRIPTION Pumpt Wasser aus dem Boden.||Die Förderrate hängt von der Erdfeuchtigkeit ab.|Lange Nutzung verursacht einen Austrockungseffekt.|Braucht 1kW Energie und speichert 1 Einheit Wasser.||Braucht kein Fundament.
+
+TYPE WaterStorage
+DISPLAYNAME Wasserspeicher
+DESCRIPTION Erhöht den Wasserspeicher um 8.|Braucht ein Fundament.
+
+TYPE WindTurbine
+DISPLAYNAME Windrad
+DESCRIPTION Produziert bis zu 10 kW Energie, am besten im freien Gelände.|Winde sind normalerweise morgens und abends am stärksten.|Braucht Verbundwerkstoffe für den Bau.||Außerhalb von Gebäuden bauen. Braucht kein Fundament.
